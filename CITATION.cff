@@ -1,35 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite it as below. It is not peer-reviewed, was produced largely with AI assistance, and has been checked only by AI referees (see README.md)."
+type: software
+message: "If you use this work, please cite it as below. Text CC BY 4.0, code MIT (see LICENSE). It is not peer-reviewed, was produced largely with AI assistance, and has been checked only by AI referees (see README.md)."
 title: "Edge law, Hadamard formula, and echo and tail laws for eigenfunctions of the localized Weil quadratic form: research notes"
-abstract: "Research notes on the localized Weil quadratic form for the Riemann zeta function on L^2(-L, L). (E) edge law and (H) Hadamard formula d lambda/dL = -2A^2 for every eigenfunction (proved, pending external review); kink (echo) law K1-K6 and tail-law items T0-T6 (accepted by an internal AI referee); Conjecture K7, Conjectures L and R and Prediction F open. Includes a pre-registered independent numerical test. Not peer-reviewed; AI-assisted; nothing here proves or disproves the Riemann hypothesis. Priority: bramble_trace, rStation riemann_hypothesis paper 67 v1 (published 2026-10-27), proved earlier the existence of the edge traces, the Hadamard formula and the pure-log simplicity theorem; no priority is claimed for these. Our independent proofs add the O(l^-1) rate and the explicit remainder in (H)."
+abstract: "Research notes on the localized Weil quadratic form for the Riemann zeta function on L^2(-L, L). (E) edge law and (H) Hadamard formula d lambda/dL = -2A^2 for every eigenfunction (proved, pending external review); kink (echo) law K1-K6 and tail-law items T0-T6 (accepted by an internal AI referee); Conjecture K7, Conjectures L and R and Prediction F open. Includes a pre-registered independent numerical test. Not peer-reviewed; AI-assisted; nothing here proves or disproves the Riemann hypothesis. Priority: bramble_trace, rStation riemann_hypothesis paper 67 v1 (published 2026-10-27), posted earlier, with proofs reviewed only by AI agents, the existence of the edge traces, the Hadamard formula and the pure-log simplicity theorem; no priority is claimed for these. Our independent proofs add the O(l^-1) rate and the explicit remainder in (H)."
 authors:
   - given-names: "Johann Alexander"
     family-names: "Botha"
     affiliation: "GenusCore"
     email: "info@genuscore.com"
-version: "0.1.1"
+version: "0.1.2"
 date-released: "2026-10-31"
-license:
-  - MIT
-  - CC-BY-4.0
+license: CC-BY-4.0
 keywords:
   - Weil explicit formula
   - Riemann zeta function
   - logarithmic Laplacian
   - Wiener-Hopf factorization
   - Hadamard formula
-preferred-citation:
-  type: report
-  title: "Edge law, Hadamard formula, and echo and tail laws for eigenfunctions of the localized Weil quadratic form: research notes"
-  authors:
-    - given-names: "Johann Alexander"
-      family-names: "Botha"
-      affiliation: "GenusCore"
-      email: "info@genuscore.com"
-  version: "0.1.1"
-  date-released: "2026-10-31"
-  year: 2026
-  month: 10
-  institution:
-    name: "GenusCore"
-  notes: "Not peer-reviewed; produced largely with AI assistance; checked only by AI referees. Code MIT, text CC BY 4.0."
