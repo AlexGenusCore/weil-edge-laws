@@ -1,0 +1,77 @@
+=== 04:07:05 kink_run.py 0.6 1.5 1e-40 40 n2,n3,q3/2 0 3 out/kconv_r150.json 0
+L=0.6 rho=1.5 rmin=1e-40 N=1937 solve 3s
+  s=0.0 e lam=-2.4169850299 resid=1.5e-13
+  s=0.0 e lam=0.0000671800 resid=1.8e-13
+  s=0.0 o lam=0.0030632050 resid=1.9e-13
+done 3s
+=== exit 0
+=== 04:07:09 kink_run.py 0.6 1.25 1e-40 40 n2,n3,q3/2 0 3 out/kconv_r125.json 0
+L=0.6 rho=1.25 rmin=1e-40 N=3191 solve 8s
+  s=0.0 e lam=-2.4169850906 resid=1.9e-13
+  s=0.0 e lam=0.0000670584 resid=2.5e-13
+  s=0.0 o lam=0.0030628775 resid=3.0e-13
+done 8s
+=== exit 0
+=== 04:07:17 kink_run.py 0.6 1.25 1e-40 80 n2,n3,q3/2 0 3 out/kconv_r125_H80.json 0
+L=0.6 rho=1.25 rmin=1e-40 N=3243 solve 9s
+  s=0.0 e lam=-2.4169851760 resid=2.3e-13
+  s=0.0 e lam=0.0000661502 resid=2.4e-13
+  s=0.0 o lam=0.0030618647 resid=2.7e-13
+done 9s
+=== exit 0
+=== 04:07:26 kink_run.py 0.6 1.15 1e-40 40 n2,n3,q3/2 0 3 out/kconv_r115.json 0
+L=0.6 rho=1.15 rmin=1e-40 N=4863 solve 20s
+  s=0.0 e lam=-2.4169851252 resid=2.5e-13
+  s=0.0 e lam=0.0000668346 resid=4.6e-13
+  s=0.0 o lam=0.0030625786 resid=4.6e-13
+done 20s
+=== exit 0
+=== 04:07:46 tail_run.py 8 base 1.25 1e-9 2.0 1e-7 60 0.001 out/tconv_base.npz
+X=8.0 L=1.039721 N=2777 16s
+  E0: s=0.0 e lam=-4.5150037516 A+=+1.595995 A-=+1.595995 D-Dpred=+0.0695 (#0 in sector)
+  O5: s=5.0 o lam=-1.5228428760 A+=+1.574643 A-=-1.574643 D-Dpred=+0.1052 (#0 in sector)
+  E1: s=1.0 e lam=+0.4554386582 A+=+2.053123 A-=+2.053123 D-Dpred=+0.1124 (#7 in sector)
+  O1: s=1.0 o lam=+0.0889486571 A+=+2.073666 A-=-2.073666 D-Dpred=+0.1254 (#6 in sector)
+  Fourier done 140s
+  L=1.038721 done 160s
+  L=1.037721 done 180s
+  L=1.035721 done 200s
+  E0: lam'(d)=-5.085014 lam'(2d)=-5.083316 Richardson=-5.085580  2A^2=5.094401  match=[(0, np.float64(0.9999916078992961)), (0, np.float64(0.9999781981640753)), (0, np.float64(0.9999450744673162))]
+  O5: lam'(d)=-4.986350 lam'(2d)=-4.992250 Richardson=-4.984383  2A^2=4.959000  match=[(0, np.float64(0.9999659075730671)), (0, np.float64(0.9998968157970843)), (0, np.float64(0.9996922893824093))]
+  E1: lam'(d)=-8.869950 lam'(2d)=-8.359047 Richardson=-9.040251  2A^2=8.430628  match=[(7, np.float64(0.9990239330804177)), (7, np.float64(0.9965154674510357)), (7, np.float64(0.9868426535894375))]
+  O1: lam'(d)=-8.690730 lam'(2d)=-8.721512 Richardson=-8.680469  2A^2=8.600180  match=[(6, np.float64(0.9994437423209197)), (6, np.float64(0.9978941576953687)), (6, np.float64(0.9919966483747734))]
+saved out/tconv_base.npz 200s
+=== exit 0
+=== 04:11:06 tail_run.py 8 nogen2 1.25 1e-9 0 0 60 0.001 out/tconv_nogen2.npz
+X=8.0 L=1.039721 N=2163 9s
+  E0: s=0.0 e lam=-4.5150018180 A+=+1.595986 A-=+1.595986 D-Dpred=+0.0690 (#0 in sector)
+  O5: s=5.0 o lam=-1.5228265757 A+=+1.574441 A-=-1.574441 D-Dpred=+0.1039 (#0 in sector)
+  E1: s=1.0 e lam=+0.4562369745 A+=+2.059221 A-=+2.059221 D-Dpred=+0.1109 (#7 in sector)
+  O1: s=1.0 o lam=+0.0892234709 A+=+2.073057 A-=-2.073057 D-Dpred=+0.1235 (#6 in sector)
+  Fourier done 109s
+  L=1.038721 done 120s
+  L=1.037721 done 132s
+  L=1.035721 done 144s
+  E0: lam'(d)=-5.084919 lam'(2d)=-5.083729 Richardson=-5.085316  2A^2=5.094343  match=[(0, np.float64(0.999991768854719)), (0, np.float64(0.9999786319941071)), (0, np.float64(0.9999458237529063))]
+  O5: lam'(d)=-4.988695 lam'(2d)=-4.996036 Richardson=-4.986248  2A^2=4.957728  match=[(0, np.float64(0.9999672455187495)), (0, np.float64(0.999900553416437)), (0, np.float64(0.9996996283658007))]
+  E1: lam'(d)=-8.797253 lam'(2d)=-8.281998 Richardson=-8.969005  2A^2=8.480780  match=[(7, np.float64(0.9989002168710358)), (7, np.float64(0.9963261763442008)), (7, np.float64(0.9867705192176922))]
+  O1: lam'(d)=-8.852795 lam'(2d)=-8.842987 Richardson=-8.856064  2A^2=8.595135  match=[(6, np.float64(0.9994157325538988)), (6, np.float64(0.9978848544697119)), (6, np.float64(0.9920267583512404))]
+saved out/tconv_nogen2.npz 144s
+=== exit 0
+=== 04:13:31 tail_run.py 8 fine 1.15 1e-9 1.5 1e-8 120 0.001 out/tconv_fine.npz
+X=8.0 L=1.039721 N=4209 45s
+  E0: s=0.0 e lam=-4.5150037686 A+=+1.596001 A-=+1.596001 D-Dpred=+0.0685 (#0 in sector)
+  O5: s=5.0 o lam=-1.5228433656 A+=+1.574658 A-=-1.574658 D-Dpred=+0.1036 (#0 in sector)
+  E1: s=1.0 e lam=+0.4550600758 A+=+2.051731 A-=+2.051731 D-Dpred=+0.1111 (#7 in sector)
+  O1: s=1.0 o lam=+0.0888176585 A+=+2.072894 A-=-2.072894 D-Dpred=+0.1236 (#6 in sector)
+  Fourier done 262s
+  L=1.038721 done 321s
+  L=1.037721 done 394s
+  L=1.035721 done 459s
+  E0: lam'(d)=-5.085018 lam'(2d)=-5.083328 Richardson=-5.085581  2A^2=5.094439  match=[(0, np.float64(0.9999916069261006)), (0, np.float64(0.9999781984484083)), (0, np.float64(0.9999450776092513))]
+  O5: lam'(d)=-4.985929 lam'(2d)=-4.992095 Richardson=-4.983874  2A^2=4.959095  match=[(0, np.float64(0.9999659018418176)), (0, np.float64(0.9998967875619809)), (0, np.float64(0.9996921935514975))]
+  E1: lam'(d)=-8.357135 lam'(2d)=-8.274025 Richardson=-8.384839  2A^2=8.419199  match=[(7, np.float64(0.9990780017601519)), (7, np.float64(0.9965375395394904)), (7, np.float64(0.9869558478401288))]
+  O1: lam'(d)=-8.685848 lam'(2d)=-8.721040 Richardson=-8.674117  2A^2=8.593778  match=[(6, np.float64(0.9994494485480611)), (6, np.float64(0.9979117752855875)), (6, np.float64(0.9920256074934826))]
+saved out/tconv_fine.npz 459s
+=== exit 0
+=== all done 04:21:10

@@ -1,0 +1,8 @@
+zones=True primes=False N=2944 e: lam=-1.453343145 A=1.215610
+zones=True primes=False N=2944 o: lam=-0.059783610 A=1.125886
+zones=True primes=True N=2944 e: lam=-1.540002441 A=1.570850
+zones=True primes=True N=2944 o: lam=0.030029352 A=0.451604
+zones=False primes=False N=2104 e: lam=-1.453343127 A=1.215611
+zones=False primes=False N=2104 o: lam=-0.059783586 A=1.125887
+zones=False primes=True N=2104 e: lam=-1.539999579 A=1.573158
+zones=False primes=True N=2104 o: lam=0.030030643 A=0.453060

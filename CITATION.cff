@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. It is not peer-reviewed, was produced largely with AI assistance, and has been checked only by AI referees (see README.md)."
+title: "Edge law, Hadamard formula, and echo and tail laws for eigenfunctions of the localized Weil quadratic form: research notes"
+abstract: "Research notes on the localized Weil quadratic form for the Riemann zeta function on L^2(-L, L). (E) edge law and (H) Hadamard formula d lambda/dL = -2A^2 for every eigenfunction (proved, pending external review); kink (echo) law K1-K6 and tail-law items T0-T6 (accepted by an internal AI referee); Conjecture K7, Conjectures L and R and Prediction F open. Includes a pre-registered independent numerical test. Not peer-reviewed; AI-assisted; nothing here proves or disproves the Riemann hypothesis. Priority caveat: a reportedly earlier manuscript by bramble_trace (27 Oct 2026) may overlap; no priority is claimed for the trace identity, simplicity, the edge law or the Hadamard formula."
+authors:
+  - given-names: "Johann Alexander"
+    family-names: "Botha"
+    affiliation: "GenusCore"
+    email: "info@genuscore.com"
+version: "0.1.0"
+date-released: "2026-10-31"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Weil explicit formula
+  - Riemann zeta function
+  - logarithmic Laplacian
+  - Wiener-Hopf factorization
+  - Hadamard formula
+preferred-citation:
+  type: report
+  title: "Edge law, Hadamard formula, and echo and tail laws for eigenfunctions of the localized Weil quadratic form: research notes"
+  authors:
+    - given-names: "Johann Alexander"
+      family-names: "Botha"
+      affiliation: "GenusCore"
+      email: "info@genuscore.com"
+  version: "0.1.0"
+  date-released: "2026-10-31"
+  year: 2026
+  month: 10
+  institution:
+    name: "GenusCore"
+  notes: "Not peer-reviewed; produced largely with AI assistance; checked only by AI referees. Code MIT, text CC BY 4.0."

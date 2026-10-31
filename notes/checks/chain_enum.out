@@ -1,0 +1,6 @@
+X=4: L=0.6931, shifts n=[2, 3], points found=5 (max generation 2), closed (finite)
+    -0.4055(g1), -0.2877(g2), +0.0000(g1), +0.2877(g2), +0.4055(g1)
+X=5: L=0.8047, shifts n=[2, 3, 4], points found=22 (max generation 6), closed (finite)
+    -0.6994(g3), -0.6869(g4), -0.5816(g1), -0.5170(g2), -0.4117(g5), -0.3993(g2), -0.2939(g1), -0.2815(g6), -0.1761(g3), -0.1116(g1), -0.0062(g4), +0.0062(g4), +0.1116(g1), +0.1761(g3), +0.2815(g6), +0.2939(g1), +0.3993(g2), +0.4117(g5), +0.5170(g2), +0.5816(g1), +0.6869(g4), +0.6994(g3)
+X=5.9: L=0.8875, shifts n=[2, 3, 4, 5], points found=270 (max generation 12), still growing at generation 12
+X=6.5: L=0.9359, shifts n=[2, 3, 4, 5], points found=418 (max generation 12), still growing at generation 12

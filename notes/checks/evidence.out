@@ -1,0 +1,10 @@
+Part 1: derived ratios -lambda'/(2A^2) from the referee outputs
+  L=0.4 s=0 e: h0=L/500 rho->1: A=1.569612 ratio=0.99975;  h0=L/2000 (+rho shift): A=1.569260 ratio=1.00020;  sqrt(-lam'/2)=1.56942
+  L=0.4 s=0 o: h0=L/500 rho->1: A=0.451020 ratio=0.99876;  h0=L/2000 (+rho shift): A=0.450681 ratio=1.00026;  sqrt(-lam'/2)=0.45074
+  L=0.6 s=0 e: NH500 rho->1: 0.99969;  + h0 shift (NH500 -> NH2000 at rho=1.5): 1.00007
+  L=0.6 s=0 o: NH500 rho->1: 0.99724;  + h0 shift (NH500 -> NH2000 at rho=1.5): 0.99943
+
+Part 2: rerun of two pure-log cases (L = 0.5, h0 = L/250) of the referee code
+  rho=2.0 N=1478: A = 1.002685, 1.003949, 1.004835   (file: 1.002685, 1.003949, 1.004835)
+  rho=1.5 N=2174: A = 1.001130, 1.001806, 1.002322   (file: 1.001130, 1.001806, 1.002322)
+  reproduced to 2e-6

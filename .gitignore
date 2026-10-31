@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+numerics/out/*.json
+numerics/out/*.npz

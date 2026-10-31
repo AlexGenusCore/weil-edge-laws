@@ -1,0 +1,39 @@
+L=0.5 N=1478 h0=L/250 rho=2.0  (1.3s)
+  e lam=0.34916183  lmin=   8  A=+1.002720  2L*A^2=1.005447  fit-resid=3.6e-05  raw y(ell~345)=+1.00411
+  e lam=0.34916183  lmin=  30  A=+1.002728  2L*A^2=1.005463  fit-resid=8.3e-07  raw y(ell~345)=+1.00411
+  o lam=1.55967378  lmin=   8  A=+1.003988  2L*A^2=1.007991  fit-resid=2.1e-04  raw y(ell~345)=+1.00718
+  o lam=1.55967378  lmin=  30  A=+1.004026  2L*A^2=1.008067  fit-resid=7.9e-07  raw y(ell~345)=+1.00718
+  e lam=2.05699945  lmin=   8  A=+1.004869  2L*A^2=1.009762  fit-resid=3.7e-04  raw y(ell~345)=+1.00883
+  e lam=2.05699945  lmin=  30  A=+1.004936  2L*A^2=1.009896  fit-resid=7.9e-07  raw y(ell~345)=+1.00883
+  o lam=2.39945824  lmin=   8  A=+1.005737  2L*A^2=1.011506  fit-resid=5.7e-04  raw y(ell~345)=+1.01024
+  o lam=2.39945824  lmin=  30  A=+1.005836  2L*A^2=1.011706  fit-resid=1.1e-06  raw y(ell~345)=+1.01024
+  e lam=2.64800458  lmin=   8  A=+1.006526  2L*A^2=1.013094  fit-resid=7.6e-04  raw y(ell~345)=+1.01143
+  e lam=2.64800458  lmin=  30  A=+1.006656  2L*A^2=1.013357  fit-resid=1.5e-06  raw y(ell~345)=+1.01143
+  o lam=2.85072031  lmin=   8  A=+1.007349  2L*A^2=1.014751  fit-resid=9.7e-04  raw y(ell~345)=+1.01259
+  o lam=2.85072031  lmin=  30  A=+1.007513  2L*A^2=1.015083  fit-resid=1.8e-06  raw y(ell~345)=+1.01259
+L=0.5 N=1776 h0=L/400 rho=2.0  (1.7s)
+  e lam=0.34915370  lmin=   8  A=+1.002413  2L*A^2=1.004832  fit-resid=2.8e-05  raw y(ell~345)=+1.00380
+  e lam=0.34915370  lmin=  30  A=+1.002421  2L*A^2=1.004848  fit-resid=8.3e-07  raw y(ell~345)=+1.00380
+  o lam=1.55963723  lmin=   8  A=+1.003364  2L*A^2=1.006740  fit-resid=2.1e-04  raw y(ell~345)=+1.00656
+  o lam=1.55963723  lmin=  30  A=+1.003404  2L*A^2=1.006820  fit-resid=8.0e-07  raw y(ell~345)=+1.00656
+  e lam=2.05691687  lmin=   8  A=+1.003985  2L*A^2=1.007987  fit-resid=3.7e-04  raw y(ell~345)=+1.00795
+  e lam=2.05691687  lmin=  30  A=+1.004056  2L*A^2=1.008128  fit-resid=7.6e-07  raw y(ell~345)=+1.00795
+  o lam=2.39930963  lmin=   8  A=+1.004566  2L*A^2=1.009152  fit-resid=5.9e-04  raw y(ell~345)=+1.00907
+  o lam=2.39930963  lmin=  30  A=+1.004672  2L*A^2=1.009366  fit-resid=1.1e-06  raw y(ell~345)=+1.00907
+  e lam=2.64777412  lmin=   8  A=+1.005081  2L*A^2=1.010187  fit-resid=7.8e-04  raw y(ell~345)=+1.00999
+  e lam=2.64777412  lmin=  30  A=+1.005220  2L*A^2=1.010468  fit-resid=1.4e-06  raw y(ell~345)=+1.00999
+  o lam=2.85039027  lmin=   8  A=+1.005599  2L*A^2=1.011229  fit-resid=1.0e-03  raw y(ell~345)=+1.01085
+  o lam=2.85039027  lmin=  30  A=+1.005776  2L*A^2=1.011585  fit-resid=1.7e-06  raw y(ell~345)=+1.01085
+L=0.5 N=2172 h0=L/250 rho=1.5  (7.4s)
+  e lam=0.34916073  lmin=   8  A=+1.001340  2L*A^2=1.002682  fit-resid=6.5e-05  raw y(ell~345)=+1.00271
+  e lam=0.34916073  lmin=  30  A=+1.001350  2L*A^2=1.002702  fit-resid=1.5e-06  raw y(ell~345)=+1.00271
+  o lam=1.55967182  lmin=   8  A=+1.002151  2L*A^2=1.004307  fit-resid=3.2e-04  raw y(ell~345)=+1.00532
+  o lam=1.55967182  lmin=  30  A=+1.002196  2L*A^2=1.004396  fit-resid=1.5e-06  raw y(ell~345)=+1.00532
+  e lam=2.05699686  lmin=   8  A=+1.002755  2L*A^2=1.005517  fit-resid=5.5e-04  raw y(ell~345)=+1.00669
+  e lam=2.05699686  lmin=  30  A=+1.002831  2L*A^2=1.005671  fit-resid=1.5e-06  raw y(ell~345)=+1.00669
+  o lam=2.39945504  lmin=   8  A=+1.003377  2L*A^2=1.006765  fit-resid=8.5e-04  raw y(ell~345)=+1.00786
+  o lam=2.39945504  lmin=  30  A=+1.003492  2L*A^2=1.006996  fit-resid=1.4e-06  raw y(ell~345)=+1.00786
+  e lam=2.64800083  lmin=   8  A=+1.003957  2L*A^2=1.007930  fit-resid=1.1e-03  raw y(ell~345)=+1.00884
+  e lam=2.64800083  lmin=  30  A=+1.004108  2L*A^2=1.008233  fit-resid=1.4e-06  raw y(ell~345)=+1.00884
+  o lam=2.85071598  lmin=   8  A=+1.004580  2L*A^2=1.009181  fit-resid=1.4e-03  raw y(ell~345)=+1.00981
+  o lam=2.85071598  lmin=  30  A=+1.004771  2L*A^2=1.009565  fit-resid=1.7e-06  raw y(ell~345)=+1.00981
