@@ -1,0 +1,308 @@
+
+## L=0.6 right
+s=+0 e A=+1.5671 q=-0.4986 gen1 n=3
+   kappa0=1.00014(mesh 2.4e-06, win 1.3e-04)  sigma0=0.33344(mesh 1.7e-06, win 9.5e-05)  side0=-2.00029(mesh 4.1e-06, win 2.4e-04)
+   K5dev=-0.00053(mesh 1.1e-05, win 5.0e-04)  K0dev=+0.00126(mesh 1.5e-05, win 7.0e-04)  K5cal by rho=+0.00080,+0.00075,+0.00073
+s=+0 e A=+1.5671 q=-0.0931 gen1 n=2
+   kappa0=1.00014(mesh 2.3e-06, win 1.3e-04)  sigma0=0.33345(mesh 1.7e-06, win 9.6e-05)  side0=-2.00030(mesh 4.3e-06, win 2.4e-04)
+   K5dev=-0.00051(mesh 1.1e-05, win 5.8e-04)  K0dev=+0.00126(mesh 1.5e-05, win 7.0e-04)  K5cal by rho=+0.00083,+0.00078,+0.00076
+s=+0 e A=+1.5671 q=+0.1945 gen2 W=0.3109
+   kappa0=1.00047(mesh 8.4e-06, win 5.1e-04)  sigma0=0.20015(mesh 2.4e-06, win 1.5e-04)  side0=-1.50019(mesh 3.0e-06, win 1.4e-04)
+s=+0 o A=+0.2611 q=-0.4986 gen1 n=3
+   kappa0=1.00146(mesh 2.3e-05, win 1.5e-03)  sigma0=0.33459(mesh 2.2e-05, win 1.5e-03)  side0=-2.00346(mesh 6.5e-05, win 4.6e-03)
+   K5dev=-0.00178(mesh 7.0e-05, win 2.6e-03)  K0dev=+0.00252(mesh 6.4e-05, win 1.4e-03)  K5cal by rho=+0.00082,+0.00076,+0.00075
+s=+0 o A=+0.2611 q=-0.0931 gen1 n=2
+   kappa0=1.00140(mesh 2.3e-05, win 1.8e-03)  sigma0=0.33455(mesh 2.2e-05, win 1.5e-03)  side0=-2.00339(mesh 6.3e-05, win 4.0e-03)
+   K5dev=-0.00178(mesh 8.8e-05, win 6.1e-03)  K0dev=+0.00252(mesh 6.4e-05, win 1.4e-03)  K5cal by rho=+0.00083,+0.00076,+0.00076
+s=+0 o A=+0.2611 q=+0.1945 gen2 W=0.3109
+   kappa0=1.00488(mesh 8.7e-05, win 7.2e-03)  sigma0=0.20178(mesh 3.5e-05, win 2.6e-03)  side0=-1.50249(mesh 5.4e-05, win 3.6e-03)
+s=+5 o A=+0.7285 q=-0.4986 gen1 n=3
+   kappa0=1.00116(mesh 1.9e-05, win 1.2e-03)  sigma0=0.33427(mesh 1.6e-05, win 1.1e-03)  side0=-2.00247(mesh 4.5e-05, win 3.2e-03)
+   K5dev=-0.00160(mesh 6.2e-05, win 2.6e-03)  K0dev=+0.00231(mesh 5.5e-05, win 1.0e-03)  K5cal by rho=+0.00080,+0.00074,+0.00073
+s=+5 o A=+0.7285 q=-0.0931 gen1 n=2
+   kappa0=1.00110(mesh 1.7e-05, win 1.1e-03)  sigma0=0.33424(mesh 1.6e-05, win 1.1e-03)  side0=-2.00243(mesh 4.5e-05, win 3.3e-03)
+   K5dev=-0.00150(mesh 5.3e-05, win 1.5e-03)  K0dev=+0.00231(mesh 5.5e-05, win 1.0e-03)  K5cal by rho=+0.00090,+0.00084,+0.00083
+s=+5 o A=+0.7285 q=+0.1945 gen2 W=0.3109
+   kappa0=1.00382(mesh 6.3e-05, win 3.5e-03)  sigma0=0.20127(mesh 2.4e-05, win 1.8e-03)  side0=-1.50158(mesh 4.1e-05, win 3.5e-03)
+s=+5 o A=+0.2910 q=-0.4986 gen1 n=3
+   kappa0=1.00146(mesh 2.3e-05, win 1.5e-03)  sigma0=0.33459(mesh 2.2e-05, win 1.5e-03)  side0=-2.00346(mesh 6.5e-05, win 4.6e-03)
+   K5dev=-0.00178(mesh 7.1e-05, win 2.8e-03)  K0dev=+0.00252(mesh 6.4e-05, win 1.4e-03)  K5cal by rho=+0.00082,+0.00076,+0.00075
+s=+5 o A=+0.2910 q=-0.0931 gen1 n=2
+   kappa0=1.00140(mesh 2.3e-05, win 1.8e-03)  sigma0=0.33455(mesh 2.2e-05, win 1.5e-03)  side0=-2.00340(mesh 6.3e-05, win 4.0e-03)
+   K5dev=-0.00177(mesh 8.5e-05, win 5.6e-03)  K0dev=+0.00252(mesh 6.4e-05, win 1.4e-03)  K5cal by rho=+0.00084,+0.00078,+0.00077
+s=+5 o A=+0.2910 q=+0.1945 gen2 W=0.3109
+   kappa0=1.00488(mesh 8.7e-05, win 6.9e-03)  sigma0=0.20178(mesh 3.5e-05, win 2.6e-03)  side0=-1.50249(mesh 5.4e-05, win 3.8e-03)
+
+## L=0.6 symmetric
+s=+0 e A=+1.5671 q=-0.4986 gen1 n=3
+   kappa0=1.00014(mesh 2.3e-06, win 1.3e-04)  sigma0=0.33345(mesh 2.0e-06, win 9.4e-05)  side0=-2.00029(mesh 5.4e-06, win 2.3e-04)
+   K5dev=-0.00054(mesh nan, win 4.9e-04)  K0dev=+0.00126(mesh nan, win 7.5e-04)  K5cal by rho=+0.00080,+0.00075
+s=+0 e A=+1.5671 q=+0.4986 (mirror) gen1 n=3
+   kappa0=1.00014(mesh 2.3e-06, win 1.3e-04)  sigma0=0.33345(mesh 2.0e-06, win 9.4e-05)  side0=-2.00029(mesh 5.4e-06, win 2.3e-04)
+   K5dev=-0.00054(mesh nan, win 4.9e-04)  K0dev=+0.00126(mesh nan, win 7.5e-04)  K5cal by rho=+0.00080,+0.00075
+s=+0 e A=+1.5671 q=-0.0931 gen1 n=2
+   kappa0=1.00014(mesh 2.3e-06, win 1.3e-04)  sigma0=0.33345(mesh 2.0e-06, win 9.4e-05)  side0=-2.00030(mesh 5.6e-06, win 2.3e-04)
+   K5dev=-0.00051(mesh nan, win 5.6e-04)  K0dev=+0.00126(mesh nan, win 7.5e-04)  K5cal by rho=+0.00083,+0.00078
+s=+0 e A=+1.5671 q=+0.0931 (mirror) gen1 n=2
+   kappa0=1.00014(mesh 2.3e-06, win 1.3e-04)  sigma0=0.33345(mesh 2.0e-06, win 9.4e-05)  side0=-2.00030(mesh 5.6e-06, win 2.3e-04)
+   K5dev=-0.00051(mesh nan, win 5.6e-04)  K0dev=+0.00126(mesh nan, win 7.5e-04)  K5cal by rho=+0.00083,+0.00078
+s=+0 e A=+1.5671 q=+0.1945 gen2 W=0.3109
+   kappa0=1.00048(mesh 9.8e-06, win 5.1e-04)  sigma0=0.20016(mesh 3.7e-06, win 1.5e-04)  side0=-1.50019(mesh 5.3e-06, win 1.4e-04)
+s=+0 e A=+1.5671 q=-0.1945 (mirror) gen2 W=0.3109
+   kappa0=1.00048(mesh 9.8e-06, win 5.1e-04)  sigma0=0.20016(mesh 3.7e-06, win 1.5e-04)  side0=-1.50019(mesh 5.3e-06, win 1.4e-04)
+s=+0 o A=+0.2611 q=-0.4986 gen1 n=3
+   kappa0=1.00148(mesh 3.5e-05, win 1.5e-03)  sigma0=0.33461(mesh 3.6e-05, win 1.5e-03)  side0=-2.00352(mesh 1.1e-04, win 4.6e-03)
+   K5dev=-0.00181(mesh nan, win 2.6e-03)  K0dev=+0.00255(mesh nan, win 1.4e-03)  K5cal by rho=+0.00082,+0.00076
+s=+0 o A=+0.2611 q=+0.4986 (mirror) gen1 n=3
+   kappa0=1.00148(mesh 3.5e-05, win 1.5e-03)  sigma0=0.33461(mesh 3.6e-05, win 1.5e-03)  side0=-2.00352(mesh 1.1e-04, win 4.6e-03)
+   K5dev=-0.00181(mesh nan, win 2.6e-03)  K0dev=+0.00255(mesh nan, win 1.4e-03)  K5cal by rho=+0.00082,+0.00076
+s=+0 o A=+0.2611 q=-0.0931 gen1 n=2
+   kappa0=1.00142(mesh 3.4e-05, win 1.8e-03)  sigma0=0.33457(mesh 3.5e-05, win 1.5e-03)  side0=-2.00346(mesh 1.1e-04, win 3.9e-03)
+   K5dev=-0.00181(mesh nan, win 6.0e-03)  K0dev=+0.00255(mesh nan, win 1.4e-03)  K5cal by rho=+0.00083,+0.00076
+s=+0 o A=+0.2611 q=+0.0931 (mirror) gen1 n=2
+   kappa0=1.00142(mesh 3.4e-05, win 1.8e-03)  sigma0=0.33457(mesh 3.5e-05, win 1.5e-03)  side0=-2.00346(mesh 1.1e-04, win 3.9e-03)
+   K5dev=-0.00181(mesh nan, win 6.0e-03)  K0dev=+0.00255(mesh nan, win 1.4e-03)  K5cal by rho=+0.00083,+0.00076
+s=+0 o A=+0.2611 q=+0.1945 gen2 W=0.3109
+   kappa0=1.00497(mesh 1.3e-04, win 7.1e-03)  sigma0=0.20181(mesh 6.0e-05, win 2.6e-03)  side0=-1.50254(mesh 1.0e-04, win 3.6e-03)
+s=+0 o A=+0.2611 q=-0.1945 (mirror) gen2 W=0.3109
+   kappa0=1.00497(mesh 1.3e-04, win 7.1e-03)  sigma0=0.20181(mesh 6.0e-05, win 2.6e-03)  side0=-1.50254(mesh 1.0e-04, win 3.6e-03)
+s=+5 o A=+0.7285 q=-0.4986 gen1 n=3
+   kappa0=1.00118(mesh 2.8e-05, win 1.2e-03)  sigma0=0.33428(mesh 2.7e-05, win 1.1e-03)  side0=-2.00252(mesh 8.0e-05, win 3.1e-03)
+   K5dev=-0.00163(mesh nan, win 2.6e-03)  K0dev=+0.00234(mesh nan, win 1.0e-03)  K5cal by rho=+0.00080,+0.00074
+s=+5 o A=+0.7285 q=+0.4986 (mirror) gen1 n=3
+   kappa0=1.00118(mesh 2.8e-05, win 1.2e-03)  sigma0=0.33428(mesh 2.7e-05, win 1.1e-03)  side0=-2.00252(mesh 8.0e-05, win 3.1e-03)
+   K5dev=-0.00163(mesh nan, win 2.6e-03)  K0dev=+0.00234(mesh nan, win 1.0e-03)  K5cal by rho=+0.00080,+0.00074
+s=+5 o A=+0.7285 q=-0.0931 gen1 n=2
+   kappa0=1.00112(mesh 2.6e-05, win 1.1e-03)  sigma0=0.33425(mesh 2.6e-05, win 1.1e-03)  side0=-2.00247(mesh 7.9e-05, win 3.2e-03)
+   K5dev=-0.00152(mesh nan, win 1.5e-03)  K0dev=+0.00234(mesh nan, win 1.0e-03)  K5cal by rho=+0.00090,+0.00084
+s=+5 o A=+0.7285 q=+0.0931 (mirror) gen1 n=2
+   kappa0=1.00112(mesh 2.6e-05, win 1.1e-03)  sigma0=0.33425(mesh 2.6e-05, win 1.1e-03)  side0=-2.00247(mesh 7.9e-05, win 3.2e-03)
+   K5dev=-0.00152(mesh nan, win 1.5e-03)  K0dev=+0.00234(mesh nan, win 1.0e-03)  K5cal by rho=+0.00090,+0.00084
+s=+5 o A=+0.7285 q=+0.1945 gen2 W=0.3109
+   kappa0=1.00388(mesh 9.8e-05, win 3.5e-03)  sigma0=0.20130(mesh 4.4e-05, win 1.8e-03)  side0=-1.50162(mesh 7.7e-05, win 3.4e-03)
+s=+5 o A=+0.7285 q=-0.1945 (mirror) gen2 W=0.3109
+   kappa0=1.00388(mesh 9.8e-05, win 3.5e-03)  sigma0=0.20130(mesh 4.4e-05, win 1.8e-03)  side0=-1.50162(mesh 7.7e-05, win 3.4e-03)
+s=+5 o A=+0.2910 q=-0.4986 gen1 n=3
+   kappa0=1.00148(mesh 3.5e-05, win 1.5e-03)  sigma0=0.33461(mesh 3.6e-05, win 1.5e-03)  side0=-2.00352(mesh 1.1e-04, win 4.5e-03)
+   K5dev=-0.00181(mesh nan, win 2.7e-03)  K0dev=+0.00255(mesh nan, win 1.4e-03)  K5cal by rho=+0.00082,+0.00076
+s=+5 o A=+0.2910 q=+0.4986 (mirror) gen1 n=3
+   kappa0=1.00148(mesh 3.5e-05, win 1.5e-03)  sigma0=0.33461(mesh 3.6e-05, win 1.5e-03)  side0=-2.00352(mesh 1.1e-04, win 4.5e-03)
+   K5dev=-0.00181(mesh nan, win 2.7e-03)  K0dev=+0.00255(mesh nan, win 1.4e-03)  K5cal by rho=+0.00082,+0.00076
+s=+5 o A=+0.2910 q=-0.0931 gen1 n=2
+   kappa0=1.00142(mesh 3.4e-05, win 1.8e-03)  sigma0=0.33457(mesh 3.5e-05, win 1.5e-03)  side0=-2.00346(mesh 1.1e-04, win 4.0e-03)
+   K5dev=-0.00180(mesh nan, win 5.5e-03)  K0dev=+0.00255(mesh nan, win 1.4e-03)  K5cal by rho=+0.00084,+0.00078
+s=+5 o A=+0.2910 q=+0.0931 (mirror) gen1 n=2
+   kappa0=1.00142(mesh 3.4e-05, win 1.8e-03)  sigma0=0.33457(mesh 3.5e-05, win 1.5e-03)  side0=-2.00346(mesh 1.1e-04, win 4.0e-03)
+   K5dev=-0.00180(mesh nan, win 5.5e-03)  K0dev=+0.00255(mesh nan, win 1.4e-03)  K5cal by rho=+0.00084,+0.00078
+s=+5 o A=+0.2910 q=+0.1945 gen2 W=0.3109
+   kappa0=1.00497(mesh 1.3e-04, win 6.9e-03)  sigma0=0.20181(mesh 6.0e-05, win 2.6e-03)  side0=-1.50255(mesh 1.1e-04, win 3.7e-03)
+s=+5 o A=+0.2910 q=-0.1945 (mirror) gen2 W=0.3109
+   kappa0=1.00497(mesh 1.3e-04, win 6.9e-03)  sigma0=0.20181(mesh 6.0e-05, win 2.6e-03)  side0=-1.50255(mesh 1.1e-04, win 3.7e-03)
+
+## L=0.8 right
+s=+0 e A=+1.4250 q=-0.5863 gen1 n=4
+   kappa0=1.00012(mesh 5.8e-06, win 9.8e-05)  sigma0=0.33343(mesh 6.0e-06, win 3.5e-05)  side0=-2.00026(mesh 1.8e-05, win 1.0e-04)
+   K5dev=-0.00065(mesh 3.9e-05, win 5.9e-04)  K0dev=+0.00327(mesh 3.1e-04, win 3.4e-03)  K5cal by rho=+0.00272,+0.00276,+0.00256
+s=+0 e A=+1.4250 q=-0.2986 gen1 n=3
+   kappa0=1.00000(mesh 6.7e-06, win 1.9e-05)  sigma0=0.33340(mesh 7.3e-06, win 2.3e-05)  side0=-2.00031(mesh 2.3e-05, win 9.3e-05)
+   K5dev=-0.00050(mesh 3.2e-05, win 5.4e-04)  K0dev=+0.00327(mesh 3.1e-04, win 3.4e-03)  K5cal by rho=+0.00288,+0.00291,+0.00271
+s=+0 e A=+1.4250 q=+0.1069 gen1 n=2
+   kappa0=1.00007(mesh 6.2e-06, win 6.6e-05)  sigma0=0.33342(mesh 6.7e-06, win 2.6e-05)  side0=-2.00030(mesh 2.1e-05, win 9.2e-05)
+   K5dev=-0.00055(mesh 3.5e-05, win 6.3e-04)  K0dev=+0.00327(mesh 3.1e-04, win 3.4e-03)  K5cal by rho=+0.00282,+0.00286,+0.00266
+s=+0 e A=+1.4250 q=+0.3945 gen2 W=0.3109
+   kappa0=1.00006(mesh 1.8e-05, win 1.5e-04)  sigma0=0.20012(mesh 9.0e-06, win 4.5e-05)  side0=-1.50034(mesh 1.7e-05, win 4.8e-05)
+s=+0 e A=+1.4250 q=+0.5123 gen2 W=0.2198
+   kappa0=1.00028(mesh 1.7e-05, win 4.4e-04)  sigma0=0.20015(mesh 7.8e-06, win 7.6e-05)  side0=-1.50029(mesh 1.3e-05, win 3.5e-05)
+s=+5 o A=+1.4374 q=-0.5863 gen1 n=4
+   kappa0=1.00192(mesh 3.1e-05, win 1.8e-03)  sigma0=0.33450(mesh 1.9e-05, win 1.2e-03)  side0=-2.00234(mesh 4.0e-05, win 2.7e-03)
+   K5dev=-0.00251(mesh 1.3e-04, win 3.0e-03)  K0dev=+0.00490(mesh 2.3e-04, win 2.6e-03)  K5cal by rho=+0.00248,+0.00253,+0.00233
+s=+5 o A=+1.4374 q=-0.2986 gen1 n=3
+   kappa0=1.00126(mesh 2.0e-05, win 1.2e-03)  sigma0=0.33421(mesh 1.4e-05, win 9.0e-04)  side0=-2.00204(mesh 3.4e-05, win 2.3e-03)
+   K5dev=-0.00207(mesh 1.1e-04, win 2.4e-03)  K0dev=+0.00490(mesh 2.3e-04, win 2.6e-03)  K5cal by rho=+0.00292,+0.00296,+0.00277
+s=+5 o A=+1.4374 q=+0.1069 gen1 n=2
+   kappa0=1.00154(mesh 2.5e-05, win 1.4e-03)  sigma0=0.33433(mesh 1.6e-05, win 1.0e-03)  side0=-2.00216(mesh 3.7e-05, win 2.5e-03)
+   K5dev=-0.00227(mesh 1.2e-04, win 2.6e-03)  K0dev=+0.00490(mesh 2.3e-04, win 2.6e-03)  K5cal by rho=+0.00272,+0.00277,+0.00257
+s=+5 o A=+1.4374 q=+0.3945 gen2 W=0.3109
+   kappa0=1.00413(mesh 7.2e-05, win 3.7e-03)  sigma0=0.20099(mesh 2.0e-05, win 1.2e-03)  side0=-1.50051(mesh 1.7e-05, win 1.5e-03)
+s=+5 o A=+1.4374 q=+0.5123 gen2 W=0.2198
+   kappa0=1.00541(mesh 9.3e-05, win 4.5e-03)  sigma0=0.20129(mesh 2.6e-05, win 1.6e-03)  side0=-1.50064(mesh 2.2e-05, win 2.2e-03)
+
+## L=1.0 right (registered mesh)
+s=+0 e A=+1.6448 q=-0.9459 gen1 n=7
+   kappa0=0.99862(mesh 2.8e-05, win 1.2e-03)  sigma0=0.33219(mesh 5.8e-06, win 3.8e-04)  side0=-1.99691(mesh 6.9e-05, win 2.8e-04)
+   K5dev=+0.05963(mesh nan, win 3.7e-02)  K0dev=+0.00351(mesh nan, win 3.1e-03)  K5cal by rho=+0.06425,+0.06348
+s=+0 e A=+1.6448 q=-0.7918 gen2 W=0.6218
+   kappa0=0.99120(mesh 9.3e-05, win 4.9e-03)  sigma0=0.19674(mesh 8.1e-05, win 1.1e-03)  side0=-1.49527(mesh 3.1e-04, win 4.2e-03)
+s=+0 e A=+1.6448 q=-0.6094 gen1 n=5
+   kappa0=0.99901(mesh 1.7e-05, win 7.4e-04)  sigma0=0.33250(mesh 3.2e-06, win 2.9e-04)  side0=-1.99772(mesh 4.0e-05, win 2.5e-04)
+   K5dev=+0.03546(mesh nan, win 2.2e-02)  K0dev=+0.00351(mesh nan, win 3.1e-03)  K5cal by rho=+0.03963,+0.03917
+s=+0 e A=+1.6448 q=-0.3863 gen1 n=4
+   kappa0=0.99952(mesh 6.0e-06, win 3.9e-04)  sigma0=0.33284(mesh 3.2e-06, win 1.9e-04)  side0=-1.99852(mesh 2.3e-05, win 4.0e-04)
+   K5dev=+0.01832(mesh nan, win 1.1e-02)  K0dev=+0.00351(mesh nan, win 3.1e-03)  K5cal by rho=+0.02216,+0.02193
+s=+0 e A=+1.6448 q=-0.0986 gen1 n=3
+   kappa0=0.99935(mesh 6.0e-06, win 3.4e-04)  sigma0=0.33278(mesh 6.8e-08, win 2.8e-04)  side0=-1.99849(mesh 9.3e-06, win 8.0e-04)
+   K5dev=+0.01105(mesh nan, win 6.9e-03)  K0dev=+0.00351(mesh nan, win 3.1e-03)  K5cal by rho=+0.01477,+0.01462
+s=+0 e A=+1.6448 q=+0.3069 gen1 n=2
+   kappa0=0.99960(mesh 7.2e-08, win 2.2e-04)  sigma0=0.33297(mesh 7.2e-07, win 2.9e-04)  side0=-1.99896(mesh 3.4e-06, win 9.7e-04)
+   K5dev=-0.00029(mesh nan, win 4.3e-04)  K0dev=+0.00351(mesh nan, win 3.1e-03)  K5cal by rho=+0.00321,+0.00321
+s=+5 o A=+1.3787 q=-0.9459 gen1 n=7
+   kappa0=0.99995(mesh 7.0e-06, win 9.8e-04)  sigma0=0.33307(mesh 3.0e-05, win 1.0e-03)  side0=-1.99889(mesh 1.5e-04, win 3.6e-03)
+   K5dev=+0.06089(mesh nan, win 3.9e-02)  K0dev=+0.00468(mesh nan, win 2.4e-03)  K5cal by rho=+0.06681,+0.06595
+s=+5 o A=+1.3787 q=-0.7918 gen2 W=0.6218
+   kappa0=0.99362(mesh 5.2e-05, win 5.2e-03)  sigma0=0.19680(mesh 1.2e-04, win 2.8e-03)  side0=-1.49398(mesh 4.2e-04, win 7.4e-03)
+s=+5 o A=+1.3787 q=-0.6094 gen1 n=5
+   kappa0=1.00025(mesh 4.3e-06, win 6.2e-04)  sigma0=0.33341(mesh 2.5e-05, win 8.5e-04)  side0=-1.99996(mesh 1.1e-04, win 2.9e-03)
+   K5dev=+0.03572(mesh nan, win 2.3e-02)  K0dev=+0.00468(mesh nan, win 2.4e-03)  K5cal by rho=+0.04114,+0.04063
+s=+5 o A=+1.3787 q=-0.3863 gen1 n=4
+   kappa0=1.00081(mesh 2.3e-05, win 9.7e-04)  sigma0=0.33377(mesh 2.6e-05, win 9.0e-04)  side0=-2.00077(mesh 8.0e-05, win 2.6e-03)
+   K5dev=+0.01759(mesh nan, win 1.2e-02)  K0dev=+0.00468(mesh nan, win 2.4e-03)  K5cal by rho=+0.02264,+0.02238
+s=+5 o A=+1.3787 q=-0.0986 gen1 n=3
+   kappa0=1.00063(mesh 1.9e-05, win 7.4e-04)  sigma0=0.33378(mesh 2.1e-05, win 7.3e-04)  side0=-2.00106(mesh 6.6e-05, win 2.2e-03)
+   K5dev=+0.01022(mesh nan, win 7.0e-03)  K0dev=+0.00468(mesh nan, win 2.4e-03)  K5cal by rho=+0.01513,+0.01497
+s=+5 o A=+1.3787 q=+0.3069 gen1 n=2
+   kappa0=1.00101(mesh 3.2e-05, win 9.9e-04)  sigma0=0.33403(mesh 2.2e-05, win 7.6e-04)  side0=-2.00161(mesh 4.9e-05, win 1.9e-03)
+   K5dev=-0.00168(mesh nan, win 2.0e-03)  K0dev=+0.00468(mesh nan, win 2.4e-03)  K5cal by rho=+0.00299,+0.00299
+
+## L=1.0 sensitivity (gen-2 at 1e-8)
+s=+0 e A=+1.6448 q=-0.9459 gen1 n=7
+   kappa0=0.99994(mesh 0.0e+00, win 1.5e-03)  sigma0=0.33315(mesh 0.0e+00, win 5.3e-04)  side0=-1.99924(mesh 0.0e+00, win 2.3e-04)
+   K5dev=-0.01380(mesh nan, win 3.5e-02)  K0dev=+0.00814(mesh nan, win 3.2e-03)  K5cal by rho=-0.00565
+s=+0 e A=+1.6448 q=-0.7918 gen2 W=0.6218
+   kappa0=1.00000(mesh 0.0e+00, win 3.2e-03)  sigma0=0.20014(mesh 0.0e+00, win 3.6e-04)  side0=-1.50044(mesh 0.0e+00, win 1.4e-03)
+s=+0 e A=+1.6448 q=-0.6094 gen1 n=5
+   kappa0=0.99979(mesh 0.0e+00, win 8.3e-04)  sigma0=0.33307(mesh 0.0e+00, win 2.0e-04)  side0=-1.99912(mesh 0.0e+00, win 3.7e-04)
+   K5dev=-0.01002(mesh nan, win 2.1e-02)  K0dev=+0.00814(mesh nan, win 3.2e-03)  K5cal by rho=-0.00188
+s=+0 e A=+1.6448 q=-0.3863 gen1 n=4
+   kappa0=0.99994(mesh 0.0e+00, win 4.8e-04)  sigma0=0.33315(mesh 0.0e+00, win 6.1e-05)  side0=-1.99928(mesh 0.0e+00, win 4.5e-04)
+   K5dev=-0.00726(mesh nan, win 1.1e-02)  K0dev=+0.00814(mesh nan, win 3.2e-03)  K5cal by rho=+0.00088
+s=+0 e A=+1.6448 q=-0.0986 gen1 n=3
+   kappa0=0.99960(mesh 0.0e+00, win 9.3e-05)  sigma0=0.33297(mesh 0.0e+00, win 1.5e-04)  side0=-1.99896(mesh 0.0e+00, win 8.3e-04)
+   K5dev=-0.00634(mesh nan, win 7.2e-03)  K0dev=+0.00814(mesh nan, win 3.2e-03)  K5cal by rho=+0.00180
+s=+0 e A=+1.6448 q=+0.3069 gen1 n=2
+   kappa0=0.99961(mesh 0.0e+00, win 1.9e-04)  sigma0=0.33298(mesh 0.0e+00, win 2.7e-04)  side0=-1.99899(mesh 0.0e+00, win 9.5e-04)
+   K5dev=-0.00476(mesh nan, win 9.4e-04)  K0dev=+0.00814(mesh nan, win 3.2e-03)  K5cal by rho=+0.00338
+s=+5 o A=+1.3787 q=-0.9459 gen1 n=7
+   kappa0=1.00133(mesh 0.0e+00, win 4.3e-03)  sigma0=0.33428(mesh 0.0e+00, win 2.6e-03)  side0=-2.00226(mesh 0.0e+00, win 5.2e-03)
+   K5dev=-0.01716(mesh nan, win 4.4e-02)  K0dev=+0.00940(mesh nan, win 2.5e-03)  K5cal by rho=-0.00776
+s=+5 o A=+1.3787 q=-0.7918 gen2 W=0.6218
+   kappa0=1.00440(mesh 0.0e+00, win 1.0e-02)  sigma0=0.20165(mesh 0.0e+00, win 2.7e-03)  side0=-1.50240(mesh 0.0e+00, win 2.2e-03)
+s=+5 o A=+1.3787 q=-0.6094 gen1 n=5
+   kappa0=1.00107(mesh 0.0e+00, win 2.8e-03)  sigma0=0.33413(mesh 0.0e+00, win 1.8e-03)  side0=-2.00198(mesh 0.0e+00, win 3.9e-03)
+   K5dev=-0.01252(mesh nan, win 2.7e-02)  K0dev=+0.00940(mesh nan, win 2.5e-03)  K5cal by rho=-0.00311
+s=+5 o A=+1.3787 q=-0.3863 gen1 n=4
+   kappa0=1.00124(mesh 0.0e+00, win 2.2e-03)  sigma0=0.33416(mesh 0.0e+00, win 1.4e-03)  side0=-2.00186(mesh 0.0e+00, win 3.1e-03)
+   K5dev=-0.00945(mesh nan, win 1.4e-02)  K0dev=+0.00940(mesh nan, win 2.5e-03)  K5cal by rho=-0.00005
+s=+5 o A=+1.3787 q=-0.0986 gen1 n=3
+   kappa0=1.00089(mesh 0.0e+00, win 1.5e-03)  sigma0=0.33401(mesh 0.0e+00, win 1.1e-03)  side0=-2.00172(mesh 0.0e+00, win 2.5e-03)
+   K5dev=-0.00806(mesh nan, win 1.0e-02)  K0dev=+0.00940(mesh nan, win 2.5e-03)  K5cal by rho=+0.00134
+s=+5 o A=+1.3787 q=+0.3069 gen1 n=2
+   kappa0=1.00101(mesh 0.0e+00, win 1.0e-03)  sigma0=0.33404(mesh 0.0e+00, win 8.0e-04)  side0=-2.00165(mesh 0.0e+00, win 2.0e-03)
+   K5dev=-0.00619(mesh nan, win 2.7e-03)  K0dev=+0.00940(mesh nan, win 2.5e-03)  K5cal by rho=+0.00321
+
+## L=1.0 diagnostic (post-registration)
+s=+0 e A=+1.6447 q=-0.9459 gen1 n=7
+   kappa0=0.99929(mesh 1.6e-04, win 4.2e-04)  sigma0=0.33285(mesh 4.2e-05, win 4.7e-04)  side0=-1.99886(mesh 4.8e-05, win 1.5e-03)
+   K5dev=-0.00094(mesh nan, win 3.4e-04)  K0dev=+0.01860(mesh nan, win 3.1e-02)  K5cal by rho=+0.00335,+0.00982
+s=+0 e A=+1.6447 q=-0.7918 gen2 W=0.6218
+   kappa0=0.99868(mesh 3.1e-04, win 7.5e-04)  sigma0=0.19959(mesh 3.6e-05, win 4.3e-04)  side0=-1.49955(mesh 8.0e-05, win 8.9e-04)
+s=+0 e A=+1.6447 q=-0.6094 gen1 n=5
+   kappa0=0.99936(mesh 1.4e-04, win 3.8e-04)  sigma0=0.33288(mesh 3.5e-05, win 4.5e-04)  side0=-1.99891(mesh 5.2e-05, win 1.5e-03)
+   K5dev=-0.00077(mesh nan, win 7.0e-04)  K0dev=+0.01860(mesh nan, win 3.1e-02)  K5cal by rho=+0.00344,+0.00995
+s=+0 e A=+1.6447 q=-0.3863 gen1 n=4
+   kappa0=0.99974(mesh 4.6e-05, win 1.7e-04)  sigma0=0.33308(mesh 6.5e-06, win 3.6e-04)  side0=-1.99923(mesh 9.8e-05, win 1.4e-03)
+   K5dev=-0.00072(mesh nan, win 7.5e-04)  K0dev=+0.01860(mesh nan, win 3.1e-02)  K5cal by rho=+0.00348,+0.00999
+s=+0 e A=+1.6447 q=-0.0986 gen1 n=3
+   kappa0=0.99937(mesh 1.4e-04, win 3.7e-04)  sigma0=0.33288(mesh 3.5e-05, win 4.5e-04)  side0=-1.99891(mesh 5.2e-05, win 1.5e-03)
+   K5dev=-0.00074(mesh nan, win 7.3e-04)  K0dev=+0.01860(mesh nan, win 3.1e-02)  K5cal by rho=+0.00346,+0.00997
+s=+0 e A=+1.6447 q=+0.3069 gen1 n=2
+   kappa0=0.99950(mesh 1.0e-04, win 2.9e-04)  sigma0=0.33296(mesh 1.9e-05, win 4.0e-04)  side0=-1.99904(mesh 7.3e-05, win 1.5e-03)
+   K5dev=-0.00096(mesh nan, win 9.3e-04)  K0dev=+0.01860(mesh nan, win 3.1e-02)  K5cal by rho=+0.00334,+0.00981
+s=+5 o A=+1.3786 q=-0.9459 gen1 n=7
+   kappa0=1.00134(mesh 4.1e-04, win 1.3e-03)  sigma0=0.33432(mesh 3.0e-04, win 8.5e-04)  side0=-2.00240(mesh 7.4e-04, win 1.8e-03)
+   K5dev=-0.00392(mesh nan, win 5.8e-03)  K0dev=+0.02094(mesh nan, win 2.9e-02)  K5cal by rho=+0.00319,+0.00945
+s=+5 o A=+1.3786 q=-0.7918 gen2 W=0.6218
+   kappa0=1.00399(mesh 1.2e-03, win 3.9e-03)  sigma0=0.20089(mesh 2.3e-04, win 9.5e-04)  side0=-1.50028(mesh 5.4e-05, win 5.7e-04)
+s=+5 o A=+1.3786 q=-0.6094 gen1 n=5
+   kappa0=1.00122(mesh 3.8e-04, win 1.1e-03)  sigma0=0.33427(mesh 2.9e-04, win 8.0e-04)  side0=-2.00239(mesh 7.5e-04, win 1.9e-03)
+   K5dev=-0.00355(mesh nan, win 3.9e-03)  K0dev=+0.02094(mesh nan, win 2.9e-02)  K5cal by rho=+0.00337,+0.00971
+s=+5 o A=+1.3786 q=-0.3863 gen1 n=4
+   kappa0=1.00164(mesh 5.0e-04, win 1.5e-03)  sigma0=0.33442(mesh 3.3e-04, win 9.7e-04)  side0=-2.00243(mesh 7.3e-04, win 2.1e-03)
+   K5dev=-0.00395(mesh nan, win 3.5e-03)  K0dev=+0.02094(mesh nan, win 2.9e-02)  K5cal by rho=+0.00317,+0.00942
+s=+5 o A=+1.3786 q=-0.0986 gen1 n=3
+   kappa0=1.00122(mesh 3.8e-04, win 1.1e-03)  sigma0=0.33427(mesh 2.9e-04, win 8.0e-04)  side0=-2.00239(mesh 7.5e-04, win 1.9e-03)
+   K5dev=-0.00357(mesh nan, win 3.8e-03)  K0dev=+0.02094(mesh nan, win 2.9e-02)  K5cal by rho=+0.00336,+0.00970
+s=+5 o A=+1.3786 q=+0.3069 gen1 n=2
+   kappa0=1.00151(mesh 4.6e-04, win 1.4e-03)  sigma0=0.33437(mesh 3.2e-04, win 9.1e-04)  side0=-2.00242(mesh 7.4e-04, win 2.0e-03)
+   K5dev=-0.00395(mesh nan, win 4.1e-03)  K0dev=+0.02094(mesh nan, win 2.9e-02)  K5cal by rho=+0.00317,+0.00942
+
+## L=1.0 K5 rerun, primary (rho 1.5, 1.25)
+s=+0 e A=+1.6448 q=-0.9459 gen1 n=7
+   kappa0=0.99945(mesh 1.8e-06, win 3.1e-04)  sigma0=0.33289(mesh 2.2e-06, win 3.5e-04)  side0=-1.99882(mesh 7.0e-06, win 1.1e-03)
+   K5dev=-0.00048(mesh nan, win 2.4e-04)  K0dev=+0.00386(mesh nan, win 3.3e-03)  K5cal by rho=+0.00335,+0.00337
+s=+0 e A=+1.6448 q=-0.7918 gen2 W=0.6218
+   kappa0=0.99893(mesh 2.5e-06, win 5.8e-04)  sigma0=0.19961(mesh 1.7e-07, win 3.6e-04)  side0=-1.49944(mesh 1.0e-06, win 7.7e-04)
+s=+0 e A=+1.6448 q=-0.6094 gen1 n=5
+   kappa0=0.99950(mesh 1.0e-06, win 2.8e-04)  sigma0=0.33292(mesh 1.6e-06, win 3.3e-04)  side0=-1.99886(mesh 5.8e-06, win 1.1e-03)
+   K5dev=-0.00038(mesh nan, win 3.7e-04)  K0dev=+0.00386(mesh nan, win 3.3e-03)  K5cal by rho=+0.00344,+0.00347
+s=+0 e A=+1.6448 q=-0.3863 gen1 n=4
+   kappa0=0.99978(mesh 2.5e-06, win 1.2e-04)  sigma0=0.33307(mesh 5.5e-07, win 2.3e-04)  side0=-1.99914(mesh 1.2e-06, win 8.4e-04)
+   K5dev=-0.00034(mesh nan, win 3.9e-04)  K0dev=+0.00386(mesh nan, win 3.3e-03)  K5cal by rho=+0.00348,+0.00350
+s=+0 e A=+1.6448 q=-0.0986 gen1 n=3
+   kappa0=0.99951(mesh 8.9e-07, win 2.8e-04)  sigma0=0.33292(mesh 1.6e-06, win 3.3e-04)  side0=-1.99887(mesh 5.7e-06, win 1.1e-03)
+   K5dev=-0.00037(mesh nan, win 3.8e-04)  K0dev=+0.00386(mesh nan, win 3.3e-03)  K5cal by rho=+0.00345,+0.00348
+s=+0 e A=+1.6448 q=+0.3069 gen1 n=2
+   kappa0=0.99961(mesh 2.2e-07, win 2.1e-04)  sigma0=0.33297(mesh 8.9e-07, win 2.9e-04)  side0=-1.99897(mesh 4.4e-06, win 9.8e-04)
+   K5dev=-0.00048(mesh nan, win 4.9e-04)  K0dev=+0.00386(mesh nan, win 3.3e-03)  K5cal by rho=+0.00333,+0.00336
+s=+5 o A=+1.3787 q=-0.9459 gen1 n=7
+   kappa0=1.00090(mesh 2.9e-05, win 9.3e-04)  sigma0=0.33399(mesh 2.0e-05, win 7.1e-04)  side0=-2.00161(mesh 4.7e-05, win 1.8e-03)
+   K5dev=-0.00186(mesh nan, win 2.7e-03)  K0dev=+0.00510(mesh nan, win 2.6e-03)  K5cal by rho=+0.00319,+0.00323
+s=+5 o A=+1.3787 q=-0.7918 gen2 W=0.6218
+   kappa0=1.00281(mesh 9.5e-05, win 2.9e-03)  sigma0=0.20067(mesh 2.1e-05, win 8.7e-04)  side0=-1.50034(mesh 4.8e-06, win 9.0e-04)
+s=+5 o A=+1.3787 q=-0.6094 gen1 n=5
+   kappa0=1.00082(mesh 2.6e-05, win 8.0e-04)  sigma0=0.33396(mesh 1.9e-05, win 6.7e-04)  side0=-2.00159(mesh 4.7e-05, win 1.8e-03)
+   K5dev=-0.00170(mesh nan, win 2.0e-03)  K0dev=+0.00510(mesh nan, win 2.6e-03)  K5cal by rho=+0.00337,+0.00339
+s=+5 o A=+1.3787 q=-0.3863 gen1 n=4
+   kappa0=1.00111(mesh 3.5e-05, win 1.1e-03)  sigma0=0.33407(mesh 2.2e-05, win 8.0e-04)  side0=-2.00164(mesh 4.8e-05, win 2.0e-03)
+   K5dev=-0.00189(mesh nan, win 1.9e-03)  K0dev=+0.00510(mesh nan, win 2.6e-03)  K5cal by rho=+0.00317,+0.00320
+s=+5 o A=+1.3787 q=-0.0986 gen1 n=3
+   kappa0=1.00082(mesh 2.6e-05, win 8.0e-04)  sigma0=0.33396(mesh 1.9e-05, win 6.7e-04)  side0=-2.00159(mesh 4.7e-05, win 1.8e-03)
+   K5dev=-0.00172(mesh nan, win 2.0e-03)  K0dev=+0.00510(mesh nan, win 2.6e-03)  K5cal by rho=+0.00335,+0.00338
+s=+5 o A=+1.3787 q=+0.3069 gen1 n=2
+   kappa0=1.00102(mesh 3.2e-05, win 9.9e-04)  sigma0=0.33403(mesh 2.1e-05, win 7.6e-04)  side0=-2.00163(mesh 4.8e-05, win 1.9e-03)
+   K5dev=-0.00190(mesh nan, win 2.1e-03)  K0dev=+0.00510(mesh nan, win 2.6e-03)  K5cal by rho=+0.00316,+0.00319
+
+## L=1.0 K5 rerun, supplementary (rho 1.5, 1.25, 1.15)
+s=+0 e A=+1.6448 q=-0.9459 gen1 n=7
+   kappa0=0.99944(mesh 9.5e-06, win 3.0e-04)  sigma0=0.33288(mesh 1.1e-05, win 3.3e-04)  side0=-1.99879(mesh 3.3e-05, win 1.0e-03)
+   K5dev=-0.00049(mesh 2.8e-05, win 2.3e-04)  K0dev=+0.00373(mesh 3.0e-04, win 3.3e-03)  K5cal by rho=+0.00335,+0.00337,+0.00318
+s=+0 e A=+1.6448 q=-0.7918 gen2 W=0.6218
+   kappa0=0.99892(mesh 2.1e-05, win 5.6e-04)  sigma0=0.19960(mesh 1.1e-05, win 3.5e-04)  side0=-1.49942(mesh 2.1e-05, win 7.4e-04)
+s=+0 e A=+1.6448 q=-0.6094 gen1 n=5
+   kappa0=0.99949(mesh 9.0e-06, win 2.7e-04)  sigma0=0.33290(mesh 1.0e-05, win 3.2e-04)  side0=-1.99883(mesh 3.3e-05, win 1.0e-03)
+   K5dev=-0.00039(mesh 2.6e-05, win 3.6e-04)  K0dev=+0.00373(mesh 3.0e-04, win 3.3e-03)  K5cal by rho=+0.00344,+0.00347,+0.00328
+s=+0 e A=+1.6448 q=-0.3863 gen1 n=4
+   kappa0=0.99978(mesh 7.6e-06, win 1.2e-04)  sigma0=0.33306(mesh 8.4e-06, win 2.2e-04)  side0=-1.99911(mesh 2.8e-05, win 8.0e-04)
+   K5dev=-0.00036(mesh 2.6e-05, win 3.7e-04)  K0dev=+0.00373(mesh 3.0e-04, win 3.3e-03)  K5cal by rho=+0.00348,+0.00350,+0.00331
+s=+0 e A=+1.6448 q=-0.0986 gen1 n=3
+   kappa0=0.99950(mesh 8.9e-06, win 2.6e-04)  sigma0=0.33291(mesh 1.0e-05, win 3.2e-04)  side0=-1.99883(mesh 3.3e-05, win 1.0e-03)
+   K5dev=-0.00038(mesh 2.6e-05, win 3.7e-04)  K0dev=+0.00373(mesh 3.0e-04, win 3.3e-03)  K5cal by rho=+0.00345,+0.00348,+0.00329
+s=+0 e A=+1.6448 q=+0.3069 gen1 n=2
+   kappa0=0.99960(mesh 7.6e-06, win 2.1e-04)  sigma0=0.33297(mesh 9.2e-06, win 2.8e-04)  side0=-1.99894(mesh 3.0e-05, win 9.4e-04)
+   K5dev=-0.00050(mesh 3.0e-05, win 4.7e-04)  K0dev=+0.00373(mesh 3.0e-04, win 3.3e-03)  K5cal by rho=+0.00333,+0.00336,+0.00317
+s=+5 o A=+1.3787 q=-0.9459 gen1 n=7
+   kappa0=1.00092(mesh 1.5e-05, win 8.8e-04)  sigma0=0.33400(mesh 1.0e-05, win 6.7e-04)  side0=-2.00164(mesh 2.4e-05, win 1.7e-03)
+   K5dev=-0.00191(mesh 1.0e-04, win 2.6e-03)  K0dev=+0.00500(mesh 2.2e-04, win 2.6e-03)  K5cal by rho=+0.00319,+0.00323,+0.00304
+s=+5 o A=+1.3787 q=-0.7918 gen2 W=0.6218
+   kappa0=1.00286(mesh 5.0e-05, win 2.8e-03)  sigma0=0.20068(mesh 1.3e-05, win 8.3e-04)  side0=-1.50035(mesh 1.0e-05, win 8.6e-04)
+s=+5 o A=+1.3787 q=-0.6094 gen1 n=5
+   kappa0=1.00083(mesh 1.3e-05, win 7.6e-04)  sigma0=0.33397(mesh 9.6e-06, win 6.4e-04)  side0=-2.00161(mesh 2.4e-05, win 1.7e-03)
+   K5dev=-0.00174(mesh 9.1e-05, win 1.9e-03)  K0dev=+0.00500(mesh 2.2e-04, win 2.6e-03)  K5cal by rho=+0.00337,+0.00339,+0.00321
+s=+5 o A=+1.3787 q=-0.3863 gen1 n=4
+   kappa0=1.00113(mesh 1.8e-05, win 1.0e-03)  sigma0=0.33408(mesh 1.2e-05, win 7.6e-04)  side0=-2.00167(mesh 2.6e-05, win 1.9e-03)
+   K5dev=-0.00193(mesh 1.0e-04, win 1.9e-03)  K0dev=+0.00500(mesh 2.2e-04, win 2.6e-03)  K5cal by rho=+0.00317,+0.00320,+0.00301
+s=+5 o A=+1.3787 q=-0.0986 gen1 n=3
+   kappa0=1.00083(mesh 1.3e-05, win 7.6e-04)  sigma0=0.33397(mesh 9.6e-06, win 6.4e-04)  side0=-2.00161(mesh 2.4e-05, win 1.7e-03)
+   K5dev=-0.00176(mesh 9.2e-05, win 1.9e-03)  K0dev=+0.00500(mesh 2.2e-04, win 2.6e-03)  K5cal by rho=+0.00335,+0.00338,+0.00319
+s=+5 o A=+1.3787 q=+0.3069 gen1 n=2
+   kappa0=1.00103(mesh 1.6e-05, win 9.5e-04)  sigma0=0.33405(mesh 1.1e-05, win 7.2e-04)  side0=-2.00166(mesh 2.5e-05, win 1.8e-03)
+   K5dev=-0.00195(mesh 1.0e-04, win 2.1e-03)  K0dev=+0.00500(mesh 2.2e-04, win 2.6e-03)  K5cal by rho=+0.00316,+0.00319,+0.00300

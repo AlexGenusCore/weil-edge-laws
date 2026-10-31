@@ -1,0 +1,182 @@
+
+######## PRIMARY L1.0 rho 1.5 and 1.25: rho = [1.5, 1.25]
+s=+0 e lam=-4.306045 A=+1.64476  q=-0.945910 (R) gen1 n=7
+   kappa0=0.99945 sigma0=0.33289 side0=-1.99882  (mesh spread 1.8e-06/2.2e-06/7.0e-06)
+   K5: beta=0.000000 pred b0=-D-beta=+1.89095; raw b0 by rho=+1.87672,+1.88631; extrapolated dev=-0.00048; calibrated (b0+Dfit+beta) by rho=+0.00335,+0.00337
+   K0': D_fit-D extrapolated=+0.00386 (by rho +0.01758,+0.00801)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:PASS
+s=+0 e lam=-4.306045 A=+1.64476  q=-0.791759 (R) gen2 W=0.621762
+   kappa0=0.99893 sigma0=0.19961 side0=-1.49944  (mesh spread 2.5e-06/1.7e-07/1.0e-06)
+   k:PASS s:PASS side:PASS sign:PASS
+s=+0 e lam=-4.306045 A=+1.64476  q=-0.609438 (R) gen1 n=5
+   kappa0=0.99950 sigma0=0.33292 side0=-1.99886  (mesh spread 1.0e-06/1.6e-06/5.8e-06)
+   K5: beta=0.000000 pred b0=-D-beta=+1.89095; raw b0 by rho=+1.87681,+1.88640; extrapolated dev=-0.00038; calibrated (b0+Dfit+beta) by rho=+0.00344,+0.00347
+   K0': D_fit-D extrapolated=+0.00386 (by rho +0.01758,+0.00801)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:PASS
+s=+0 e lam=-4.306045 A=+1.64476  q=-0.386294 (R) gen1 n=4
+   kappa0=0.99978 sigma0=0.33307 side0=-1.99914  (mesh spread 2.5e-06/5.5e-07/1.2e-06)
+   K5: beta=0.693147 pred b0=-D-beta=+1.19781; raw b0 by rho=+1.18370,+1.19329; extrapolated dev=-0.00034; calibrated (b0+Dfit+beta) by rho=+0.00348,+0.00350
+   K0': D_fit-D extrapolated=+0.00386 (by rho +0.01758,+0.00801)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:PASS
+s=+0 e lam=-4.306045 A=+1.64476  q=-0.098612 (R) gen1 n=3
+   kappa0=0.99951 sigma0=0.33292 side0=-1.99887  (mesh spread 8.9e-07/1.6e-06/5.7e-06)
+   K5: beta=0.000000 pred b0=-D-beta=+1.89095; raw b0 by rho=+1.87683,+1.88642; extrapolated dev=-0.00037; calibrated (b0+Dfit+beta) by rho=+0.00345,+0.00348
+   K0': D_fit-D extrapolated=+0.00386 (by rho +0.01758,+0.00801)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:PASS
+s=+0 e lam=-4.306045 A=+1.64476  q=+0.306853 (R) gen1 n=2
+   kappa0=0.99961 sigma0=0.33297 side0=-1.99897  (mesh spread 2.2e-07/8.9e-07/4.4e-06)
+   K5: beta=0.346574 pred b0=-D-beta=+1.54438; raw b0 by rho=+1.53013,+1.53973; extrapolated dev=-0.00048; calibrated (b0+Dfit+beta) by rho=+0.00333,+0.00336
+   K0': D_fit-D extrapolated=+0.00386 (by rho +0.01758,+0.00801)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:PASS
+s=+0 e lam=+0.000000 A=+0.00099  q=-0.945910 (R) gen1 n=7   [not graded: |A|<0.2]
+   kappa0=1.00303 sigma0=0.33602 side0=-2.00756  (mesh spread 2.4e-04/9.7e-05/8.0e-04)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.42817,-2.42350; extrapolated dev=-0.00638; calibrated (b0+Dfit+beta) by rho=+0.00855,+0.00352
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 e lam=+0.000000 A=+0.00099  q=-0.791759 (R) gen2 W=0.621762   [not graded: |A|<0.2]
+   kappa0=0.99103 sigma0=0.20351 side0=-1.51683  (mesh spread 5.9e-03/1.4e-04/4.3e-03)
+   k:PASS s:PASS side:FAIL sign:PASS
+s=+0 e lam=+0.000000 A=+0.00099  q=-0.609438 (R) gen1 n=5   [not graded: |A|<0.2]
+   kappa0=1.00226 sigma0=0.33591 side0=-2.00823  (mesh spread 5.2e-04/9.3e-05/3.7e-04)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.43119,-2.41508; extrapolated dev=+0.00701; calibrated (b0+Dfit+beta) by rho=+0.00553,+0.01194
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 e lam=+0.000000 A=+0.00099  q=-0.386294 (R) gen1 n=4   [not graded: |A|<0.2]
+   kappa0=1.00620 sigma0=0.33646 side0=-2.00477  (mesh spread 1.7e-03/1.1e-04/2.0e-03)
+   K5: beta=0.693147 pred b0=-D-beta=-3.10824; raw b0 by rho=-3.18072,-3.15050; extrapolated dev=-0.02914; calibrated (b0+Dfit+beta) by rho=-0.05085,-0.03034
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:FAIL s:FAIL side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 e lam=+0.000000 A=+0.00099  q=-0.098612 (R) gen1 n=3   [not graded: |A|<0.2]
+   kappa0=1.00368 sigma0=0.33591 side0=-2.00606  (mesh spread 6.3e-04/9.3e-05/1.4e-03)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.43535,-2.43649; extrapolated dev=-0.02189; calibrated (b0+Dfit+beta) by rho=+0.00136,-0.00947
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 e lam=+0.000000 A=+0.00099  q=+0.306853 (R) gen1 n=2   [not graded: |A|<0.2]
+   kappa0=1.00080 sigma0=0.33626 side0=-2.01201  (mesh spread 6.8e-05/1.1e-04/3.8e-04)
+   K5: beta=0.346574 pred b0=-D-beta=-2.76167; raw b0 by rho=-2.74199,-2.73222; extrapolated dev=+0.03370; calibrated (b0+Dfit+beta) by rho=+0.04130,+0.04138
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 o lam=+0.000000 A=+0.00105  q=-0.945910 (R) gen1 n=7   [not graded: |A|<0.2]
+   kappa0=1.00332 sigma0=0.33603 side0=-2.00712  (mesh spread 7.5e-05/9.7e-05/3.3e-04)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.43711,-2.42788; extrapolated dev=-0.00878; calibrated (b0+Dfit+beta) by rho=-0.00037,-0.00085
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 o lam=+0.000000 A=+0.00105  q=-0.791759 (R) gen2 W=0.621762   [not graded: |A|<0.2]
+   kappa0=1.02188 sigma0=0.20351 side0=-1.49736  (mesh spread 7.8e-04/1.4e-04/8.9e-04)
+   k:FAIL s:PASS side:PASS sign:PASS
+s=+0 o lam=+0.000000 A=+0.00105  q=-0.609438 (R) gen1 n=5   [not graded: |A|<0.2]
+   kappa0=1.00180 sigma0=0.33591 side0=-2.00892  (mesh spread 2.5e-04/9.3e-05/3.8e-05)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.42054,-2.40822; extrapolated dev=+0.01222; calibrated (b0+Dfit+beta) by rho=+0.01620,+0.01881
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 o lam=+0.000000 A=+0.00105  q=-0.386294 (R) gen1 n=4   [not graded: |A|<0.2]
+   kappa0=1.00182 sigma0=0.33646 side0=-2.01139  (mesh spread 1.5e-03/1.1e-04/2.8e-03)
+   K5: beta=0.693147 pred b0=-D-beta=-3.10824; raw b0 by rho=-3.07735,-3.08964; extrapolated dev=+0.01326; calibrated (b0+Dfit+beta) by rho=+0.05253,+0.03054
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:FAIL side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 o lam=+0.000000 A=+0.00105  q=-0.098612 (R) gen1 n=3   [not graded: |A|<0.2]
+   kappa0=1.00356 sigma0=0.33591 side0=-2.00625  (mesh spread 1.4e-03/9.3e-05/1.8e-03)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.46400,-2.43465; extrapolated dev=-0.00680; calibrated (b0+Dfit+beta) by rho=-0.02726,-0.00762
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+0 o lam=+0.000000 A=+0.00105  q=+0.306853 (R) gen1 n=2   [not graded: |A|<0.2]
+   kappa0=1.00357 sigma0=0.33626 side0=-2.00780  (mesh spread 2.0e-03/1.1e-04/3.6e-03)
+   K5: beta=0.346574 pred b0=-D-beta=-2.76167; raw b0 by rho=-2.75146,-2.77226; extrapolated dev=-0.01963; calibrated (b0+Dfit+beta) by rho=+0.03185,+0.00135
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 o lam=-1.352190 A=+1.37870  q=-0.945910 (R) gen1 n=7
+   kappa0=1.00090 sigma0=0.33399 side0=-2.00161  (mesh spread 2.9e-05/2.0e-05/4.7e-05)
+   K5: beta=0.000000 pred b0=-D-beta=-1.06290; raw b0 by rho=-1.07860,-1.06896; extrapolated dev=-0.00186; calibrated (b0+Dfit+beta) by rho=+0.00319,+0.00323
+   K0': D_fit-D extrapolated=+0.00510 (by rho +0.01890,+0.00928)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:FAIL
+s=+5 o lam=-1.352190 A=+1.37870  q=-0.791759 (R) gen2 W=0.621762
+   kappa0=1.00281 sigma0=0.20067 side0=-1.50034  (mesh spread 9.5e-05/2.1e-05/4.8e-06)
+   k:PASS s:PASS side:PASS sign:PASS
+s=+5 o lam=-1.352190 A=+1.37870  q=-0.609438 (R) gen1 n=5
+   kappa0=1.00082 sigma0=0.33396 side0=-2.00159  (mesh spread 2.6e-05/1.9e-05/4.7e-05)
+   K5: beta=0.000000 pred b0=-D-beta=-1.06290; raw b0 by rho=-1.07843,-1.06879; extrapolated dev=-0.00170; calibrated (b0+Dfit+beta) by rho=+0.00337,+0.00339
+   K0': D_fit-D extrapolated=+0.00510 (by rho +0.01890,+0.00928)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:FAIL
+s=+5 o lam=-1.352190 A=+1.37870  q=-0.386294 (R) gen1 n=4
+   kappa0=1.00111 sigma0=0.33407 side0=-2.00164  (mesh spread 3.5e-05/2.2e-05/4.8e-05)
+   K5: beta=0.693147 pred b0=-D-beta=-1.75605; raw b0 by rho=-1.77178,-1.76213; extrapolated dev=-0.00189; calibrated (b0+Dfit+beta) by rho=+0.00317,+0.00320
+   K0': D_fit-D extrapolated=+0.00510 (by rho +0.01890,+0.00928)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:FAIL
+s=+5 o lam=-1.352190 A=+1.37870  q=-0.098612 (R) gen1 n=3
+   kappa0=1.00082 sigma0=0.33396 side0=-2.00159  (mesh spread 2.6e-05/1.9e-05/4.7e-05)
+   K5: beta=0.000000 pred b0=-D-beta=-1.06290; raw b0 by rho=-1.07845,-1.06881; extrapolated dev=-0.00172; calibrated (b0+Dfit+beta) by rho=+0.00335,+0.00338
+   K0': D_fit-D extrapolated=+0.00510 (by rho +0.01890,+0.00928)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:FAIL
+s=+5 o lam=-1.352190 A=+1.37870  q=+0.306853 (R) gen1 n=2
+   kappa0=1.00102 sigma0=0.33403 side0=-2.00163  (mesh spread 3.2e-05/2.1e-05/4.8e-05)
+   K5: beta=0.346574 pred b0=-D-beta=-1.40948; raw b0 by rho=-1.42521,-1.41557; extrapolated dev=-0.00190; calibrated (b0+Dfit+beta) by rho=+0.00316,+0.00319
+   K0': D_fit-D extrapolated=+0.00510 (by rho +0.01890,+0.00928)
+   k:PASS s:PASS side:PASS sign:PASS K5:PASS K0:FAIL
+s=+5 e lam=+0.000000 A=+0.00099  q=-0.945910 (R) gen1 n=7   [not graded: |A|<0.2]
+   kappa0=1.00303 sigma0=0.33602 side0=-2.00756  (mesh spread 2.4e-04/9.7e-05/8.0e-04)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.42817,-2.42350; extrapolated dev=-0.00638; calibrated (b0+Dfit+beta) by rho=+0.00855,+0.00352
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 e lam=+0.000000 A=+0.00099  q=-0.791759 (R) gen2 W=0.621762   [not graded: |A|<0.2]
+   kappa0=0.99103 sigma0=0.20351 side0=-1.51683  (mesh spread 5.9e-03/1.4e-04/4.3e-03)
+   k:PASS s:PASS side:FAIL sign:PASS
+s=+5 e lam=+0.000000 A=+0.00099  q=-0.609438 (R) gen1 n=5   [not graded: |A|<0.2]
+   kappa0=1.00226 sigma0=0.33591 side0=-2.00823  (mesh spread 5.2e-04/9.3e-05/3.7e-04)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.43119,-2.41508; extrapolated dev=+0.00701; calibrated (b0+Dfit+beta) by rho=+0.00553,+0.01194
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 e lam=+0.000000 A=+0.00099  q=-0.386294 (R) gen1 n=4   [not graded: |A|<0.2]
+   kappa0=1.00620 sigma0=0.33646 side0=-2.00477  (mesh spread 1.7e-03/1.1e-04/2.0e-03)
+   K5: beta=0.693147 pred b0=-D-beta=-3.10824; raw b0 by rho=-3.18072,-3.15050; extrapolated dev=-0.02914; calibrated (b0+Dfit+beta) by rho=-0.05085,-0.03034
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:FAIL s:FAIL side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 e lam=+0.000000 A=+0.00099  q=-0.098612 (R) gen1 n=3   [not graded: |A|<0.2]
+   kappa0=1.00368 sigma0=0.33591 side0=-2.00606  (mesh spread 6.3e-04/9.3e-05/1.4e-03)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.43535,-2.43649; extrapolated dev=-0.02189; calibrated (b0+Dfit+beta) by rho=+0.00136,-0.00947
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 e lam=+0.000000 A=+0.00099  q=+0.306853 (R) gen1 n=2   [not graded: |A|<0.2]
+   kappa0=1.00080 sigma0=0.33626 side0=-2.01201  (mesh spread 6.8e-05/1.1e-04/3.8e-04)
+   K5: beta=0.346574 pred b0=-D-beta=-2.76167; raw b0 by rho=-2.74199,-2.73222; extrapolated dev=+0.03370; calibrated (b0+Dfit+beta) by rho=+0.04130,+0.04138
+   K0': D_fit-D extrapolated=+0.00771 (by rho +0.02163,+0.01192)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 o lam=+0.000000 A=+0.00105  q=-0.945910 (R) gen1 n=7   [not graded: |A|<0.2]
+   kappa0=1.00332 sigma0=0.33603 side0=-2.00712  (mesh spread 7.5e-05/9.7e-05/3.3e-04)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.43711,-2.42788; extrapolated dev=-0.00878; calibrated (b0+Dfit+beta) by rho=-0.00037,-0.00085
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 o lam=+0.000000 A=+0.00105  q=-0.791759 (R) gen2 W=0.621762   [not graded: |A|<0.2]
+   kappa0=1.02188 sigma0=0.20351 side0=-1.49735  (mesh spread 7.8e-04/1.4e-04/8.9e-04)
+   k:FAIL s:PASS side:PASS sign:PASS
+s=+5 o lam=+0.000000 A=+0.00105  q=-0.609438 (R) gen1 n=5   [not graded: |A|<0.2]
+   kappa0=1.00180 sigma0=0.33591 side0=-2.00892  (mesh spread 2.5e-04/9.3e-05/3.8e-05)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.42054,-2.40822; extrapolated dev=+0.01222; calibrated (b0+Dfit+beta) by rho=+0.01620,+0.01881
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 o lam=+0.000000 A=+0.00105  q=-0.386294 (R) gen1 n=4   [not graded: |A|<0.2]
+   kappa0=1.00182 sigma0=0.33646 side0=-2.01139  (mesh spread 1.5e-03/1.1e-04/2.8e-03)
+   K5: beta=0.693147 pred b0=-D-beta=-3.10824; raw b0 by rho=-3.07735,-3.08964; extrapolated dev=+0.01326; calibrated (b0+Dfit+beta) by rho=+0.05253,+0.03054
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:FAIL side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 o lam=+0.000000 A=+0.00105  q=-0.098612 (R) gen1 n=3   [not graded: |A|<0.2]
+   kappa0=1.00356 sigma0=0.33591 side0=-2.00625  (mesh spread 1.4e-03/9.3e-05/1.8e-03)
+   K5: beta=0.000000 pred b0=-D-beta=-2.41509; raw b0 by rho=-2.46400,-2.43465; extrapolated dev=-0.00680; calibrated (b0+Dfit+beta) by rho=-0.02726,-0.00762
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+s=+5 o lam=+0.000000 A=+0.00105  q=+0.306853 (R) gen1 n=2   [not graded: |A|<0.2]
+   kappa0=1.00357 sigma0=0.33626 side0=-2.00780  (mesh spread 2.0e-03/1.1e-04/3.6e-03)
+   K5: beta=0.346574 pred b0=-D-beta=-2.76167; raw b0 by rho=-2.75146,-2.77226; extrapolated dev=-0.01963; calibrated (b0+Dfit+beta) by rho=+0.03185,+0.00135
+   K0': D_fit-D extrapolated=+0.00772 (by rho +0.02164,+0.01194)
+   k:PASS s:PASS side:PASS sign:PASS K5:FAIL K0:FAIL
+
+######## tally over graded rows (pass/total)
+   K0-gen1: 5/10
+   K5-gen1: 10/10
+   k-gen1: 10/10
+   k-gen2: 2/2
+   s-gen1: 10/10
+   s-gen2: 2/2
+   side-gen1: 10/10
+   side-gen2: 2/2
+   sign-gen1: 10/10
+   sign-gen2: 2/2

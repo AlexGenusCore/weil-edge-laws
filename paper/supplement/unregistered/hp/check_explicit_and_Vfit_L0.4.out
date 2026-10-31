@@ -1,0 +1,16 @@
+(T1) L=0.4: torsion u = G_D 1 (archimedean part).  flux int u kappa_D = 0.80000000  vs  int h = 2L = 0.80000000
+     explicit (6.1): A_pred = V(2L) - int V' N u = 0.67400260 - 0.10109645 = 0.57290615   Lemma 10.2 lower bound V'(2L) L = 0.10616847
+     fit u = sum c_q V^q, q in (1, 2): A_fit = 0.57292152  (rms 4.5e-06)   A_fit/A_pred = 1.000027
+     fit u = sum c_q V^q, q in (1, 2, 3): A_fit = 0.57277618  (rms 2.8e-06)   A_fit/A_pred = 0.999773
+     fit u = sum c_q V^q, q in (1, 3): A_fit = 0.57291270  (rms 4.3e-06)   A_fit/A_pred = 1.000011
+     fit u = sum c_q V^q, q in (1, 3, 5): A_fit = 0.57287524  (rms 2.4e-06)   A_fit/A_pred = 0.999946
+(T2) L=0.4 e s=0.0: lam'=-4.926298e+00 | V^(1,): ratio 0.79695 (rms 3e-02) | V^(1, 2): ratio 1.43633 (rms 3e-03) | V^(1, 3): ratio 1.05044 (rms 1e-03) | V^(1, 2, 3): ratio 0.83438 (rms 3e-04) | V^(1, 3, 5): ratio 0.98754 (rms 9e-05)
+check_explicit_and_Vfit.py:104: RuntimeWarning: divide by zero encountered in log
+  dd = np.array([1e-4, 1e-6, 1e-8, 1e-10, 1e-12, 1e-13]); yy = np.array([y[np.argmin(np.abs(np.log(d / q)))] for q in dd])
+      psi/V at d=1e-4..1e-13: 1.90149 1.78497 1.73358 1.70085 1.67850 1.66978   psi*l^1/2: 1.65516 1.62027 1.60935 1.60122 1.59536 1.59298
+(T2) L=0.4 e s=1.0: lam'=-7.688326e-03 | V^(1,): ratio 0.71248 (rms 4e-02) | V^(1, 2): ratio 2.02419 (rms 6e-03) | V^(1, 3): ratio 1.13037 (rms 4e-03) | V^(1, 2, 3): ratio 0.61361 (rms 9e-04) | V^(1, 3, 5): ratio 0.94684 (rms 5e-04)
+      psi/V at d=1e-4..1e-13: 0.08367 0.07514 0.07172 0.06966 0.06831 0.06779   psi*l^1/2: 0.07283 0.06821 0.06658 0.06558 0.06492 0.06467
+(T2) L=0.4 o s=0.0: lam'=-4.064777e-01 | V^(1,): ratio 0.71101 (rms 4e-02) | V^(1, 2): ratio 2.03357 (rms 6e-03) | V^(1, 3): ratio 1.13082 (rms 3e-03) | V^(1, 2, 3): ratio 0.61907 (rms 9e-04) | V^(1, 3, 5): ratio 0.95011 (rms 4e-04)
+      psi/V at d=1e-4..1e-13: 0.60881 0.54707 0.52195 0.50690 0.49697 0.49316   psi*l^1/2: 0.52994 0.49659 0.48454 0.47721 0.47235 0.47048
+(T2) L=0.4 o s=1.0: lam'=-4.658191e-01 | V^(1,): ratio 0.71188 (rms 4e-02) | V^(1, 2): ratio 2.02346 (rms 6e-03) | V^(1, 3): ratio 1.12953 (rms 3e-03) | V^(1, 2, 3): ratio 0.62252 (rms 8e-04) | V^(1, 3, 5): ratio 0.95110 (rms 4e-04)
+      psi/V at d=1e-4..1e-13: 0.65086 0.58525 0.55848 0.54244 0.53185 0.52778   psi*l^1/2: 0.56655 0.53125 0.51846 0.51067 0.50550 0.50351

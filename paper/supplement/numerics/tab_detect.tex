@@ -1,0 +1,30 @@
+% Which numerical checks can detect a wrong constant. Hand-written; every number is copied from the source named
+% in numerics.md (section "Sources"), and none is new except the error bars of the kink rows (kink_errors.out).
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{4.6cm}}
+\toprule
+Check & Statement tested & Result & Can it detect a wrong constant? \\
+\midrule
+\multicolumn{4}{l}{\emph{Edge law (E) and Hadamard formula (H)}}\\
+Cross identity, nested and translated windows (N1, N2) & exact cross identity & rel.\ error $2\cdot10^{-8}$--$7.3\cdot10^{-8}$ & No: no edge trace appears in it \\
+Edge-free identity $X^2/(\lambda_e'\lambda_o')$ (N3) & mixed identity, Thm.~3(e) & $0.99801$--$1.00064$ (4 cases) & No: both sides scale by $\kappa^2$ \\
+Pure log, $L(\lambda_e-\lambda_o)\Phi'(0)$ (N4) & mixed identity and $A^2=\frac1{2L}$ jointly & $\pm1.00000$ to $\pm1.00061$ (9 pairs) & No: $\kappa$ cancels \\
+Sector ratio $(A_o/A_e)^2$ vs.\ $\lambda_o'/\lambda_e'$ (N5) & ratio form of (H) & agreement within $0.5\%$ (4 cases) & No: $\kappa$ cancels \\
+Explicit formula of Thm.~1(3) (N7) & $A_+=\int v_qf_q$ & matches edge fit to $(1$--$3)\cdot10^{-5}$ & Tests Thm.~1(3), not the constant of (H) \\
+$-\lambda'/(2A^2)$, independent P0 code (13 cases) & (H) with constant 2 & within $3\cdot10^{-3}$ of 1 (base); within $6\cdot10^{-4}$ after refinement & \textbf{Yes}: a layer constant $\kappa$ would give ratio $\kappa$; $\kappa=1\pm3\cdot10^{-3}$ \\
+$-\lambda'/(2A^2)$, project hp-FEM (N9) & same & $0.9987$--$1.0024$ (about $1\%$ model uncertainty) & \textbf{Yes}, at the $1\%$ level \\
+$|\lambda'|/2A^2$, P1 tail states & same & $0.9960$--$1.0097$ (12 states) & \textbf{Yes}, at the $1\%$ level (edge grading $10^{-9}$ limits $A$) \\
+$D_{\rm fit}-D$, $D=\lambda+\log2\pi+\gamma$ (K1) & second-order edge law & $+0.0013$ to $+0.0049$ (registered main meshes); $+0.0039$, $+0.0051$ in the $L=1.0$ rerun & \textbf{Yes} at $\pm0.005$; would see a missing $\gamma$ or $\log2\pi$ \\
+\midrule
+\multicolumn{4}{l}{\emph{Kink law}}\\
+$\kappa_0$, generation 1 (K3, $k=1$) & jump coefficient $1$ & $0.9986$--$1.0019$; systematic error $\le0.002$ ($\le0.0043$ on the $L=1.0$ sensitivity mesh) & \textbf{Yes}, to about $0.2$--$0.4\%$ \\
+$\sigma_0$, side ratio, generation 1 & split $\frac23:-\frac13$ & $\sigma_0=0.3322$--$0.3346$; side $-1.9969$ to $-2.0035$ & \textbf{Yes}: excludes a one-sided germ ($\sigma_0=1$) and an odd one ($\sigma_0=0$) \\
+Generation 2 (K3, $k=2$) & $\frac35:-\frac25$, chain weight $W$ & $\kappa_0$ $0.991$--$1.005$; $\sigma_0$ $0.197$--$0.202$ & \textbf{Yes}, to about $1\%$ \\
+Offset $1/\rho_n-\ell\to-D-\beta_n$ (K6) & $D$ and boosts $\beta_n$ & $|{\rm dev}|\le0.0025$ at $L=0.6,0.8$; $\le0.0020$ at $L=1.0$ in the rerun (registered meshes: FAIL) & \textbf{Yes}: boosts $0.347$, $0.693$ resolved to $\pm0.003$ \\
+\midrule
+\multicolumn{4}{l}{\emph{Tail law}}\\
+$Z/P_1$, $\tau/\tau_{\rm pred}$ (T4 / Pred.~F) & $\lambda$-shifted second-order law & $Z/P_1=0.80$--$1.00$; $-8.7\%$ to $+0.03\%$ for $T\ge400$ & Coarsely: sees the $\lambda$-shift (factor $2$--$5$); blind to errors below about $10\%$ at $T\le10^4$ \\
+Sector split, $X=8$ & coefficient $2c_X$ & $\alpha/(2c_8)=1.04$--$1.37$, $\sigma\approx0.13$ & \textbf{Yes}, at $\pm30\%$; $\alpha=0$ excluded by $7$--$11\sigma$ \\
+Zero-side split, $X=2,3$ & $\pm c_X$ term with sector sign & with term $0.968$--$1.014$; without $0.86$--$0.91$ / $1.09$--$1.13$ & \textbf{Yes} for sign and size, at about $\pm30\%$ \\
+Leading law $\pi TZ\to|\lambda'|$ (T2) & first-order law & $\tau(6400)=0.47$--$0.81$ & No: not testable at $T\le10^4$ for these $\lambda$ \\
+\bottomrule
+\end{tabular}

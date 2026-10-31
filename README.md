@@ -2,7 +2,31 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23832559.svg)](https://doi.org/10.5281/zenodo.23832559)
 
-Research notes by Johann Alexander Botha (GenusCore, info@genuscore.com), version 0.1.2, 2026-10-31.
+Paper and research notes by Johann Alexander Botha (GenusCore, info@genuscore.com), version 0.2.0, 2026-10-31.
+
+## Paper (v0.2.0)
+
+**Edge laws, a Hadamard formula and kink singularities for eigenfunctions of the localized Weil quadratic form**, J. A. Botha, 31 October 2026.
+
+- PDF: [`paper/main.pdf`](paper/main.pdf) (52 pages; source [`paper/main.tex`](paper/main.tex), [`paper/refs.bib`](paper/refs.bib), tables and figure in [`paper/numerics/`](paper/numerics/)).
+- Numerical supplement: [`paper/supplement/README.md`](paper/supplement/README.md) (every script, registration and raw output behind Section 10; `sha256sum -c SHA256SUMS`).
+- Reviews and responses: [`reviews/`](reviews/).
+
+The paper is the consolidated version of the research notes below, with complete proofs. In plain terms, for the localized Weil form $Q_L$ (pole terms with any real weight) it proves:
+- **Edge law.** Every eigenfunction $\psi$ vanishes at the window edges like $A_\pm(\log\frac1r)^{-1/2}$, with a remainder $O(\ell^{-1})$ that is uniform on compact ranges of $L$, the pole weight and $\lambda$ (sharpened to $O(\ell^{-3/2})$), and with a **second-order term**: $\psi(\pm(L-r))=A_\pm(\log\frac1r-D)^{-1/2}+O(\log^{-5/2}\frac1r)$, $D=\lambda+\log2\pi+\gamma$.
+- **Hadamard formula.** $d\lambda/dL=-(A_+^2+A_-^2)$ with an explicit remainder, for eigenvalues that are simple only within their parity sector (even or odd), also where a new prime power enters; the proof uses an exact two-window cross identity. The formula itself was posted first, with its own proof, by the AI agent bramble_trace on rStation (riemann_hypothesis paper 67, 27 October 2026); the paper credits it and claims no priority for it.
+- **Kink law.** The prime terms copy the edge singularity into the interior: at $L-\log n$, and at every point reached from an edge by a chain of such shifts, $\psi$ has a logarithmic singularity with an explicit two-sided profile. For $L>\frac12\log6$ these points are dense, and $\psi$ is Hölder of no positive order on any interval when $A_\pm\ne0$.
+- **Tail laws over the zeta zeros.** First order: $\sum_{|t_\rho|>T}\hat\psi(\gamma_\rho)\hat\psi(-\gamma_\rho)=(A_+^2+A_-^2)/(\pi T)+O(1/(T\log T))$. Second order: the per-parity-sector term, proved in smoothed form (the sharp-cutoff form is open). Both are **unconditional**: no hypothesis on the location of the zeros is made.
+
+None of this proves or disproves the Riemann hypothesis. The laws are asymptotic and say nothing where $A_\pm=0$; for the true even ground state they say nothing quantitative at accessible scales.
+
+**Credited to others** (details in §1.2 of the paper): bramble_trace, rStation riemann_hypothesis paper 67 v1 (existence of the edge traces with an $L^\infty$ bound and a limit formula, the Hadamard formula, and the pure-log simplicity theorem; see the priority note below); the mathia research notes (the traces in substance, the question of a Hadamard law in edge stresses with conditional reductions, and a remainder of order $\ell^{-1}$ with a sketched step); Kwaśnicki (the $\ell^{-1/2}$ boundary law on a half-line); Eberwein (numerical observation of the kinks); Mori and Connes–Consani (cut points at $L-\log n$ in trial vectors); Mori, Groskin and Joubert (zero-side and frequency-tail bounds of order $\log T/T$, and a numerical precursor of the link between edge values and the zero-side tail). The statements for the true ground state on $(0,1.19]$ use the author's unrefereed computer-assisted simple-even theorem (see Related repositories).
+
+**Status.** Unrefereed preprint, AI-assisted (Anthropic's Claude, via Claude Code, directed by the author). Each proof went through repeated Claude-based referee passes, and the assembled text through further passes on proofs, novelty and citations, and exposition. On 31 October 2026 it was reviewed by a separate AI system, OpenAI's Codex (model GPT-6.1 Sol, high reasoning effort), whose verdict was release as a preprint after minor fixes, with no fatal or major mathematical error found in the principal results; its findings were addressed in this version (see [`reviews/`](reviews/)), and those changes have not been reviewed again. **No human expert has checked the proofs or the code.** Two pre-registered numerical tests failed in part as registered; all failures are reported.
+
+To rebuild the PDF: `cd paper && tectonic --keep-intermediates main.tex`, run twice (a single clean run can leave page references one pass short).
+
+## Research notes (v0.1.x)
 
 The localized Weil quadratic form restricts Weil's explicit-formula quadratic form for the Riemann zeta function to functions supported in a window $[-L,L]$. Its eigenfunctions vanish at the window edges like $A\,(\log\frac1{\text{distance}})^{-1/2}$. These notes study the edge trace $A$ and what it controls:
 - **(E) edge law** and **(H) Hadamard formula** $d\lambda/dL=-2A^2$, with a translation identity, a pure-log theorem and nonvanishing results;
@@ -39,6 +63,8 @@ The localized Weil quadratic form restricts Weil's explicit-formula quadratic fo
 
 | Path | What it is |
 |---|---|
+| [`paper/`](paper/) | The paper (v0.2.0): `main.pdf`, `main.tex`, `refs.bib`, the tables and figure it includes (`numerics/`), and the numerical supplement (`supplement/`, see its [`README.md`](paper/supplement/README.md)). |
+| [`reviews/`](reviews/) | The second review of the paper by OpenAI's Codex (`codex_review_2026-10-31.md`), the responses to it (`responses_codex1.md`), and the responses to the rStation priority sweep and final internal referee pass (`responses_rstation.md`). |
 | [`notes/edge_hadamard_note_v2.md`](notes/edge_hadamard_note_v2.md) | Edge law (E), Hadamard formula (H), translation identity, pure log symbol (simplicity, $A^2=1/(2L)$), nonvanishing. Full proofs, numerical checks, prior art. |
 | [`notes/tail_kink_laws_note.md`](notes/tail_kink_laws_note.md) | Kink law K1–K6 (Conjecture K7), tail law T0–T6, Conjectures L and R, numerical confirmation, prior art and credits, next steps. |
 | [`notes/referee_summary.md`](notes/referee_summary.md) | The internal (AI) final referee's verdict table and what still needs a specialist read. |
@@ -49,11 +75,17 @@ A companion paper on the pure-log case is in preparation; it is not part of this
 
 ## How to cite
 
-Archived on Zenodo. DOI for all versions (resolves to the newest): [10.5281/zenodo.23832559](https://doi.org/10.5281/zenodo.23832559); this version, v0.1.2: [10.5281/zenodo.23832560](https://doi.org/10.5281/zenodo.23832560).
+Archived on Zenodo. DOI for all versions (resolves to the newest): [10.5281/zenodo.23832559](https://doi.org/10.5281/zenodo.23832559); the research notes, v0.1.2: [10.5281/zenodo.23832560](https://doi.org/10.5281/zenodo.23832560).
+
+The paper:
+
+> J. A. Botha, *Edge laws, a Hadamard formula and kink singularities for eigenfunctions of the localized Weil quadratic form*, version 0.2.0, 2026-10-31, Zenodo, doi:10.5281/zenodo.23832559. Not peer-reviewed; AI-assisted.
+
+The research notes:
 
 > J. A. Botha, *Edge law, Hadamard formula, and echo and tail laws for eigenfunctions of the localized Weil quadratic form: research notes*, version 0.1.2, 2026-10-31, Zenodo, doi:10.5281/zenodo.23832560. Not peer-reviewed; AI-assisted.
 
-Machine-readable metadata are in [`CITATION.cff`](CITATION.cff). Please cite the credited prior work as well (bramble_trace's rStation paper 67, Eberwein, mathia, Kwaśnicki and others; see §14 of the edge-law note and §7 of the laws note).
+Machine-readable metadata are in [`CITATION.cff`](CITATION.cff). Please cite the credited prior work as well (bramble_trace's rStation paper 67, Eberwein, mathia, Kwaśnicki and others; see §1.2 of the paper, §14 of the edge-law note and §7 of the laws note).
 
 ## Related repositories
 

@@ -1,0 +1,18 @@
+% Absolute checks of the constant 2 in (H): -lambda'/(2A^2) = 1, with A from an edge fit and lambda' from finite
+% differences. Copied from note_v2 sec. 13.1 and note-v2/evidence.out (P0 code written during the final internal AI referee pass) and
+% from [NUM] (P1). The P0 refinement column applies the measured h0-shift (see the source); it assumes smooth,
+% additive mesh errors.
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{2.0cm}>{\raggedright\arraybackslash}p{3.7cm}>{\raggedright\arraybackslash}p{3.0cm}l}
+\toprule
+case & primes & states & base mesh & refined & code \\
+\midrule
+pure log, $L=0.5$ (companion paper) & none & $e_0$, $o_0$, $e_1$ & $2LA^2=1.00020$, $1.00043$, $1.00062$ & excess shrinks by $0.54$--$0.68$ per halving of $h_0$ & P0 \\
+Weil, $L=0.3$ & none active & $s=0$ e/o, $s=1$ e/o & $0.99982$, $0.99958$, $0.99949$, $0.99959$ & --- & P0 \\
+Weil, $L=0.4$, graded at $\pm(L-\log2)$ & $2$ & $s=0$ e/o, $s=1$ e/o & $0.99975$, $0.99876$, $0.99812$, $0.99887$ & $s=0$: $1.00020$, $1.00026$ & P0 \\
+Weil, $L=0.6$, graded & $2,3$ & $s=0$ e/o & $0.99969$, $0.99724$ & $1.00007$, $0.99943$ & P0 \\
+contrast: $L=0.4$, not graded at $L-\log2$ & $2$ & 4 states & $0.995$--$0.998$ & $0.9996$--$1.006$ & P0 \\
+\midrule
+Weil, $X=6,8,10$, 12 tail states & all $n<X$ & $s=-1,0,5,20$ & $0.9960$--$1.0097$ & --- & P1 \\
+Weil, $L=0.36$--$0.7$ & as active & $k=0,1$, $s=0,1$ & $0.9987$--$1.0024$ & --- & hp-FEM \\
+\bottomrule
+\end{tabular}

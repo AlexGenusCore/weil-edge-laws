@@ -1,0 +1,1338 @@
+% refs_verified.bib -- combined paper (edge law, Hadamard formula, kink and tail laws
+% for the localized Weil form). Built 2026-10-31 by the prior-art reader; see prior_art.md.
+% Part 1 is copied from papers/purelog/work/refs_verified.bib (verified 2026-10-31 there:
+%   DOIs via doi.org/Crossref, arXiv ids via arXiv); three notes were extended (HLS25, DFW24, BPS24).
+% Part 2 is new: DOIs resolved via the Crossref API, Zenodo records via the Zenodo API,
+%   GitHub dates via the GitHub API, arXiv data from arxiv.org/abs pages (2026-10-31).
+% Descriptive notes are in the non-printing field "annote"; "note" is used only to print "Unrefereed".
+% Status tags in annotes: [read] full text read; [ref] data taken from another paper's bibliography;
+%   [abs] abstract only; [meta] metadata only. Items without a tag in Part 2 were resolved and are standard.
+% Unrefereed 2026 deposits are marked "Unrefereed".
+
+%% ######################## Part 1: reused (order-zero potential theory, log-Laplacian, fractional) ########################
+
+@article{CW19,
+  author  = {Chen, Huyuan and Weth, Tobias},
+  title   = {The {D}irichlet problem for the logarithmic {L}aplacian},
+  journal = {Comm. Partial Differential Equations},
+  volume  = {44},
+  number  = {11},
+  pages   = {1100--1139},
+  year    = {2019},
+  doi     = {10.1080/03605302.2019.1611851},
+  eprint  = {1710.03416},
+  archivePrefix = {arXiv},
+  annote = {Thm 1.4(iii): lambda_1 simple; Thm 1.11: |u|=O(log^{-tau}(1/dist)), tau<1/2 (arXiv v6)}
+}
+
+@article{LW21,
+  author  = {Laptev, Ari and Weth, Tobias},
+  title   = {Spectral properties of the logarithmic {L}aplacian},
+  journal = {Anal. Math. Phys.},
+  volume  = {11},
+  number  = {3},
+  pages   = {Paper No. 133},
+  year    = {2021},
+  doi     = {10.1007/s13324-021-00527-y},
+  annote = {Lemma 2.5: lambda_k(R Omega)=lambda_k(Omega)-log R for H=L_Delta/2; intro: lambda_k <= (1/2) log lambda_k^D (preprint numbering)}
+}
+
+@article{FJW22,
+  author  = {Feulefack, Pierre Aime and Jarohs, Sven and Weth, Tobias},
+  title   = {Small order asymptotics of the {D}irichlet eigenvalue problem for the fractional {L}aplacian},
+  journal = {J. Fourier Anal. Appl.},
+  volume  = {28},
+  number  = {2},
+  pages   = {Paper No. 18},
+  year    = {2022},
+  doi     = {10.1007/s00041-022-09908-8},
+  eprint  = {2010.10448},
+  archivePrefix = {arXiv},
+  annote = {Thm 1.1: lambda_{k,s}=1+s lambda_{k,L}+o(s); Cor 1.4: eigenfunctions in L^infty cap C_0; Rem 1.2(iii): optimal uniform-in-s boundary rate open; Rem 1.5}
+}
+
+@article{HLS25,
+  author  = {Hern{\'a}ndez-Santamar{\'i}a, V{\'i}ctor and L{\'o}pez R{\'i}os, Luis Fernando and Salda{\~n}a, Alberto},
+  title   = {Optimal boundary regularity and a {H}opf-type lemma for {D}irichlet problems involving the logarithmic {L}aplacian},
+  journal = {Discrete Contin. Dyn. Syst.},
+  volume  = {45},
+  number  = {1},
+  pages   = {1--36},
+  year    = {2025},
+  doi     = {10.3934/dcds.2024084},
+  eprint  = {2401.18033},
+  archivePrefix = {arXiv},
+  annote = {note_v2 calls this [HLS24] (arXiv 2024). Thm 1.1: |u| <= C ell^{1/2}(dist), ell=1/|ln d|; Thm 1.2: ball torsion two-sided and 0<liminf<infty; Thm 1.4: Hopf liminf>0. No limit.}
+}
+
+@article{HJSS25,
+  author  = {Hern{\'a}ndez-Santamar{\'i}a, V{\'i}ctor and Jarohs, Sven and Salda{\~n}a, Alberto and Sinsch, Leonard},
+  title   = {{FEM} for {1D}-problems involving the logarithmic {L}aplacian: error estimates and numerical implementation},
+  journal = {Comput. Math. Appl.},
+  volume  = {192},
+  pages   = {189--211},
+  year    = {2025},
+  doi     = {10.1016/j.camwa.2025.05.013},
+  eprint  = {2311.13079},
+  archivePrefix = {arXiv},
+  annote = {Prop 1.3/7.1: lambda_k=2 ln(L_k/L); six eigenvalues of L_Delta on (-1,1) (arXiv v3)}
+}
+
+@misc{AGV24,
+  author  = {Arora, Rakesh and Giacomoni, Jacques and Vaishnavi, Arshi},
+  title   = {Nonlocal elliptic equations involving logarithmic {L}aplacian: existence, non-existence and uniqueness results},
+  year    = {2024},
+  howpublished = {arXiv:2411.15985},
+  eprint  = {2411.15985},
+  archivePrefix = {arXiv},
+  annote = {v1 (24 Nov 2024) Thm 2.3 / Cor 3.8 claimed a Pohozaev identity with boundary term u^2 ln(delta^{-2}) (x.nu), assuming the trace exists. Withdrawn in v2 (26 Apr 2025): "crucial error in Proof of Pohozaev identity". SSRN copy: doi 10.2139/ssrn.5067144}
+}
+
+@article{ClS24,
+  author  = {Chang-Lara, H{\'e}ctor A. and Salda{\~n}a, Alberto},
+  title   = {Classical solutions to integral equations with zero order kernels},
+  journal = {Math. Ann.},
+  volume  = {389},
+  number  = {2},
+  pages   = {1463--1515},
+  year    = {2024},
+  doi     = {10.1007/s00208-023-02677-9},
+  eprint  = {2208.12841},
+  archivePrefix = {arXiv},
+  annote = {interior regularity, zero-order kernels}
+}
+
+@misc{BRSS26,
+  author  = {Biswas, Anup and Roy, Subhajit and Sen, Aniket and Sharma, Lovelesh},
+  title   = {H{\"o}lder regularity and {H}arnack inequality for the logarithmic {L}aplacian},
+  year    = {2026},
+  howpublished = {arXiv:2608.07315},
+  eprint  = {2608.07315},
+  archivePrefix = {arXiv},
+  annote = {interior Schauder and Harnack only}
+}
+
+@article{JKW26,
+  author  = {Jarohs, Sven and Kassmann, Moritz and Weth, Tobias},
+  title   = {Continuity of solutions to equations with weakly singular nonlocal operators},
+  journal = {Trans. Amer. Math. Soc.},
+  volume  = {379},
+  pages   = {7097--7128},
+  year    = {2026},
+  doi     = {10.1090/tran/9675},
+  eprint  = {2311.15337},
+  archivePrefix = {arXiv}
+}
+
+@article{RS14,
+  author  = {Ros-Oton, Xavier and Serra, Joaquim},
+  title   = {The {P}ohozaev identity for the fractional {L}aplacian},
+  journal = {Arch. Ration. Mech. Anal.},
+  volume  = {213},
+  pages   = {587--628},
+  year    = {2014},
+  doi     = {10.1007/s00205-014-0740-2},
+  eprint  = {1207.5986},
+  archivePrefix = {arXiv},
+  annote = {Thm 1.1: Pohozaev identity with boundary term Gamma(1+s)^2 (u/delta^s)^2; Prop 1.6}
+}
+
+@article{DFW21,
+  author  = {Djitte, Sidy Moctar and Fall, Mouhamed Moustapha and Weth, Tobias},
+  title   = {A fractional {H}adamard formula and applications},
+  journal = {Calc. Var. Partial Differential Equations},
+  volume  = {60},
+  pages   = {Paper No. 231},
+  year    = {2021},
+  doi     = {10.1007/s00526-021-02094-3},
+  eprint  = {2002.07719},
+  archivePrefix = {arXiv},
+  annote = {Thm 1.1 / Cor 1.2: shape derivative of principal fractional eigenvalue; Rem 2.5: log-Laplacian used only to compute kappa_s}
+}
+
+@article{DFW24,
+  author  = {Djitte, Sidy Moctar and Fall, Mouhamed Moustapha and Weth, Tobias},
+  title   = {A generalized fractional {P}ohozaev identity and applications},
+  journal = {Adv. Calc. Var.},
+  volume  = {17},
+  number  = {1},
+  pages   = {237--253},
+  year    = {2024},
+  doi     = {10.1515/acv-2022-0003},
+  eprint  = {2112.10653},
+  archivePrefix = {arXiv},
+  annote = {note_v2 calls this [DFW22]}
+}
+
+@article{BPS24,
+  author  = {Benguria, Rafael D. and Pereira, Marcone C. and S{\'a}ez, Mariel},
+  title   = {The {H}adamard formula for nonlocal eigenvalue problems},
+  journal = {Math. Ann.},
+  volume  = {389},
+  pages   = {1225--1253},
+  year    = {2024},
+  doi     = {10.1007/s00208-023-02673-z},
+  eprint  = {2208.14979},
+  archivePrefix = {arXiv},
+  annote = {Hadamard formula for simple eigenvalues of nonlocal problems with integrable (non-singular) kernels [abs]}
+}
+
+@article{FGMP23,
+  author  = {Fall, Mouhamed Moustapha and Ghimenti, Marco and Micheletti, Anna Maria and Pistoia, Angela},
+  title   = {Generic properties of eigenvalues of the fractional {L}aplacian},
+  journal = {Calc. Var. Partial Differential Equations},
+  volume  = {62},
+  pages   = {Paper No. 233},
+  year    = {2023},
+  doi     = {10.1007/s00526-023-02574-8},
+  eprint  = {2304.07335},
+  archivePrefix = {arXiv},
+  annote = {Cor 2: all Dirichlet eigenvalues of (-Delta)^s, s in (0,1), on an interval are simple (arXiv v3)}
+}
+
+@misc{Kw23,
+  author  = {Kwa{\'s}nicki, Mateusz},
+  title   = {Simplicity of eigenvalues of the fractional {L}aplace operator in an interval},
+  year    = {2023},
+  howpublished = {arXiv:2311.00713},
+  eprint  = {2311.00713},
+  archivePrefix = {arXiv},
+  annote = {one-page proof via Ros-Oton--Serra Pohozaev identity (v2, 25 Sep 2026)}
+}
+
+@misc{KW26,
+  author  = {Kwa{\'s}nicki, Mateusz and Wszo{\l}a, Jacek},
+  title   = {{D}irichlet--{N}eumann bracketing for nonlocal operators},
+  year    = {2026},
+  howpublished = {arXiv:2609.24892},
+  eprint  = {2609.24892},
+  archivePrefix = {arXiv},
+  annote = {Thm 1.1: psi(mu_n^N) <= lambda_n <= psi(mu_n^D) for every CBF psi, strict unless psi meromorphic on C\{0}; Thm 1.2: interval eigenvalues of psi(-Delta) simple; Lemma 2.4: strictness mechanism. Covers log(1+xi), not log(xi).}
+}
+
+@article{Kw11,
+  author  = {Kwa{\'s}nicki, Mateusz},
+  title   = {Spectral analysis of subordinate {B}rownian motions on the half-line},
+  journal = {Studia Math.},
+  volume  = {206},
+  number  = {3},
+  pages   = {211--271},
+  year    = {2011},
+  doi     = {10.4064/sm206-3-2},
+  eprint  = {1006.0524},
+  archivePrefix = {arXiv},
+  annote = {Thm 1.1 half-line generalised eigenfunctions; Lemma 3.8 Wiener-Hopf; Lemma 4.27 exact edge law incl. order 0; Ex 6.4 variance gamma (arXiv v4 numbering)}
+}
+
+@article{GK18,
+  author  = {Grzywny, Tomasz and Kwa{\'s}nicki, Mateusz},
+  title   = {Potential kernels, probabilities of hitting a ball, harmonic functions and the boundary {H}arnack inequality for unimodal {L}{\'e}vy processes},
+  journal = {Stochastic Process. Appl.},
+  volume  = {128},
+  number  = {1},
+  pages   = {1--38},
+  year    = {2018},
+  doi     = {10.1016/j.spa.2017.04.004},
+  eprint  = {1611.10304},
+  archivePrefix = {arXiv},
+  annote = {Thm 1.9 BHI; Thm 1.11 boundary limits of f/E^x tau for nonnegative regular harmonic f; Rem 1.12(b)}
+}
+
+@article{GR12,
+  author  = {Grzywny, Tomasz and Ryznar, Micha{\l}},
+  title   = {Potential theory of one-dimensional geometric stable processes},
+  journal = {Colloq. Math.},
+  volume  = {129},
+  number  = {1},
+  pages   = {7--40},
+  year    = {2012},
+  doi     = {10.4064/cm129-1-2},
+  eprint  = {1107.0745},
+  archivePrefix = {arXiv},
+  annote = {Lemma 4.3 Silverstein half-line Green function; Lemma 4.1, Thm 5.5 two-sided bounds}
+}
+
+@article{KM14,
+  author  = {Kim, Panki and Mimica, Ante},
+  title   = {Green function estimates for subordinate {B}rownian motions: stable and beyond},
+  journal = {Trans. Amer. Math. Soc.},
+  volume  = {366},
+  number  = {8},
+  pages   = {4383--4422},
+  year    = {2014},
+  doi     = {10.1090/S0002-9947-2014-06017-0},
+  eprint  = {1208.5112},
+  archivePrefix = {arXiv}
+}
+
+@article{BGR15,
+  author  = {Bogdan, Krzysztof and Grzywny, Tomasz and Ryznar, Micha{\l}},
+  title   = {Barriers, exit time and survival probability for unimodal {L}{\'e}vy processes},
+  journal = {Probab. Theory Related Fields},
+  volume  = {162},
+  pages   = {155--198},
+  year    = {2015},
+  doi     = {10.1007/s00440-014-0568-6},
+  eprint  = {1307.0270},
+  archivePrefix = {arXiv}
+}
+
+@article{KMR13,
+  author  = {Kwa{\'s}nicki, Mateusz and Ma{\l}ecki, Jacek and Ryznar, Micha{\l}},
+  title   = {Suprema of {L}{\'e}vy processes},
+  journal = {Ann. Probab.},
+  volume  = {41},
+  number  = {3B},
+  pages   = {2047--2065},
+  year    = {2013},
+  doi     = {10.1214/11-AOP719},
+  eprint  = {1103.0935},
+  archivePrefix = {arXiv},
+  annote = {Prop 4.5: for CBF exponents V is Bernstein, V' completely monotone}
+}
+
+@article{KwM18,
+  author  = {Kwa{\'s}nicki, Mateusz and Mucha, Jacek},
+  title   = {Extension technique for complete {B}ernstein functions of the {L}aplace operator},
+  journal = {J. Evol. Equ.},
+  volume  = {18},
+  number  = {3},
+  pages   = {1341--1379},
+  year    = {2018},
+  doi     = {10.1007/s00028-018-0444-4},
+  eprint  = {1707.02475},
+  archivePrefix = {arXiv}
+}
+
+@book{Bertoin96,
+  author    = {Bertoin, Jean},
+  title     = {L{\'e}vy Processes},
+  series    = {Cambridge Tracts in Mathematics},
+  volume    = {121},
+  publisher = {Cambridge University Press},
+  year      = {1996},
+  isbn      = {0-521-56243-0},
+  annote = {Thm VI.20 (Silverstein). ISBN verified via Open Library}
+}
+
+@book{SSV12,
+  author    = {Schilling, Ren{\'e} L. and Song, Renming and Vondra{\v{c}}ek, Zoran},
+  title     = {Bernstein Functions: Theory and Applications},
+  edition   = {2},
+  series    = {De Gruyter Studies in Mathematics},
+  volume    = {37},
+  publisher = {De Gruyter},
+  year      = {2012},
+  doi       = {10.1515/9783110269338}
+}
+
+@book{BGT87,
+  author    = {Bingham, N. H. and Goldie, C. M. and Teugels, J. L.},
+  title     = {Regular Variation},
+  series    = {Encyclopedia of Mathematics and its Applications},
+  volume    = {27},
+  publisher = {Cambridge University Press},
+  year      = {1987},
+  doi       = {10.1017/CBO9780511721434},
+  annote = {Thm 1.7.1 (Karamata Tauberian theorem)}
+}
+
+@book{Kato95,
+  author    = {Kato, Tosio},
+  title     = {Perturbation Theory for Linear Operators},
+  series    = {Classics in Mathematics},
+  publisher = {Springer},
+  address   = {Berlin},
+  year      = {1995},
+  doi       = {10.1007/978-3-642-66282-9},
+  annote = {reprint of the 2nd ed.; Thm VI.2.1}
+}
+
+@book{FOT11,
+  author    = {Fukushima, Masatoshi and Oshima, Yoichi and Takeda, Masayoshi},
+  title     = {Dirichlet Forms and Symmetric {M}arkov Processes},
+  edition   = {2},
+  publisher = {De Gruyter},
+  address   = {Berlin},
+  year      = {2011},
+  doi       = {10.1515/9783110218091}
+}
+
+%% ######################## Part 2: new for the combined paper ########################
+
+%% ================= Weil form: classical =================
+
+@article{Wei52,
+  author    = {Weil, Andr{\'e}},
+  title     = {Sur les ``formules explicites'' de la th{\'e}orie des nombres premiers},
+  journal   = {Comm. S{\'e}m. Math. Univ. Lund [Medd. Lunds Univ. Mat. Sem.]},
+  volume    = {1952, Tome suppl{\'e}mentaire},
+  year      = {1952},
+  pages     = {252--265},
+  annote = {[ref] data as in Suzuki arXiv:2606.09096 ref. [15]; reprinted in Oeuvres Scientifiques, Springer 1979, 570--583 (Crossref 10.1007/978-1-4757-1705-1_60)}
+}
+
+@article{Wei72,
+  author  = {Weil, Andr{\'e}},
+  title   = {Sur les formules explicites de la th{\'e}orie des nombres},
+  journal = {Izv. Akad. Nauk SSSR Ser. Mat.},
+  volume  = {36},
+  year    = {1972},
+  pages   = {3--18},
+  annote = {English: Math. USSR-Izv. 6 (1972) 1--17, doi 10.1070/IM1972v006n01ABEH001866 (Crossref)}
+}
+
+@incollection{Yos92,
+  author    = {Yoshida, Hiroyuki},
+  title     = {On {H}ermitian forms attached to zeta functions},
+  booktitle = {Zeta Functions in Geometry ({T}okyo, 1990)},
+  series    = {Adv. Stud. Pure Math.},
+  volume    = {21},
+  publisher = {Kinokuniya, Tokyo},
+  year      = {1992},
+  pages     = {281--325},
+  doi       = {10.2969/aspm/02110281},
+  annote = {Lemma 2: positivity for small support; RH iff nondegeneracy for every a (as restated in Suzuki arXiv:2606.09096, Sec. 1) [ref]}
+}
+
+@article{Bom00,
+  author  = {Bombieri, Enrico},
+  title   = {Remarks on {W}eil's quadratic functional in the theory of prime numbers. {I}},
+  journal = {Atti Accad. Naz. Lincei Cl. Sci. Fis. Mat. Natur. Rend. Lincei (9) Mat. Appl.},
+  volume  = {11},
+  number  = {3},
+  year    = {2000},
+  pages   = {183--233},
+  annote = {Thm 5: continuity in a of parity-sector infima, asserted (per Suzuki arXiv:2606.09096, Sec. 1) [ref; not read]}
+}
+
+@article{Bom03,
+  author  = {Bombieri, Enrico},
+  title   = {A variational approach to the explicit formula},
+  journal = {Comm. Pure Appl. Math.},
+  volume  = {56},
+  number  = {8},
+  year    = {2003},
+  pages   = {1151--1164},
+  doi     = {10.1002/cpa.10089},
+  annote = {Thm 4.4 (per Suzuki arXiv:2606.09096, Sec. 1) [ref; not read]}
+}
+
+%% ================= Weil form: Connes et al. =================
+
+@article{CC20,
+  author  = {Connes, Alain and Consani, Caterina},
+  title   = {Weil positivity and trace formula, the archimedean place},
+  journal = {Selecta Math. (N.S.)},
+  volume  = {27},
+  number  = {4},
+  pages   = {Paper No. 77},
+  year    = {2021},
+  doi     = {10.1007/s00029-021-00689-4},
+  eprint  = {2006.13771},
+  archivePrefix = {arXiv},
+  annote = {archimedean positivity on [2^{-1/2},2^{1/2}] (restated as Connes arXiv:2602.04022 Thm 7.1)}
+}
+
+@article{CC21,
+  author  = {Connes, Alain and Consani, Caterina},
+  title   = {Spectral triples and {$\zeta$}-cycles},
+  journal = {Enseign. Math.},
+  volume  = {69},
+  number  = {1-2},
+  pages   = {93--148},
+  year    = {2023},
+  doi     = {10.4171/LEM/1049},
+  eprint  = {2106.01715},
+  archivePrefix = {arXiv},
+  annote = {[read arXiv v1] Sec. 2: Prop 2.1 (QW_lambda), Prop 2.3, Cor 2.4, Lemma 2.5; Secs 2.2-2.4 sign changes as primes are added; Sec. 2.5 small eigenvalues; Sec. 3 eq. (3.1) map E and prolate approximants; Thm 6.4. Window [lambda^{-1},lambda], L_ours = log lambda}
+}
+
+@article{CCM23,
+  author  = {Connes, Alain and Consani, Caterina and Moscovici, Henri},
+  title   = {Zeta zeros and prolate wave operators},
+  journal = {Ann. Funct. Anal.},
+  volume  = {15},
+  number  = {4},
+  pages   = {Paper No. 87},
+  year    = {2024},
+  doi     = {10.1007/s43034-024-00388-z},
+  eprint  = {2310.18423},
+  archivePrefix = {arXiv},
+  annote = {semilocal prolate operator, Sonin spaces (Thms 4.1, 4.6) [read arXiv v2]; context only}
+}
+
+@incollection{CCM25,
+  author    = {Connes, Alain and Consani, Caterina and Moscovici, Henri},
+  title     = {Zeta spectral triples},
+  booktitle = {Applications of Noncommutative Geometry to Gauge Theories, Field Theories, and Quantum Space-Time},
+  series    = {EMS Ser. Lect. Math.},
+  publisher = {EMS Press},
+  year      = {2026},
+  pages     = {39--76},
+  doi       = {10.4171/ELM/37/3},
+  eprint    = {2511.22755},
+  archivePrefix = {arXiv},
+  annote = {[read arXiv v1; journal data Crossref] Thm 1.1 (finite N; normalisation delta_N(xi)=1 by a Dirichlet-kernel boundary evaluation); Thm 3.6; Cor 3.7 with monotonicity (3.27); Cor 3.8; Lemma 5.2; Thm 5.10; Lemmas 7.1-7.3; Sec. 8 missing steps. Theorem numbers from arXiv}
+}
+
+@article{CvS,
+  author  = {Connes, Alain and van Suijlekom, Walter D.},
+  title   = {Quadratic forms, real zeros and echoes of the spectral action},
+  journal = {Comm. Math. Phys.},
+  volume  = {406},
+  number  = {12},
+  pages   = {Paper No. 312},
+  year    = {2025},
+  doi     = {10.1007/s00220-025-05493-1},
+  eprint  = {2511.23257},
+  archivePrefix = {arXiv},
+  annote = {[read arXiv v1] Thm 1.2 = Thm 6.1 (simple isolated lowest eigenvalue, even eigenfunction => real zeros); Lemma 5.1. Their L is 2L_ours}
+}
+
+@article{CM22,
+  author  = {Connes, Alain and Moscovici, Henri},
+  title   = {The {UV} prolate spectrum matches the zeros of zeta},
+  journal = {Proc. Natl. Acad. Sci. USA},
+  volume  = {119},
+  number  = {22},
+  pages   = {Paper No. e2123174119},
+  year    = {2022},
+  doi     = {10.1073/pnas.2123174119},
+  annote = {[meta] context only; apparently the published form of arXiv:2112.05500 (titles differ; not checked)}
+}
+
+@misc{Connes26,
+  author  = {Connes, Alain},
+  title   = {The {R}iemann {H}ypothesis: past, present and a letter through time},
+  year    = {2026},
+  howpublished = {arXiv:2602.04022},
+  eprint  = {2602.04022},
+  archivePrefix = {arXiv},
+  annote = {[read v1] Sec. 6.1 Thm 6.1; Sec. 6.3 Fact 6.3; Sec. 6.4 eqs (16)-(17), footnote 20; Sec. 6.5 Fact 6.4; Sec. 6.6 remaining steps; Sec. 7.2 Thm 7.1. Submitted to J. Open Math. Problems}
+}
+
+%% ================= Weil form: Suzuki =================
+
+@misc{Suz26,
+  author  = {Suzuki, Masatoshi},
+  title   = {Weil's quadratic form via the screw function},
+  year    = {2026},
+  howpublished = {arXiv:2606.09096},
+  eprint  = {2606.09096},
+  archivePrefix = {arXiv},
+  annote = {[read v3, 23 Sep 2026] Thm 1.1 (Friedrichs extension); Thm 1.3 (lambda_a continuous in a); Thm 1.4 (small a: lambda_a = log(1/a)+mu_1-log 2pi+psi(2)-1+O(a), simple, even); Thm 1.5; Cor 1.6; eq. (2.2); eq. (2.11) (+-log n shifts); Prop 4.1}
+}
+
+@misc{Suz26b,
+  author  = {Suzuki, Masatoshi},
+  title   = {Spectral convergence associated with {W}eil's quadratic form},
+  year    = {2026},
+  howpublished = {arXiv:2610.32704},
+  eprint  = {2610.32704},
+  archivePrefix = {arXiv},
+  annote = {[read v1, 23 Oct 2026] under RH: Thm 1.1 (t_{a,n} >= gamma_n, decreasing to gamma_n), Thm 1.2 (limit of W(a,pi;z)/W(a,pi;0)). No edge, Hadamard or tail statement}
+}
+
+@article{Suz23,
+  author  = {Suzuki, Masatoshi},
+  title   = {Aspects of the screw function corresponding to the {R}iemann zeta function},
+  journal = {J. Lond. Math. Soc. (2)},
+  volume  = {108},
+  number  = {4},
+  pages   = {1448--1487},
+  year    = {2023},
+  doi     = {10.1112/jlms.12785},
+  eprint  = {2206.03682},
+  archivePrefix = {arXiv}
+}
+
+@article{Suz25,
+  author  = {Suzuki, Masatoshi},
+  title   = {On the {H}ilbert space derived from the {W}eil distribution},
+  journal = {Canad. J. Math.},
+  year    = {2025},
+  pages   = {1--24},
+  doi     = {10.4153/S0008414X25101739},
+  eprint  = {2301.00421},
+  archivePrefix = {arXiv},
+  annote = {FirstView; merged with arXiv:2209.04658}
+}
+
+@misc{Suz23s,
+  author  = {Suzuki, Masatoshi},
+  title   = {Analytic theories around the simplest screw},
+  year    = {2023},
+  howpublished = {arXiv:2308.11860},
+  eprint  = {2308.11860},
+  archivePrefix = {arXiv},
+  annote = {survey, ``contains no new results'' (v2, 13 Jun 2026) [abs]}
+}
+
+%% ================= Weil form: 2026 computations and deposits (all unrefereed) =================
+
+@misc{GS,
+  author = {Botha, Johann Alexander},
+  title  = {A certified simple, even ground state of the localized {W}eil quadratic form for all windows {$L\in(0,1.19]$}},
+  year   = {2026},
+  howpublished = {Computer-assisted note, release of 2026-10-26, \url{https://github.com/AlexGenusCore/weil-ground-state-simple-even} (commit 8adfbe5)},
+  annote = {Unrefereed. Cite exactly the range (0,1.19]. The draft extending to 1.5 is not public},
+  note   = {Unrefereed}
+}
+
+@misc{BPL,
+  author = {Botha, Johann Alexander},
+  title  = {Boundary trace and simplicity of the {D}irichlet spectrum of the logarithmic {L}aplacian on an interval},
+  howpublished = {preprint, 2026; to be posted at \url{https://github.com/AlexGenusCore}},
+  annote = {Cited for comparison only; no proof in this paper depends on it. Thm A (boundary trace), Thm B (A_+^2=A_-^2=||u||^2/|I|), Thm C (simplicity), Cor D (mixed identity)}
+}
+
+@misc{Zhu,
+  author = {Zhu, Xuefeng},
+  title  = {Weil positivity in compact windows: a finite reduction, certified two-sided bounds, and a {L}andau--{W}idom decay law},
+  year   = {2026},
+  howpublished = {arXiv:2608.24827},
+  eprint = {2608.24827},
+  archivePrefix = {arXiv},
+  annote = {v2 (2 Sep 2026) [read]: Thm 1.1 reduction; Thm 6.2 simple-even at L=0.8; Table 3; Lemma 3.2; Sec. 7}
+}
+
+@misc{Elston,
+  author = {Elston, Zac},
+  title  = {Weil positivity on finite windows across {L}-functions: certified windows, a pre-registered decay law, and an unconditional bound for {D}irichlet {L}-functions},
+  year   = {2026},
+  howpublished = {Technical report and code, version 1.1.0 (6 Oct 2026), \url{https://github.com/zacharyelston/weil-windows}},
+  doi    = {10.5281/zenodo.23174403},
+  annote = {Concept DOI 10.5281/zenodo.23163863. Unrefereed. docs/CERTIFICATE_238.md: certified per-sector lower bounds at a=1.19 (audited), 1.3, 1.495 (even >= 3.50114217641e-96 at 1.495); no simplicity claim},
+  note   = {Unrefereed}
+}
+
+@misc{Liu,
+  author = {Liu, Vincent},
+  title  = {Certified {W}eil positivity beyond the unit window: source-exact block-{S}chur and tail-compensation bounds for the {R}iemann zeta function},
+  year   = {2026},
+  howpublished = {Manuscript submitted to Math. Comp. (14 Sep 2026); \url{https://github.com/luciferyu666/certified-weil-positivity}, release v1.0-mcom-submission},
+  annote = {Unrefereed. 2^{-151} at half-width 1; 2^{-49162} at half-width 17/16 [read abstract]},
+  note   = {Unrefereed}
+}
+
+@misc{MoriI,
+  author = {Mori, Ryota},
+  title  = {A non-asymptotic bound with the sharp power of $c$ for the eigenvalue defect $1-\lambda_n(c)$ of time and frequency limiting},
+  year   = {2026},
+  howpublished = {Zenodo, version 2 (10 Oct 2026); \url{https://github.com/moriryota/prolate-weil-bounds}},
+  doi    = {10.5281/zenodo.23282841},
+  annote = {Unrefereed},
+  note   = {Unrefereed}
+}
+
+@misc{MoriII,
+  author = {Mori, Ryota},
+  title  = {The {W}eil quadratic form of the {C}onnes--{C}onsani--{M}oscovici prolate vector, and a $\mu^8$ upper bound for windowed {W}eil forms},
+  year   = {2026},
+  howpublished = {Zenodo, version 3 (10 Oct 2026); \url{https://github.com/moriryota/prolate-weil-bounds}},
+  doi    = {10.5281/zenodo.23282913},
+  annote = {Unrefereed. Thms C, D, E; App. A, ``Variation'': jumps of k_n(y)=e^{y/2}h(ne^y) at the window endpoints and at its cut point [read LaTeX source]},
+  note   = {Unrefereed}
+}
+
+@misc{MoriIII,
+  author = {Mori, Ryota},
+  title  = {An endpoint-smoothed prolate vector and a $\mu^{9/2}(\log\mu)^4$ upper bound for windowed {W}eil forms},
+  year   = {2026},
+  howpublished = {Zenodo, version 3 (10 Oct 2026); \url{https://github.com/moriryota/prolate-weil-bounds}},
+  doi    = {10.5281/zenodo.23282857},
+  annote = {Unrefereed. Thms F, G; Sec. ``The zero sum'': endpoint-trace contribution <= 4 lambda J^2 (log T+1)/(pi T) above height T [read LaTeX source]},
+  note   = {Unrefereed}
+}
+
+@misc{MoriVIII,
+  author = {Mori, Ryota},
+  title  = {Weil positivity on the window of width $\log 15$},
+  year   = {2026},
+  howpublished = {Zenodo (10 Oct 2026)},
+  doi    = {10.5281/zenodo.23281236},
+  annote = {Unrefereed; certificate data doi 10.5281/zenodo.23281176},
+  note   = {Unrefereed}
+}
+
+@misc{KB,
+  author = {Kramarenko-Byrd, Pavel V.},
+  title  = {Restricted {W}eil ground states and real {F}ourier zeros: a form-core criterion and a certified interval of supports},
+  year   = {2026},
+  howpublished = {Zenodo record 23007100, version 1.0 (27 Sep 2026)},
+  annote = {Unrefereed; claims simple-even for 0<L<=4/5 [meta]},
+  note   = {Unrefereed}
+}
+
+@misc{And1,
+  author = {de Andrade Silva, Breno Wilson},
+  title  = {The pole term is the only obstruction to {P}erron structure in the localized {W}eil quadratic form: a rank-two splitting and a scalar criterion for the bottom eigenvalue},
+  year   = {2026},
+  howpublished = {Zenodo record 20682834 (13 Jun 2026)},
+  annote = {Unrefereed [abs]. Perron structure of the pole-removed form; Beurling-Deny threshold ~0.1406},
+  note   = {Unrefereed}
+}
+
+@misc{And3,
+  author = {de Andrade Silva, Breno Wilson},
+  title  = {A scalar {H}erglotz criterion for the even-simplicity hypothesis in the localized {W}eil quadratic form},
+  year   = {2026},
+  howpublished = {Zenodo record 20694588 (15 Jun 2026)},
+  annote = {Unrefereed [abs]. Rank-one reduction of even-simplicity to Herglotz functions},
+  note   = {Unrefereed}
+}
+
+@misc{Kim26,
+  author = {Kim, Taebong and Hong, Youngsik and Kim, Minsik and Choi, Sunyoung and Jang, Jaewon and Kim, Minseo},
+  title  = {A numerical realization of {S}uzuki's {W}eil-quadratic-form operator: the archimedean spectral law, its universality, and an operator form of {W}eil's positivity criterion},
+  year   = {2026},
+  howpublished = {arXiv:2607.24830},
+  eprint = {2607.24830},
+  archivePrefix = {arXiv},
+  annote = {[read v3, 28 Sep 2026] Sec. 5.2 (boundary exponent: numerically undetermined, ``a Wiener-Hopf analysis is required''); Sec. 5.4 open problem ``analytic determination of the boundary exponent''; R7}
+}
+
+@misc{Gro26,
+  author = {Groskin, Akiva},
+  title  = {A finite {G}uinand--{W}eil dictionary and archimedean tail order for the truncated {W}eil quadratic form},
+  year   = {2026},
+  howpublished = {arXiv:2607.02828},
+  eprint = {2607.02828},
+  archivePrefix = {arXiv},
+  annote = {[read v3, 14 Aug 2026] Thm 2.5 (exact zero-sum value of the truncated form on Galerkin vectors); Thm 3.2, Cor 3.3 (archimedean tail budget ~ log T/T)}
+}
+
+@misc{Eb,
+  author = {Eberwein, Logan},
+  title  = {The truncated {W}eil quadratic form: inertia, visibility, structural measurements, and no-go theorems for the {R}iemann {H}ypothesis},
+  year   = {2026},
+  howpublished = {Zenodo, version 1 (6 Oct 2026); code \url{https://github.com/loganeberwein/Logan-Eberwein-RH-Weil-Window}},
+  doi    = {10.5281/zenodo.23177438},
+  annote = {Unrefereed. Sec. 13 ``Retracted claims and pitfalls'', ``Numerical pitfalls'', p. 45: near-null eigenvectors have weak singularities at every log n and L-log n (window [0,L_Eb], L_Eb = 2 L_ours) [read Zenodo PDF]},
+  note   = {Unrefereed}
+}
+
+@misc{mathia,
+  author = {Garcia Murillo, Sergio},
+  title  = {mathia: research line \texttt{prime\_lattice}, findings {PL}-294--{PL}-338},
+  howpublished = {GitHub repository \url{https://github.com/murillo128/mathia}, \texttt{research/prime\_lattice/findings/}, September 2026; accessed 31 October 2026},
+  annote = {Maintainer and commit author: S. Garcia Murillo. AI-assisted research notes (see the repository's AGENTS.md); unrefereed; no licence file}
+}
+
+@misc{PL306,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-306: Any {S}uzuki-compatible zero-order {H}adamard law forces the boundary stress from the virial residual},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/ce4c3e61cdfdbabced032c4a77d52bb04ce578be/research/prime_lattice/findings/PL-306-hadamard-stress-virial-residual.md} (14 Sep 2026)},
+  annote = {Conditional on a Hadamard law; unrefereed},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL319,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-319: A convergent logarithmic source trace forces the moving-tail law after leading boundary matching},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/66d42c79f580bd7827a0a73dd2f43ca015653ec5/research/prime_lattice/findings/PL-319-endpoint-log-source-trace-tauberian.md} (15 Sep 2026); with PL-320, PL-321, PL-322 (15 Sep 2026; commits c62c7641114c494ec878ebc090f2d49f9c07f620, 095bfd2c0ac1a35fd62aaf8fd35d5e1e0e672778, 95d691fe90353d500dab5485cc22d2c95049ee26)},
+  annote = {With PL-320 (c62c764), PL-321 (095bfd2), PL-322 (95d691f), PL-323 (3aa3841), all 15 Sep 2026: the edge law in substance; unrefereed},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL324,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-324: Odd-sector {B}eurling--{D}eny positivity survives exactly to the first prime event},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/593e63c5e5a17553ad6099173e7579466b865898/research/prime_lattice/findings/PL-324-odd-sector-first-prime-positivity-threshold.md} (16 Sep 2026)},
+  annote = {With PL-335 (6f267e0, 17 Sep 2026; Hopf at the threshold); unrefereed},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL329,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-329: The endpoint source amplitude has a sharp square-root-log threshold for first-prime reflection},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/ac5835e308a81e20899d3105a8b99c8216752e6e/research/prime_lattice/findings/PL-329-first-prime-reflection-sharp-source-amplitude-threshold.md} (16 Sep 2026)},
+  annote = {[read] PL329-4: |g-C Q^{-1/2}| <= K(1+S)/Q + K e^{-eta(Q-R)}, K, eta, R independent of delta, for profiles obeying the PL-319 endpoint identity with envelope A Q^{-1/2} and source sup S; quantitative maximum-principle step asserted (PL329-20); unrefereed},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL336,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-336: Uniform sup control closes the first-prime source gate},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/2a3652475ec23f33fb65de7ba8e941d7b8fd15f5/research/prime_lattice/findings/PL-336-uniform-linfty-closes-first-prime-source-gate.md} (17 Sep 2026)},
+  annote = {PL336-6: u_0(1-2e^{-Q}) = C_0 Q^{-1/2} + O(Q^{-1}) given uniform L^infty; unrefereed},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL337,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-337: Prime shifts are positive atomic jumps, giving uniform {$L^\infty$} across finite activation ranges},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/ce507a6a88f6ace1d38b133dda08a1c7218e1bbf/research/prime_lattice/findings/PL-337-prime-shift-jump-boundedness.md} (17 Sep 2026; first commit 8b91052)},
+  annote = {Unrefereed},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL338,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-338: Every finite odd prime-power activation is first-order flat; a nonzero boundary trace gives the favorable birth sign},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/aa1857f47852ad1bd54a2f383412a5efc8558bd9/research/prime_lattice/findings/PL-338-all-prime-activation-flatness.md} (17 Sep 2026)},
+  annote = {PL338-10: new-channel contribution 4 (Lambda(q)/sqrt q) C_0^2 delta/L_delta; unrefereed},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{mathiaClue,
+  author = {Garcia Murillo, Sergio},
+  title  = {Can a zero-order {H}adamard boundary stress differentiate the localized {W}eil ground branch without {$H^{1/2}$}? (research clue)},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/6b4aa6628d15a980ab6c03ae6619fd0cd68aeef3/research/prime_lattice/clues/CLUE-zero-order-hadamard-boundary-stress.md} (proposed 13 Sep 2026, commit 308da86c4418996439c3581063dd4ffaf44a32dc; accepted the same day)},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL294,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-294: The localized {W}eil semigroup loses positivity at an exact pre-prime aperture},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/57d7870e292da62641e67773dde9e230289508a6/research/prime_lattice/findings/PL-294-exact-preprime-beurling-deny-threshold.md} (13 Sep 2026)},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL297,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-297: Renormalized fractional {H}adamard stress can stay finite while the critical {$H^{1/2}$} channel diverges},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/b130222b6d4d94098270ac132763ce4de8e2f713/research/prime_lattice/findings/PL-297-renormalized-hadamard-stress-hhalf-decoupling.md} (13 Sep 2026)},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL305,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-305: {BV} regularity makes every lower-order {S}uzuki aperture term {$C^1$}, including prime activations},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/8dab86a716db170a722d459059eebc6153b96f71/research/prime_lattice/findings/PL-305-bv-fixed-state-aperture-derivative.md} (14 Sep 2026)},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL307,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-307: Fractional {P}ohozaev identity recovers the completed-{W}eil boundary stress without a mixed {H}adamard theorem},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/550a5864be7aa524b0e2f9e3d9cbaa31877b76b1/research/prime_lattice/findings/PL-307-fractional-pohozaev-virial-stress.md} (14 Sep 2026)},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL323,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-323: A coercive tail comparison closes the remaining pointwise endpoint-flux gate},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/3aa38419e6089f705e1b2ab940f12f78ab0c97f8/research/prime_lattice/findings/PL-323-coercive-tail-comparison-closes-pointwise-flux.md} (15 Sep 2026)},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{PL335,
+  author = {Garcia Murillo, Sergio},
+  title  = {{PL}-335: Odd parity reverses the threshold archimedean source and restores a {H}opf boundary lower law},
+  howpublished = {mathia repository, \url{https://github.com/murillo128/mathia/blob/6f267e0ed3c355185d8aa3bdf839b88aad489eeb/research/prime_lattice/findings/PL-335-odd-threshold-antisymmetric-hopf-noncollapse.md} (17 Sep 2026)},
+  note   = {Unrefereed; AI-assisted research note}
+}
+
+@misc{Jou,
+  author = {Joubert, Denis},
+  title  = {The well: five faces of the ground state of the windowed {W}eil form, and the approximation lemma that would hold them},
+  year   = {2026},
+  howpublished = {Note, v3 (6 Sep 2026), \texttt{notes/the-well.pdf} in \url{https://github.com/darreal44/riemann-weil-phenomenology} (commit 99470a6c5d82662c33b7ba46ed31b64fb90fd5dc); archived as release v1.5},
+  doi    = {10.5281/zenodo.22557789},
+  note   = {Unrefereed; written with the assistance of language models}
+}
+
+@misc{Oen,
+  author = {{\O}en, Theodore Magnus},
+  title  = {A {F}ourier--{L}{\'e}vy normal form for localized {W}eil positivity: finite-rank boundary terms, scalar resolvents, and a certified finite block and continuum {F}ourier tail},
+  year   = {2026},
+  howpublished = {Zenodo, version 0.7r1 (19 Sep 2026)},
+  doi    = {10.5281/zenodo.22845337},
+  note   = {Unrefereed}
+}
+
+@misc{Tuma,
+  author = {Tuma, Oliver},
+  title  = {Finite {W}eil windows: {E}uler boundary geometry, hyperbolic parity, and smoothed prime errors},
+  year   = {2026},
+  howpublished = {Zenodo, version 1.4 (11 Oct 2026)},
+  doi    = {10.5281/zenodo.23297025},
+  note   = {Unrefereed}
+}
+
+@misc{Lee,
+  author = {Lee, Byoungwoo},
+  title  = {Finite-rank prime-edge transmission and adaptive continuation for localized {W}eil comparisons},
+  year   = {2026},
+  howpublished = {Zenodo, version 1.0 (5 Sep 2026)},
+  doi    = {10.5281/zenodo.22342606},
+  note   = {Unrefereed}
+}
+
+%% ================= rStation (AI research agents; all unrefereed) =================
+% rStation (https://rstation.ai): manuscripts and forum comments written by AI agents; manuscripts are reviewed and
+% accepted by automated reviewer agents. Cited for the priority of public statements only; unrefereed public claims
+% whose proofs we have not fully checked. Metadata from the public read-only API, fetched 2026-10-31.
+
+@misc{BT26,
+  author = {{bramble\_trace}},
+  title  = {Boundary traces and support variation for localized {W}eil operators},
+  howpublished = {rStation, riemann\_hypothesis paper 67, v1, published 2026-10-27 19:07:56 UTC, \url{https://rstation.ai/problems/riemann_hypothesis/papers/67/v1}},
+  note   = {Unrefereed; written by an AI agent and accepted by automated reviewer agents; v1 was the only version on 2026-10-31},
+  annote = {[read] (2.2), Sec. 3.3, (3.19) trace existence; (3.8) L-infinity bound; Thms 2.1-2.2 cluster law and Hadamard formula, (2.5) B_-=B_+, rank H<=1; Cor 2.3 pure log; Thm 2.4 activation; (4.7); (6.3); (7.3), (7.5); (9.5) open}
+}
+
+@misc{BT26a,
+  author = {{bramble\_trace}},
+  title  = {Forum comment \texttt{XNTCbIH-RNPZ9afU} (working endpoint lemma)},
+  howpublished = {rStation, riemann\_hypothesis forum post 21, 2026-10-18 23:44:00 UTC, \url{https://rstation.ai/r/riemann_hypothesis/posts/21}},
+  note   = {Unrefereed forum comment by an AI agent}
+}
+
+@misc{BT26b,
+  author = {{bramble\_trace}},
+  title  = {Forum comment \texttt{hDqAfsXyecUVBoz0}},
+  howpublished = {rStation, riemann\_hypothesis forum post 21, 2026-10-27 17:43:11 UTC, \url{https://rstation.ai/r/riemann_hypothesis/posts/21}},
+  note   = {Unrefereed forum comment by an AI agent; first public statement of the support-variation (Hadamard) law of [BT26]}
+}
+
+@misc{SoDa,
+  author = {{span\_of\_dilates}},
+  title  = {Forum comment \texttt{nWrDJmydgFHjXF0u}},
+  howpublished = {rStation, riemann\_hypothesis forum post 21, 2026-10-27 18:55:11 UTC, \url{https://rstation.ai/r/riemann_hypothesis/posts/21}},
+  note   = {Unrefereed forum comment by an AI agent},
+  annote = {(6.3) of rh_67 for an even-odd pair: alpha beta = 0}
+}
+
+@misc{SoDb,
+  author = {{span\_of\_dilates}},
+  title  = {Forum comment \texttt{EAw5pFmSdKxMBRHA}},
+  howpublished = {rStation, riemann\_hypothesis forum post 21, 2026-10-28 03:55:32 UTC, \url{https://rstation.ai/r/riemann_hypothesis/posts/21}},
+  note   = {Unrefereed forum comment by an AI agent; labelled heuristic by its author},
+  annote = {Heuristic fit Q_p = L + 1 - gamma + c_shift - p w (c_shift = -log 2 pi), denominator contains D; "I have no proof."}
+}
+
+@misc{HR26,
+  author = {{halasz\_resonator}},
+  title  = {Forum comment \texttt{3-jlbw7xu\_tS6Rou}},
+  howpublished = {rStation, riemann\_hypothesis forum post 21, 2026-10-19 00:10:21 UTC, \url{https://rstation.ai/r/riemann_hypothesis/posts/21}},
+  note   = {Unrefereed forum comment by an AI agent},
+  annote = {Second-order expansion of the Wiener-Hopf factor kappa(s) of (1/2)log(1+s^2)}
+}
+
+@misc{SoD66,
+  author = {{span\_of\_dilates}},
+  title  = {Finite-window {W}eil forms on {D}avenport--{H}eilbronn functions: a certified onset bound, an exact joint detection identity, and finite-space measurements},
+  howpublished = {rStation, riemann\_hypothesis paper 66, v2, published 2026-10-27 21:16:47 UTC (v1 2026-10-27 17:23:12 UTC), \url{https://rstation.ai/problems/riemann_hypothesis/papers/66/v2}},
+  note   = {Unrefereed; written by an AI agent and accepted by automated reviewer agents},
+  annote = {Prop 6.1 (b assumes GRH): far-field 1/log limit for a planted-quartet detection quantity}
+}
+
+@misc{Li45,
+  author = {{lihongmin}},
+  title  = {Cutoff-free positivity of localized {W}eil forms through the $(\log 11)/2$ threshold},
+  howpublished = {rStation, riemann\_hypothesis paper 45, v1, published 2026-10-23 09:48:37 UTC, \url{https://rstation.ai/problems/riemann_hypothesis/papers/45/v1}},
+  note   = {Unrefereed; written by an AI agent and accepted by automated reviewer agents}
+}
+
+@misc{BT60,
+  author = {{bramble\_trace}},
+  title  = {Full-source {S}chur certificates for {W}eil positivity at support radius two},
+  howpublished = {rStation, riemann\_hypothesis paper 60, v1, published 2026-10-26 19:12:17 UTC, \url{https://rstation.ai/problems/riemann_hypothesis/papers/60/v1}},
+  note   = {Unrefereed; written by an AI agent and accepted by automated reviewer agents}
+}
+
+%% ================= Zeros: Landau's formula and relatives =================
+
+@article{Lan12,
+  author  = {Landau, Edmund},
+  title   = {{\"U}ber die {N}ullstellen der {Z}etafunktion},
+  journal = {Math. Ann.},
+  volume  = {71},
+  number  = {4},
+  pages   = {548--564},
+  year    = {1912},
+  doi     = {10.1007/BF01456808},
+  annote = {Landau's formula sum_{0<gamma<=T} X^rho = -(T/2pi) Lambda(X) + O(log T), X>1 fixed [meta; statement as in arXiv:2601.18025 Thm 1]. Often cited as 1911}
+}
+
+@incollection{Gon85,
+  author    = {Gonek, S. M.},
+  title     = {A formula of {L}andau and mean values of {$\zeta(s)$}},
+  booktitle = {Topics in Analytic Number Theory ({A}ustin, {T}ex., 1982)},
+  publisher = {Univ. Texas Press},
+  address   = {Austin, TX},
+  year      = {1985},
+  pages     = {92--97},
+  annote = {[ref] data from Durkan-Hughes-Pearce-Crump arXiv:2601.18025, ref. [11]; uniform Landau formula; no DOI; not read}
+}
+
+@incollection{Gon93,
+  author    = {Gonek, S. M.},
+  title     = {An explicit formula of {L}andau and its applications to the theory of the zeta-function},
+  booktitle = {A Tribute to {E}mil {G}rosswald: Number Theory and Related Analysis},
+  series    = {Contemp. Math.},
+  volume    = {143},
+  publisher = {Amer. Math. Soc.},
+  address   = {Providence, RI},
+  year      = {1993},
+  pages     = {395--413},
+  doi       = {10.1090/conm/143/1210528},
+  annote = {[meta]}
+}
+
+@article{Fuj89,
+  author  = {Fujii, Akio},
+  title   = {On a theorem of {L}andau},
+  journal = {Proc. Japan Acad. Ser. A Math. Sci.},
+  volume  = {65},
+  number  = {2},
+  pages   = {51--54},
+  year    = {1989},
+  doi     = {10.3792/pjaa.65.51},
+  annote = {[meta]}
+}
+
+@article{Fuj90,
+  author  = {Fujii, Akio},
+  title   = {On a theorem of {L}andau. {II}},
+  journal = {Proc. Japan Acad. Ser. A Math. Sci.},
+  volume  = {66},
+  number  = {9},
+  pages   = {291--296},
+  year    = {1990},
+  doi     = {10.3792/pjaa.66.291},
+  annote = {[meta]}
+}
+
+@article{FZ05,
+  author  = {Ford, Kevin and Zaharescu, Alexandru},
+  title   = {On the distribution of imaginary parts of zeros of the {R}iemann zeta function},
+  journal = {J. Reine Angew. Math.},
+  volume  = {579},
+  pages   = {145--158},
+  year    = {2005},
+  doi     = {10.1515/crll.2005.2005.579.145},
+  annote = {[meta]}
+}
+
+@article{FSZ09,
+  author  = {Ford, Kevin and Soundararajan, K. and Zaharescu, Alexandru},
+  title   = {On the distribution of imaginary parts of zeros of the {R}iemann zeta function. {II}},
+  journal = {Math. Ann.},
+  volume  = {343},
+  number  = {3},
+  pages   = {487--505},
+  year    = {2009},
+  doi     = {10.1007/s00208-008-0280-x},
+  annote = {[meta]}
+}
+
+@article{Ary22,
+  author  = {Aryan, Farzad},
+  title   = {On an extension of the {L}andau--{G}onek formula},
+  journal = {J. Number Theory},
+  volume  = {233},
+  pages   = {389--404},
+  year    = {2022},
+  doi     = {10.1016/j.jnt.2021.06.015},
+  eprint  = {1902.05473},
+  archivePrefix = {arXiv},
+  annote = {[abs]}
+}
+
+@misc{DHPC26,
+  author  = {Durkan, Benjamin and Hughes, Christopher and Pearce-Crump, Andrew},
+  title   = {Generalisations of the {L}andau--{G}onek theorem and applications to mean values of zeta},
+  year    = {2026},
+  howpublished = {arXiv:2601.18025},
+  eprint  = {2601.18025},
+  archivePrefix = {arXiv},
+  annote = {[read statements and bibliography] Thm 1 (Landau), Thm 2 (Gonek 1985, uniform), Cor 2.1 (Gonek 1993)}
+}
+
+@book{Tit86,
+  author    = {Titchmarsh, E. C.},
+  title     = {The Theory of the {R}iemann Zeta-Function},
+  edition   = {2},
+  annote = {Edited and with a preface by D. R. Heath-Brown. Riemann--von Mangoldt: Sec. 9.4. Standard; no DOI resolved},
+  publisher = {Clarendon Press, Oxford University Press},
+  address   = {New York},
+  year      = {1986}
+}
+
+@book{IK04,
+  author    = {Iwaniec, Henryk and Kowalski, Emmanuel},
+  title     = {Analytic Number Theory},
+  series    = {Amer. Math. Soc. Colloq. Publ.},
+  volume    = {53},
+  publisher = {Amer. Math. Soc.},
+  address   = {Providence, RI},
+  year      = {2004},
+  doi       = {10.1090/coll/053}
+}
+
+%% ================= Prolate functions (Hadamard analogue) =================
+
+@article{SP61,
+  author  = {Slepian, D. and Pollak, H. O.},
+  title   = {Prolate spheroidal wave functions, {F}ourier analysis and uncertainty. {I}},
+  journal = {Bell System Tech. J.},
+  volume  = {40},
+  number  = {1},
+  pages   = {43--63},
+  year    = {1961},
+  doi     = {10.1002/j.1538-7305.1961.tb03976.x}
+}
+
+@article{Fuchs64,
+  author  = {Fuchs, W. H. J.},
+  title   = {On the eigenvalues of an integral equation arising in the theory of band-limited signals},
+  journal = {J. Math. Anal. Appl.},
+  volume  = {9},
+  number  = {3},
+  pages   = {317--330},
+  year    = {1964},
+  doi     = {10.1016/0022-247X(64)90017-4}
+}
+
+@article{XRY01,
+  author  = {Xiao, H. and Rokhlin, V. and Yarvin, N.},
+  title   = {Prolate spheroidal wavefunctions, quadrature and interpolation},
+  journal = {Inverse Problems},
+  volume  = {17},
+  number  = {4},
+  pages   = {805--838},
+  year    = {2001},
+  doi     = {10.1088/0266-5611/17/4/315},
+  annote = {cited by Bonami-Karoui for d/dc log lambda_n(c) = 2|psi_{n,c}(1)|^2/c [ref; not read]}
+}
+
+@article{BK17,
+  author  = {Bonami, Aline and Karoui, Abderrazek},
+  title   = {Spectral decay of time and frequency limiting operator},
+  journal = {Appl. Comput. Harmon. Anal.},
+  volume  = {42},
+  number  = {1},
+  pages   = {1--20},
+  year    = {2017},
+  doi     = {10.1016/j.acha.2015.05.003},
+  eprint  = {1012.3881},
+  archivePrefix = {arXiv},
+  note    = {Equation numbers cited from arXiv:1012.3881v3},
+  annote = {[read arXiv v3] eq. (43): partial_c log lambda_n(c) = 2|psi_{n,c}(1)|^2/c, normalisation int_{-1}^1 psi^2 = 1 (eq. (3)); journal numbering not checked}
+}
+
+@book{ORX13,
+  author    = {Osipov, Andrei and Rokhlin, Vladimir and Xiao, Hong},
+  title     = {Prolate Spheroidal Wave Functions of Order Zero},
+  series    = {Applied Mathematical Sciences},
+  volume    = {187},
+  publisher = {Springer},
+  address   = {New York},
+  year      = {2013},
+  doi       = {10.1007/978-1-4614-8259-8}
+}
+
+%% ================= Mechanism relatives (shifts, delay, contact) =================
+
+@article{Sk83,
+  author  = {Skubachevskii, A. L.},
+  title   = {Smoothness of generalized solutions of the first boundary-value problem for an elliptic difference-differential equation},
+  journal = {Math. Notes},
+  volume  = {34},
+  number  = {1},
+  pages   = {537--541},
+  year    = {1983},
+  doi     = {10.1007/BF01160868},
+  annote = {translation of Mat. Zametki 34 (1983) 105--112 [meta]}
+}
+
+@book{Sk97,
+  author    = {Skubachevskii, Alexander L.},
+  title     = {Elliptic Functional Differential Equations and Applications},
+  series    = {Operator Theory: Advances and Applications},
+  volume    = {91},
+  publisher = {Birkh{\"a}user},
+  address   = {Basel},
+  year      = {1997},
+  doi       = {10.1007/978-3-0348-9033-5},
+  annote = {[meta] (Crossref lists the print year as 1996)}
+}
+
+@article{Sk16,
+  author  = {Skubachevskii, A. L.},
+  title   = {Boundary-value problems for elliptic functional-differential equations and their applications},
+  journal = {Russian Math. Surveys},
+  volume  = {71},
+  number  = {5},
+  pages   = {801--906},
+  year    = {2016},
+  doi     = {10.1070/RM9739},
+  annote = {[meta]}
+}
+
+@article{VS23,
+  author  = {Vorotnikov, R. Yu. and Skubachevskii, A. L.},
+  title   = {Smoothness of generalized eigenfunctions of differential--difference operators on a finite interval},
+  journal = {Math. Notes},
+  volume  = {114},
+  number  = {5-6},
+  pages   = {1002--1020},
+  year    = {2023},
+  doi     = {10.1134/S0001434623110329},
+  annote = {[meta; not read]}
+}
+
+@article{VS26,
+  author  = {Vorotnikov, R. Yu. and Skubachevskii, A. L.},
+  title   = {On the regularity of generalized eigenfunctions of differential--difference operators},
+  journal = {Differ. Equ.},
+  volume  = {62},
+  number  = {1},
+  pages   = {90--111},
+  year    = {2026},
+  doi     = {10.1134/S0012266126010064},
+  annote = {[meta; not read] read before submission}
+}
+
+@book{BZ03,
+  author    = {Bellen, Alfredo and Zennaro, Marino},
+  title     = {Numerical Methods for Delay Differential Equations},
+  publisher = {Oxford University Press},
+  address   = {Oxford},
+  year      = {2003},
+  doi       = {10.1093/acprof:oso/9780198506546.001.0001},
+  annote = {breaking points [meta]}
+}
+
+@article{KasMim17,
+  author  = {Kassmann, Moritz and Mimica, Ante},
+  title   = {Intrinsic scaling properties for nonlocal operators},
+  journal = {J. Eur. Math. Soc.},
+  volume  = {19},
+  number  = {4},
+  pages   = {983--1011},
+  year    = {2017},
+  doi     = {10.4171/JEMS/686},
+  annote = {[meta]}
+}
+
+@misc{HZ,
+  author  = {Hu, Eryan and Zhao, Guohuan},
+  title   = {Non-local operators with low singularity kernels: regularity estimates and martingale problem},
+  year    = {2023},
+  howpublished = {arXiv:2304.14056},
+  eprint  = {2304.14056},
+  archivePrefix = {arXiv},
+  annote = {v5 (15 May 2025) [abs]}
+}
+
+@article{WL78,
+  author  = {Wong, R. and Lin, J. F.},
+  title   = {Asymptotic expansions of {F}ourier transforms of functions with logarithmic singularities},
+  journal = {J. Math. Anal. Appl.},
+  volume  = {64},
+  number  = {1},
+  pages   = {173--180},
+  year    = {1978},
+  doi     = {10.1016/0022-247X(78)90030-6},
+  annote = {[meta; checked by internal referee 1 of the kink route]}
+}
+
+@article{Tan08a,
+  author  = {Tan, Shina},
+  title   = {Energetics of a strongly correlated {F}ermi gas},
+  journal = {Ann. Physics},
+  volume  = {323},
+  number  = {12},
+  pages   = {2952--2970},
+  year    = {2008},
+  doi     = {10.1016/j.aop.2008.03.004}
+}
+
+@article{Tan08b,
+  author  = {Tan, Shina},
+  title   = {Large momentum part of a strongly correlated {F}ermi gas},
+  journal = {Ann. Physics},
+  volume  = {323},
+  number  = {12},
+  pages   = {2971--2986},
+  year    = {2008},
+  doi     = {10.1016/j.aop.2008.03.005}
+}
+
+@article{Tan08c,
+  author  = {Tan, Shina},
+  title   = {Generalized virial theorem and pressure relation for a strongly correlated {F}ermi gas},
+  journal = {Ann. Physics},
+  volume  = {323},
+  number  = {12},
+  pages   = {2987--2990},
+  year    = {2008},
+  doi     = {10.1016/j.aop.2008.03.003}
+}
+
+@article{BP08,
+  author  = {Braaten, Eric and Platter, Lucas},
+  title   = {Exact relations for a strongly interacting {F}ermi gas from the operator product expansion},
+  journal = {Phys. Rev. Lett.},
+  volume  = {100},
+  number  = {20},
+  pages   = {Paper No. 205301},
+  year    = {2008},
+  doi     = {10.1103/PhysRevLett.100.205301}
+}
+
+@article{Pit68,
+  author  = {Pitman, E. J. G.},
+  title   = {On the behaviour of the characteristic function of a probability distribution in the neighbourhood of the origin},
+  journal = {J. Austral. Math. Soc.},
+  volume  = {8},
+  number  = {3},
+  pages   = {423--443},
+  year    = {1968},
+  doi     = {10.1017/S1446788700006121},
+  annote = {no longer needed for the smoothed second-order law (laws_note Sec. 7)}
+}
+
+@article{FL13,
+  author  = {Frank, Rupert L. and Lenzmann, Enno},
+  title   = {Uniqueness of non-linear ground states for fractional {L}aplacians in {$\mathbb{R}$}},
+  journal = {Acta Math.},
+  volume  = {210},
+  number  = {2},
+  pages   = {261--318},
+  year    = {2013},
+  doi     = {10.1007/s11511-013-0095-9}
+}
+
+@article{Den06,
+  author  = {Denisov, Sergey A.},
+  title   = {Continuous analogs of polynomials orthogonal on the unit circle. {K}rein systems},
+  journal = {Int. Math. Res. Surv. IMRS},
+  year    = {2006},
+  pages   = {Art. ID 54517, 148 pp.},
+  eprint  = {0908.4049},
+  archivePrefix = {arXiv},
+  annote = {journal data from the arXiv record (published 2007, vol. 2006); Lemmas 2.1, 2.3 used in note_v2}
+}
+
+@book{Widder41,
+  author    = {Widder, David Vernon},
+  title     = {The {L}aplace Transform},
+  publisher = {Princeton University Press},
+  address   = {Princeton, NJ},
+  year      = {1941},
+  annote = {Ch. II (Bromwich inversion). Standard; no DOI}
+}
+
+%% ######################## Part 3: standard references added for the paper (copied from papers/purelog/refs.bib) ########################
+
+@book{Rudin87,
+  author    = {Rudin, Walter},
+  title     = {Real and Complex Analysis},
+  edition   = {Third},
+  publisher = {McGraw-Hill},
+  address   = {New York},
+  year      = {1987}
+}
+
+@misc{DLMF,
+  key          = {DLMF},
+  title        = {{NIST} Digital Library of Mathematical Functions},
+  howpublished = {\url{https://dlmf.nist.gov/}},
+  note         = {F.~W.~J. Olver et al., eds., Release 1.2.8 of 2026-09-15}
+}

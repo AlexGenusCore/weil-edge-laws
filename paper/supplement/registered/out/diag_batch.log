@@ -1,0 +1,21 @@
+=== 05:28:35 kink_run.py 1.0 1.5 1e-30 40 all1,q6/1 0,5 3 out/k10d_r1.5.json 0
+L=1.0 rho=1.5 rmin=1e-30 N=6356 solve 55s
+  s=0.0 e lam=-4.3060452889 resid=1.6e-13
+  s=0.0 e lam=0.0000002569 resid=6.3e-13
+  s=0.0 o lam=0.0000003754 resid=4.0e-13
+  s=5.0 o lam=-1.3521895053 resid=2.1e-13
+  s=5.0 e lam=0.0000002569 resid=2.2e-13
+  s=5.0 o lam=0.0000003754 resid=2.0e-13
+done 55s
+=== exit 0
+=== 05:29:30 kink_run.py 1.0 1.35 1e-24 40 all1,q6/1 0,5 3 out/k10d_r1.35.json 0
+L=1.0 rho=1.35 rmin=1e-24 N=6678 solve 60s
+  s=0.0 e lam=-4.3060451084 resid=1.1e-13
+  s=0.0 e lam=0.0000001553 resid=5.8e-13
+  s=0.0 o lam=0.0000002569 resid=5.9e-13
+  s=5.0 o lam=-1.3521893969 resid=2.3e-13
+  s=5.0 e lam=0.0000001553 resid=1.2e-13
+  s=5.0 o lam=0.0000002569 resid=1.8e-13
+done 60s
+=== exit 0
+=== all done 05:30:30

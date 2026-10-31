@@ -1,0 +1,39 @@
+kink L=0.6 right rho=1.5           anchors=  8 snapped identities=   6 unrelated=0 min non-identity |dA|=1.01e-01 max snapped residual=0.0e+00
+kink L=0.6 right rho=1.25          anchors=  8 snapped identities=   6 unrelated=0 min non-identity |dA|=1.01e-01 max snapped residual=0.0e+00
+kink L=0.6 right rho=1.15          anchors=  8 snapped identities=   6 unrelated=0 min non-identity |dA|=1.01e-01 max snapped residual=0.0e+00
+kink L=0.6 mirror rho=1.5          anchors=  8 snapped identities=   6 unrelated=0 min non-identity |dA|=1.01e-01 max snapped residual=0.0e+00
+kink L=0.6 mirror rho=1.25         anchors=  8 snapped identities=   6 unrelated=0 min non-identity |dA|=1.01e-01 max snapped residual=0.0e+00
+kink L=0.8 rho=1.5                 anchors= 12 snapped identities=  12 unrelated=0 min non-identity |dA|=7.40e-02 max snapped residual=0.0e+00
+kink L=0.8 rho=1.25                anchors= 12 snapped identities=  12 unrelated=0 min non-identity |dA|=7.40e-02 max snapped residual=0.0e+00
+kink L=0.8 rho=1.15                anchors= 12 snapped identities=  12 unrelated=0 min non-identity |dA|=7.40e-02 max snapped residual=0.0e+00
+kink L=1.0 reg rho=1.5             anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=5.30e-03 max snapped residual=0.0e+00
+kink L=1.0 reg rho=1.25            anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=5.30e-03 max snapped residual=0.0e+00
+kink L=1.0 sens rho=1.25           anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=5.30e-03 max snapped residual=0.0e+00
+K5 rerun L=1.0 rho=1.5             anchors= 33 snapped identities=  41 unrelated=0 min non-identity |dA|=5.30e-03 max snapped residual=4.5e-14
+K5 rerun L=1.0 rho=1.25            anchors= 33 snapped identities=  41 unrelated=0 min non-identity |dA|=5.30e-03 max snapped residual=4.5e-14
+K5 rerun L=1.0 rho=1.15            anchors= 33 snapped identities=  41 unrelated=0 min non-identity |dA|=5.30e-03 max snapped residual=4.5e-14
+tail X=8 fine L=L0-0d              anchors= 28 snapped identities=  37 unrelated=0 min non-identity |dA|=1.57e-02 max snapped residual=2.2e-16
+tail X=8 fine L=L0-1d              anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=2.00e-03 max snapped residual=0.0e+00
+tail X=8 fine L=L0-2d              anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=4.00e-03 max snapped residual=0.0e+00
+tail X=8 fine L=L0-4d              anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=7.75e-03 max snapped residual=0.0e+00
+tail X=8 base L=L0-0d              anchors= 28 snapped identities=  37 unrelated=0 min non-identity |dA|=1.57e-02 max snapped residual=2.2e-16
+tail X=8 base L=L0-1d              anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=2.00e-03 max snapped residual=0.0e+00
+tail X=8 base L=L0-2d              anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=4.00e-03 max snapped residual=0.0e+00
+tail X=8 base L=L0-4d              anchors= 32 snapped identities=  40 unrelated=0 min non-identity |dA|=7.75e-03 max snapped residual=0.0e+00
+tail X=6 fine L=L0-0d              anchors= 16 snapped identities=  20 unrelated=0 min non-identity |dA|=4.08e-02 max snapped residual=1.1e-16
+tail X=6 fine L=L0-1d              anchors= 20 snapped identities=  22 unrelated=0 min non-identity |dA|=2.00e-03 max snapped residual=0.0e+00
+tail X=6 fine L=L0-2d              anchors= 20 snapped identities=  22 unrelated=0 min non-identity |dA|=4.00e-03 max snapped residual=0.0e+00
+tail X=6 fine L=L0-4d              anchors= 20 snapped identities=  22 unrelated=0 min non-identity |dA|=8.00e-03 max snapped residual=0.0e+00
+tail X=6 base L=L0-0d              anchors= 16 snapped identities=  20 unrelated=0 min non-identity |dA|=4.08e-02 max snapped residual=1.1e-16
+tail X=6 base L=L0-1d              anchors= 20 snapped identities=  22 unrelated=0 min non-identity |dA|=2.00e-03 max snapped residual=0.0e+00
+tail X=6 base L=L0-2d              anchors= 20 snapped identities=  22 unrelated=0 min non-identity |dA|=4.00e-03 max snapped residual=0.0e+00
+tail X=6 base L=L0-4d              anchors= 20 snapped identities=  22 unrelated=0 min non-identity |dA|=8.00e-03 max snapped residual=0.0e+00
+tail X=10 fine L=L0-0d             anchors= 44 snapped identities=  72 unrelated=0 min non-identity |dA|=7.97e-03 max snapped residual=4.4e-16
+tail X=10 fine L=L0-1d             anchors= 52 snapped identities=  76 unrelated=0 min non-identity |dA|=2.00e-03 max snapped residual=1.1e-16
+tail X=10 fine L=L0-2d             anchors= 52 snapped identities=  76 unrelated=0 min non-identity |dA|=4.00e-03 max snapped residual=2.2e-16
+tail X=10 fine L=L0-4d             anchors= 52 snapped identities=  76 unrelated=0 min non-identity |dA|=7.75e-03 max snapped residual=1.1e-16
+tail X=10 base L=L0-0d             anchors= 44 snapped identities=  72 unrelated=0 min non-identity |dA|=7.97e-03 max snapped residual=4.4e-16
+tail X=10 base L=L0-1d             anchors= 52 snapped identities=  76 unrelated=0 min non-identity |dA|=2.00e-03 max snapped residual=1.1e-16
+tail X=10 base L=L0-2d             anchors= 52 snapped identities=  76 unrelated=0 min non-identity |dA|=4.00e-03 max snapped residual=2.2e-16
+tail X=10 base L=L0-4d             anchors= 52 snapped identities=  76 unrelated=0 min non-identity |dA|=7.75e-03 max snapped residual=1.1e-16
+TOTAL unrelated merges: 0; smallest non-identity |dA| over all meshes: 2.000e-03; largest snapped residual: 4.5e-14

@@ -1,0 +1,10 @@
+695c14d574e320147e112383f86b1262  PREREG_K5_L1.md
+registered 2026-10-31 06:31:23 SAST (laptop clock; written before the batch was started)
+00fa87fa3b808be7ae9763c493ed2c54  p1weil.py
+a0509ba44ce226638088a6447d5131a8  runlib.py
+87a74c8b1d528caf845383d8825f3759  kink_analyze.py
+f62e6b7780186ff35d925b9d2ba8cd1f  kink_summary.py
+3d503abc114b255f0b78f7615cae1441  kink_run.py
+f8d910a31b4892f42f5df87090cbe301  k5_run.py
+b7ab069840906e4a1714e4ad32e538f0  k5_summary.py
+14831db0ef3f738f389d9894acc60091  k5_batch.sh

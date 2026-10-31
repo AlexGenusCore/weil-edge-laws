@@ -1,0 +1,23 @@
+% The c_X term at prime-power X = e^{2L}: zero-side tests on actual zeta zeros, with controls.
+% Ratios are measured zero-side block sums over the prediction with (P_F, P_1) and without (P_noX, P_0) the c_X term.
+% Ranges are over the blocks listed; they are the honest spread (no fitted error model). Sources in numerics.md.
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.1cm}>{\raggedright\arraybackslash}p{2.1cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.2cm}>{\raggedright\arraybackslash}p{4.4cm}>{\raggedright\arraybackslash}p{1.9cm}}
+\toprule
+$X$ ($c_X$) & state & code, zeros & blocks & with $c_X$ term & without \\
+\midrule
+$2$ ($0.490$) & $s=1$ even & P0, $\gamma_1$--$\gamma_{1500}$ & $[250,1981]$, 3 blocks & $0.988$--$1.003$ & $1.092$--$1.105$ \\
+ & $s=1$ odd & & & $0.998$--$1.008$ & $0.887$--$0.909$ \\
+ & $s=0$ even & & & $0.977$--$0.997$ & $1.086$--$1.096$ \\
+ & $s=0$ odd & & & $0.998$--$1.009$ & $0.887$--$0.910$ \\
+$3$ ($0.634$) & $s=0$ even & P0, $\gamma_1$--$\gamma_{1500}$ & $[250,1981]$, 3 blocks & $0.968$--$0.995$ & $1.106$--$1.127$ \\
+ & $s=0$ odd & & & $0.999$--$1.014$ & $0.859$--$0.891$ \\
+control $L=0.4$ ($0$) & $s=0$ even / odd & P0, $\gamma_1$--$\gamma_{1500}$ & $[250,1981]$, 3 blocks & $0.971$--$0.992$ / $0.996$--$0.999$ & (same) \\
+\midrule
+$4$ ($0.347$) & $s=0$ even & P0, $\gamma\le1980$ & $[100,1600]$, 4 blocks & $0.989$--$0.994$ ($h_0=L/1000$); $0.991$--$0.993$ ($L/2000$) & $1.060$--$1.104$ \\
+\midrule
+$8$ ($0.245$) & 4 even/odd pairs & P1, pre-reg., $\gamma\le10\,303$ & 6 blocks, $T_1\ge200$ & split $\alpha=0.512$--$0.671$, $\sigma_\alpha=0.061$--$0.067$ (prediction $2c_8=0.490$) & --- \\
+control $6$ ($0$) & 2 pairs & P1, pre-reg. & same & $\alpha=+0.018\pm0.072$, $+0.012\pm0.068$ & --- \\
+control $10$ ($0$) & 4 pairs & P1, pre-reg. & same & $\alpha=0.32$--$0.44$, $\sigma_\alpha=0.18$--$0.19$ (uninformative) & --- \\
+$8$ vs.\ $6,10$ (post hoc) & even / odd & P1, pre-reg. & $[400,10300]$ & $Z/P_0$ offset $\approx+0.03$ / $-0.03$ at $T\approx4000$ (prediction $\pm c_8\langle1/a\rangle=\pm0.037$) & --- \\
+\bottomrule
+\end{tabular}
