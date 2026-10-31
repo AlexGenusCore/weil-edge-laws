@@ -7,7 +7,7 @@ authors:
     family-names: "Botha"
     affiliation: "GenusCore"
     email: "info@genuscore.com"
-version: "0.1.0"
+version: "0.1.1"
 date-released: "2026-10-31"
 license:
   - MIT
@@ -26,7 +26,7 @@ preferred-citation:
       family-names: "Botha"
       affiliation: "GenusCore"
       email: "info@genuscore.com"
-  version: "0.1.0"
+  version: "0.1.1"
   date-released: "2026-10-31"
   year: 2026
   month: 10
