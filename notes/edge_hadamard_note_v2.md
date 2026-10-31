@@ -28,7 +28,7 @@
 *Note added (2026-10-31).* The last rows of the §0 table, §12 open items 4–5, §13 N8, the "one-sided germ" in §13.1 and all of §15 predate the companion note [`tail_kink_laws_note.md`](tail_kink_laws_note.md). That note proves the kink law to two orders and the first-order tail law, and it corrects the one-sided germ to a two-sided one. Its §8 lists the updates to carry into this note.
 
 **Changes from v1.** v1 was an internal draft (not public). Items M1–M6 are the issue labels of the internal final referee's report on v1.
-1. **§14 rewritten** (M1, M5). Prior art now includes Kwaśnicki 2011 (Lemma 4.27, Example 6.4: the exact half-line edge law), Grzywny–Kwaśnicki 2018 (Thm 1.11: boundary limits of ratios), FJW22 Remark 1.2(iii), the withdrawn arXiv 2411.15985, mathia PL-306 and PL-319–338 (credit for (E) in substance and for the activation mechanism PL-338), and Eberwein §13 (credit for the locations of the weak singular points). The novelty claim is narrowed to (E) on intervals with primes and pole, (H), Theorems 3 and 4. Every citation in §14 was re-checked (table in §14.4).
+1. **§14 rewritten** (M1, M5). Prior art now includes Kwaśnicki 2011 (Lemma 4.27, Example 6.4: the exact half-line edge law), Grzywny–Kwaśnicki 2018 (Thm 1.11: boundary limits of ratios), FJW22 Remark 1.2(iii), the withdrawn arXiv 2411.15985, mathia PL-306 and PL-319–338 (credit for (E) in substance and for the activation mechanism PL-338), and Eberwein §13 (credit for the locations of the weak singular points). The novelty claim is narrowed to (E) on intervals with primes and pole, (H), Theorems 3 and 4, and means only "not found in our literature search" (§14.3; subject to the priority caveat at the top). Every citation in §14 was re-checked (table in §14.4).
 2. **Correction found in the citation check** (not raised by the referee): v1 said FJW22 Remark 1.2(iii) lists the optimal boundary rate of the log-Laplacian as open. That remark is about the uniform-in-$s$ boundary decay of fractional eigenfunctions as $s\to0^+$. Corrected in §14.1.
 3. **§13 evidence fixed** (M2). The fit-free checks confirm the identities, not the constant; Theorem 4 is not an independent check of the constant; the independent confirmation is the final referee's P0 code, tabulated in §13.1 with the derived ratios recomputed and two runs reproduced.
 4. **"Four independent routes" replaced** by an honest description (M3; status above, §12, Appendix).
@@ -175,7 +175,7 @@ Order zero is what makes this work: a jump costs only $\int g^2\log(1/\mathrm{di
 
 **Lemma 3.4 (multipliers and commutator).** Let $\eta\in C^\infty$ with $\eta,\eta'$ bounded, and put $k_\eta(u)=J(u)\min(\|\eta'\|_\infty|u|,2\|\eta\|_\infty)\in L^1$.
 - (a) $\eta\phi\in D(\mathcal E)$ for every $\phi\in D(\mathcal E)$.
-- (b) $\mathcal E(\eta g,\phi)=\mathcal E(g,\eta\phi)+\langle r_\eta[g],\phi\rangle$, where $r_\eta[g](x)=\int J(x-y)(\eta(x)-\eta(y))g(y)\,dy$ satisfies $|r_\eta[g]|\le k_\eta*|g|$.
+- (b) $\mathcal E(\eta g,\phi)=\mathcal E(g,\eta\phi)+\langle r_\eta[g],\phi\rangle$, where $r_\eta[g]{(x)}=\int J(x-y)(\eta(x)-\eta(y))g(y)\,dy$ satisfies $|r_\eta[g]|\le k_\eta*|g|$.
 
 *Proof.* Use $(\eta\phi)(x)-(\eta\phi)(y)=\eta(x)(\phi(x)-\phi(y))+\phi(y)(\eta(x)-\eta(y))$. For (b), use the pointwise identity
 $$(\eta g(x)-\eta g(y))(\phi(x)-\phi(y))-(g(x)-g(y))(\eta\phi(x)-\eta\phi(y))=(\eta(x)-\eta(y))\big(\phi(x)g(y)-\phi(y)g(x)\big),$$

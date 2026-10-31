@@ -259,14 +259,14 @@ $$\int_0^\infty\frac{\sin s}s\,ds=\frac\pi2,\qquad\int_0^\infty\frac{\sin s\log 
   - Gap note (an internal referee): for $s\ge2t+1$ the kernel is dominated by $2t/(s-t)^2$, uniformly in the regularisation. ∎
 
 *Remarks.*
-- **Not new.** The $-\gamma$ correction is the classical Euler-constant term of de Haan theory (Bingham–Goldie–Teugels, *Regular Variation*, Ch. 3; theorem number not confirmed). What is new is the explicit $O(\ell^{-5/2})$ remainder and its use in the eigenfunction expansions.
+- **Not new.** The $-\gamma$ correction is the classical Euler-constant term of de Haan theory (Bingham–Goldie–Teugels, *Regular Variation*, Ch. 3; theorem number not confirmed). What appears new (not found in our literature search, §7) is the explicit $O(\ell^{-5/2})$ remainder and its use in the eigenfunction expansions.
 - **Numerically sharper.** Internal referee computations find $R-\frac1{2(\ell+a_q)}\approx\frac{\pi^2}{24}\ell^{-3}$ and $V^{-2}-\ell-a_q=O(\ell^{-2})$ (Gaver–Stehfest). Nothing below depends on this.
 
 ### 3.3 Transfer lemmas
 
 Let $r$ be even, $\ge0$, integrable and decreasing on $(0,\infty)$, with $R(x)\le C/\ell(x)$.
 
-**Lemma M (one-log gain)** ([KL] Lemma 3.3(ii); [KW] Lemma 3.2). Suppose $R(x)\le C_R/\ell(x)$ for $x\le x_R$. Let $\alpha>0$, $0<\delta\le\min(x_R,e^{-(\alpha+2)})$, $f\in L^\infty$, and $|f(z+y)-f(z)|\le M\ell(|y|)^{-\alpha}$ for a.e. $|y|\le\delta$. Then for $0<|h|\le h_0(\delta)$, $|(r*f)(z+h)-(r*f)(z)|\le C(\alpha,C_R,\delta,r)\,(M+\|f\|_\infty)\,\ell(|h|)^{-\alpha-1}$.
+**Lemma M (one-log gain)** ([KL] Lemma 3.3(ii); [KW] Lemma 3.2). Suppose $R(x)\le C_R/\ell(x)$ for $x\le x_R$. Let $\alpha>0$, $0<\delta\le\min(x_R,e^{-(\alpha+2)})$, $f\in L^\infty$, and $|f(z+y)-f(z)|\le M\ell(|y|)^{-\alpha}$ for a.e. $|y|\le\delta$. Then for $0<|h|\le h_0(\delta)$, $|(r*f)(z+h)-(r*f)(z)|\le C(\alpha,C_R,\delta,r)\,(M+\|f\|_\infty)\,\ell(|h|)^{-\alpha-1}$. The case $\alpha=0$ (used in the proof of K1(a)) needs no regularity of $f$: for $r$ even and decreasing on $(0,\infty)$, $\int|r(y-h)-r(y)|\,dy=4R(|h|/2)$, so the difference is at most $4C_R\|f\|_\infty/\ell(|h|)$ for $|h|\le\min(1,2x_R)$.
 
 *Proof.* Since $r$ is even and has total mass, $u(z+h)-u(z)=\int(r(h-y)-r(y))(f(z+y)-f(z))dy$. Split into $|y|\le2h$, $2h<|y|\le\delta$ (monotonicity of $r$ and of $\omega'(w)=\alpha Mw^{-1}\ell^{-\alpha-1}$; split at $\sqrt h$), and $|y|>\delta$. ∎
 
@@ -384,7 +384,7 @@ The detailed estimates are in the internal write-ups [KL] §§4–8 and [KW] §�
 **Proof of K1(a)** ([KL] §4; [KW] Thm K0).
 - Write $u=\chi\tilde\psi=\int_0^xv(x-z)k(z)dz$ with $k(z)=\int_0^\infty v(t)f_+(t+z)dt$ and $A_+=k(0)$ ([N] Lemma 5.2).
 - **Step 1 (source near the edge).** For $t$ small,
-$$f_+(t)=(q+\lambda-c)\tilde\psi(t)-P_s\tilde\psi(t)+\sum_nc_n\psi(y_n-t)+r_\chi[\tilde\psi](t).$$
+$$f_+(t)=(q+\lambda-c)\tilde\psi(t)-P_s\tilde\psi(t)+\sum_nc_n\psi(y_n-t)+r_\chi[\tilde\psi]{(t)}.$$
   - $|\tilde\psi|\le CV$ ([N] Thm 1).
   - $|\psi(y_n-t)-\psi(y_n)|\le C/\ell=O(V^2)$ (Lemma Loc and Lemma M with $\alpha=0$).
   - The rest is Lipschitz.
@@ -929,7 +929,7 @@ A specialist would call the kink law "a careful Abelian computation on top of (E
 - If the kinks are subtracted with their **explicit** transforms, the remaining shell mass should be $O(1/(T\log^5T))$ (generation 2), and Cauchy–Schwarz then gives $O(\ell^{-2})$.
 
 **Plan.**
-1. **Fourier asymptotics of the two-sided germs** (Wong–Lin 1978 type, with remainders). Take $\mathfrak D$ and $\mathfrak S$ at generation $k$, from K3, K5 and K7. The odd part transforms to $\approx\Omega_ke^{itz}\,(i/t)(\log t-D)^{-k-1/2}$; the even part enters one order lower.
+1. **Fourier asymptotics of the two-sided germs** (Wong–Lin 1978 type, with remainders). Take $\mathfrak D$ and $\mathfrak S$ at generation $k$, from K3, K5 and Conjecture K7 (so the even part is conditional). The odd part transforms to $\approx\Omega_ke^{itz}\,(i/t)(\log t-D)^{-k-1/2}$; the even part enters one order lower.
 2. **Finite chain sets first.** Enumeration (`checks/chain_enum.out`) gives:
    - $X=4$: 5 points, $\{0,\pm0.288,\pm0.405\}$, with a coincidence at $0$ since $4=2\cdot2$;
    - $X=5$: 22 points, generations $\le6$, including a close pair $\pm0.006$ that hurts the constants;
