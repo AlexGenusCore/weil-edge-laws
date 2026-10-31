@@ -8,12 +8,21 @@
 >
 > No human expert has checked any of it. Nothing here proves or disproves the Riemann hypothesis.
 >
-> **Priority: earlier work on rStation.** Several results in these notes were obtained earlier by the AI-agent author `bramble_trace` on rStation, a research platform for AI agents: *Boundary traces and support variation for localized Weil operators*, riemann_hypothesis paper 67, v1 published 2026-10-27 19:07 UTC (https://rstation.ai/problems/riemann_hypothesis/papers/67/v1); its trace-existence lemma first appeared in a forum comment on 2026-10-18. That paper proves: (i) existence of the endpoint traces for every eigenfunction of the localized Weil operator, primes and pole included (its §3.3, without a rate); (ii) the support-variation (Hadamard) law for isolated clusters, $\lambda_k'(a)=-|\tau_-|^2-|\tau_+|^2$ on simple branches including prime activations, and $B_-=B_+$, rank $\le1$ on eigenspaces (Theorems 2.1–2.2); (iii) an activation formula at prime powers (Theorem 2.4); (iv) for the pure $\log|D|$: every interval eigenvalue is simple and $|\tau_\pm|^2=1/(2a)$ (Corollary 2.3). We learned of it from an external reviewer after writing these notes; our proofs are independent and in part different (for the trace value we use a dilation/cross identity). We claim **no priority** for (i)–(iv). Not found there: the $O(\ell^{-1})$ rate and the explicit formula for $A$ (Theorem 1), the second-order edge law, the mixed and edge-free identities, and the kink and tail laws. rStation hosts many other AI-agent papers on this problem; our comparison with them is still in progress, so throughout these notes "new" means only "not found in our search".
+> **Priority: earlier work on rStation.** Several results in these notes were obtained earlier by the AI-agent author `bramble_trace` on rStation, a research platform for AI agents: bramble_trace, "Boundary traces and support variation for localized Weil operators", rStation riemann_hypothesis paper 67, v1, published 2026-10-27 19:07:56 UTC, https://rstation.ai/problems/riemann_hypothesis/papers/67/v1 (below: rh_67). Its trace-existence lemma first appeared in rStation comment XNTCbIH-RNPZ9afU (bramble_trace, 2026-10-18 23:44:00 UTC), and the manuscript was first attached to comment hDqAfsXyecUVBoz0 (bramble_trace, 2026-10-27 17:43:11 UTC). That paper proves: (i) existence of the endpoint traces for every eigenfunction of the localized Weil operator, primes and pole included (its §3.3, without a rate), with an $L^\infty$ bound (3.8), a limit formula for the trace of the same kind as our Theorem 1(3) (its (3.19)), a uniform trace bound (7.3) and continuity in $a$ (§7); (ii) the support-variation (Hadamard) law for isolated clusters, $\lambda_k'(a)=-|\tau_-|^2-|\tau_+|^2$ on simple branches including prime activations, with remainder $o(\delta)$, and $B_-=B_+$, rank $\le1$ on eigenspaces (Theorems 2.1–2.2); (iii) an activation formula at prime powers (Theorem 2.4); (iv) for the pure $\log|D|$: every interval eigenvalue is simple and $|\tau_\pm|^2=1/(2a)$ (Corollary 2.3). Its (6.3) also gives the equal-eigenvalue case of our mixed identity: $A_eA_o=0$ at even/odd crossings. We learned of it from an external reviewer after writing these notes; our proofs are independent and in part different (for the trace value we use a dilation/cross identity). We claim **no priority** for (i)–(iv) or for (6.3). Not found there: the rate $\psi=A\ell^{-1/2}+O(\ell^{-1})$ of Theorem 1, the explicit remainder in (H), the second-order edge law, the mixed identity for eigenfunctions with different eigenvalues, the edge-free identity, and the kink and tail laws. For the Weil form and for $\log|D|$ the mixed identity reads $(\lambda_e-\lambda_o)\Phi'(0)=2A_eA_o$; for the logarithmic Laplacian $L_\Delta=2\log|D|$, whose eigenvalues are $\mu=2\lambda$, it reads $(\mu_e-\mu_o)\Phi'(0)=4A_eA_o$.
+>
+> **Other rStation items.** All comments below are on rStation riemann_hypothesis forum post 21 (https://rstation.ai/r/riemann_hypothesis/posts/21).
+> - $A_eA_o=0$ for opposite parities at a meeting: comment nWrDJmydgFHjXF0u (span_of_dilates, 2026-10-27 18:55:11 UTC), confirmed by bramble_trace in comment ARELX3rLocSdLMoL.
+> - Parity alternation for $\log|D|$ (the $k$-th interval eigenfunction has parity $(-1)^{k-1}$): bramble_trace, comment ARELX3rLocSdLMoL (2026-10-27 19:28:58 UTC).
+> - The dilation commutator $[x\frac d{dx}+\frac12,\log|D|]=-I$, applied to functions with zero traces, so with no boundary term: comments Oh96OclK_-s0vtY8 (span_of_dilates, 2026-10-27 21:55:20 UTC) and S1mqO-tsM-U45_Ng (bramble_trace, 2026-10-27 22:21:51 UTC); also span_of_dilates, "The near radical of a finite-window Weil form carries planted-zero visibility above the Nyquist height", rStation riemann_hypothesis paper 68, v1, published 2026-10-28 01:51:06 UTC, https://rstation.ai/problems/riemann_hypothesis/papers/68/v1, §3. Our one-endpoint dilation identity, whose boundary term is the trace, was not found there.
+> - A heuristic fit whose denominator contains $D=\lambda+\log2\pi+\gamma$: span_of_dilates, comment EAw5pFmSdKxMBRHA (2026-10-28 03:55:32 UTC; labelled heuristic, "I have no proof"). We claim only the proof of $D$ at fixed $L$.
+> - A second-order expansion of the Wiener–Hopf factor $\kappa(s)$: halasz_resonator, comment 3-jlbw7xu_tS6Rou (2026-10-19 00:10:21 UTC). It expands the factor, not $V$ or $\psi$.
+>
+> We screened all 81 rStation riemann_hypothesis papers and forum post 21 on 2026-10-31. None of them states the kink or tail laws. Related, for different quantities: span_of_dilates, "Finite-window Weil forms on Davenport-Heilbronn functions: a certified onset bound, an exact joint detection identity, and finite-space measurements", rStation riemann_hypothesis paper 66, v2, published 2026-10-27 21:16:47 UTC, https://rstation.ai/problems/riemann_hypothesis/papers/66/v2, Proposition 6.1 (a far-field $1/\log$ law for a planted-quartet detection quantity; part (b) assumes GRH); and span_of_dilates, "An equilibrium conjecture for how far the ground state of a truncated Weil form tracks the zeros, with measurements for Dirichlet L-functions", rStation riemann_hypothesis paper 80, v1, published 2026-10-30 17:09:59 UTC, https://rstation.ai/problems/riemann_hypothesis/papers/80/v1, (3.2′) (a per-zero displacement formula). rStation papers are accepted by AI reviewer agents; they are not refereed. Throughout these notes "new" means only "not found in our search".
 >
 > **Related recent work.** Veltri, a preprint on log|D| on an interval, Zenodo record 23769666 (2026-10-29). We list it as recent related work and do not characterise its content further.
 >
 > **What is claimed, and what is not.**
-> - The edge law (E) and the Hadamard formula (H) are proved, pending external review.
+> - Our independent proofs of (E) with rate $O(\ell^{-1})$ and of (H) with explicit remainder are complete, pending external review. Existence of the traces and (H) itself were proved first in rStation rh_67 v1 (§3.3, Thms 2.1–2.2).
 > - The kink-law items K1–K6 and the tail-law items T0–T6 were accepted by the internal final referee (an AI referee).
 > - Open: Conjecture K7 (second-order even part of the kink), Conjectures L and R, and Prediction F (sharp second-order tail law).
 > - Open: $A_e\neq0$ for the true even ground state. This is equivalent to the simple-even problem.
@@ -28,7 +37,7 @@
 *Note added (2026-10-31).* The last rows of the §0 table, §12 open items 4–5, §13 N8, the "one-sided germ" in §13.1 and all of §15 predate the companion note [`tail_kink_laws_note.md`](tail_kink_laws_note.md). That note proves the kink law to two orders and the first-order tail law, and it corrects the one-sided germ to a two-sided one. Its §8 lists the updates to carry into this note.
 
 **Changes from v1.** v1 was an internal draft (not public). Items M1–M6 are the issue labels of the internal final referee's report on v1.
-1. **§14 rewritten** (M1, M5). Prior art now includes Kwaśnicki 2011 (Lemma 4.27, Example 6.4: the exact half-line edge law), Grzywny–Kwaśnicki 2018 (Thm 1.11: boundary limits of ratios), FJW22 Remark 1.2(iii), the withdrawn arXiv 2411.15985, mathia PL-306 and PL-319–338 (credit for (E) in substance and for the activation mechanism PL-338), and Eberwein §13 (credit for the locations of the weak singular points). The novelty claim is narrowed to (E) on intervals with primes and pole, (H), Theorems 3 and 4, and means only "not found in our literature search" (§14.3; subject to the priority caveat at the top). Every citation in §14 was re-checked (table in §14.4).
+1. **§14 rewritten** (M1, M5). Prior art now includes Kwaśnicki 2011 (Lemma 4.27, Example 6.4: the exact half-line edge law), Grzywny–Kwaśnicki 2018 (Thm 1.11: boundary limits of ratios), FJW22 Remark 1.2(iii), the withdrawn arXiv 2411.15985, mathia PL-306 and PL-319–338 (credit for (E) in substance and for the activation mechanism PL-338), and Eberwein §13 (credit for the locations of the weak singular points). The novelty claim is narrowed to (E) on intervals with primes and pole, (H), Theorems 3 and 4, and means only "not found in our literature search" (§14.3; subject to the priority caveat at the top). It was narrowed further on 2026-10-31 after a screen of rStation (§14.3). Every citation in §14 was re-checked (table in §14.4).
 2. **Correction found in the citation check** (not raised by the referee): v1 said FJW22 Remark 1.2(iii) lists the optimal boundary rate of the log-Laplacian as open. That remark is about the uniform-in-$s$ boundary decay of fractional eigenfunctions as $s\to0^+$. Corrected in §14.1.
 3. **§13 evidence fixed** (M2). The fit-free checks confirm the identities, not the constant; Theorem 4 is not an independent check of the constant; the independent confirmation is the final referee's P0 code, tabulated in §13.1 with the derived ratios recomputed and two runs reproduced.
 4. **"Four independent routes" replaced** by an honest description (M3; status above, §12, Appendix).
@@ -57,7 +66,7 @@ Both facts were numerical observations, and they were the two unproven inputs be
 | — | asymptotics of $\psi'$ at the edge | **not proved, and not needed** |
 | — | the kink law and the 1/T tail law themselves | **not proved**; one further lemma each (§15) |
 
-**Scope for any external text** (final referee). Say: "The edge law and the Hadamard formula for the localized Weil form (an order-zero nonlocal operator) are proved, pending external review." Do not claim the 1/T tail law or the kink-amplitude law, $A_e\neq0$ for the true even ground state, or any implication for RH. Quote the mixed identity only with the $\Phi'(0)$ caveat.
+**Scope for any external text** (final referee; updated 2026-10-31 to credit rStation rh_67). Say: "Our independent proofs of (E) with rate $O(\ell^{-1})$ and of (H) with explicit remainder are complete, pending external review. Existence of the traces and (H) itself were proved first in rStation rh_67 v1 (§3.3, Thms 2.1–2.2)." Do not claim the 1/T tail law or the kink-amplitude law, $A_e\neq0$ for the true even ground state, or any implication for RH. Quote the mixed identity only with the $\Phi'(0)$ caveat.
 
 ---
 
@@ -517,7 +526,7 @@ Hence $A_+^2=\frac1{2L}$. Dilating about the right endpoint gives $A_-^2=\frac1{
 
 *Hadamard.* Then $\lambda_k'=-1/L$, consistent with exact scaling. ∎
 
-This mechanism is the order-zero analogue of Kwaśnicki's one-page proof of simplicity for $(-\Delta)^\sigma$ on an interval [Kw23]; see also [FGMP23]. We found the log-Laplacian statement nowhere in the literature (§14.3); absence in a search is not proof of novelty.
+This mechanism is the order-zero analogue of Kwaśnicki's one-page proof of simplicity for $(-\Delta)^\sigma$ on an interval [Kw23]; see also [FGMP23]. The log-Laplacian statement (simplicity and $A^2=1/(2L)$) was proved earlier, by a different route, in rStation rh_67 Corollary 2.3 (§14.3, item 4).
 
 ## 11. Proof of Theorem 5
 
@@ -753,7 +762,7 @@ So "primary evidence is fit-free" (v1) is true, but that evidence cannot confirm
     - PL-336 shows that, given a uniform $L^\infty$ bound, the quotient expansion $u_0(1-2e^{-Q})=C_0Q^{-1/2}+O(Q^{-1})$ holds (PL336-6). This is (E) with our rate, in mathia's coordinates $Q=\log\frac2{1-x}$ on $(-1,1)$.
     - PL-337 supplies that $L^\infty$ bound through every prime activation, via Jarohs–Kassmann–Weth and the positive-atomic-jump form of the prime shifts.
     - PL-332 gives continuity of the coefficient across the first activation.
-  - The chain has one unwritten step: the pointwise realisation of the singular-integral comparison in PL-323. Our proof of (E) does not use it (Green function, no maximum principle), and it adds the explicit formula.
+  - The chain has one unwritten step: the pointwise realisation of the singular-integral comparison in PL-323. Our proof of (E) does not use it (Green function, no maximum principle), and it gives an explicit formula; a limit formula of the same kind is rh_67 (3.19).
   - **PL-319–337 should be credited as an earlier derivation of the same law.**
 - **mathia PL-338: the prime-activation mechanism.**
   - PL-338 proves norm-resolvent continuity through every finite prime-power activation.
@@ -780,30 +789,35 @@ So "primary evidence is fit-free" (v1) is true, but that evidence cannot confirm
 
 ### 14.3 What appears new
 
-This is narrower than v1 claimed. *Note added 2026-10-31:* items 1 (existence, but not the rate or the explicit formula), 2, 3 ($|A_+|=|A_-|$ and rank $\le1$) and 4 were obtained earlier in rStation paper 67 by bramble_trace (see the priority note at the top). What remains here is the rate and explicit formula in item 1, the mixed and edge-free identities in item 3, and the dilation proof of the trace value. "New" here means: not found in the search listed in §14.1–§14.4.
+This is narrower than v1 claimed. *Note added 2026-10-31, revised after a screen of rStation (all 81 riemann_hypothesis papers and forum post 21, on 2026-10-31):* item 1 (existence, with an $L^\infty$ bound and a limit formula of the same kind as Theorem 1(3)), item 2, item 3 ($|A_+|=|A_-|$, rank $\le1$, and $A_eA_o=0$ at crossings) and item 4 were obtained earlier in rStation paper 67 by bramble_trace (see the priority note at the top). What remains here is the rate in item 1, the explicit remainder in (H), the translation identity with rate for different eigenvalues, the mixed identity and the edge-free identity in item 3, and the dilation proof of the trace value. "New" here means: not found in the search listed in §14.1–§14.4.
 1. **(E) on a bounded interval, with primes and pole.** The setting: every $L^2$ Dirichlet eigenfunction of $\mathcal E+w_s$ on $(-L,L)$, where $\mathcal E$ is an order-zero CBF jump form and $w_s$ adds sign-changing bounded nonlocal terms (all prime shifts, the rank-2 pole).
-   - The limit $A_\pm$ exists, with rate $O(\ell^{-1})$ and the explicit formula of Theorem 1(3).
+   - The limit $A_\pm$ exists, with rate $\psi(\pm(L-r))=A_\pm\ell(r)^{-1/2}+O(\ell(r)^{-1})$ and constants uniform on compact ranges.
    - No sign, simplicity, parity or arithmetic condition is needed.
-   - Closest prior work: [Kw11] (half-line, generalised eigenfunctions, no perturbation); [GK18] (nonnegative harmonic functions, limit relative to $\mathbb E^x\tau$); mathia PL-319–337 (the same law for this form, with one step unwritten).
-2. **(H) for an order-zero operator.** We found no Hadamard formula for any log-type or order-zero operator.
-3. **Theorem 3**: the translation identity; $|A_+|=|A_-|$; rank $\le1$; the mixed and edge-free identities.
-4. **Theorem 4**: for the 1-D log-Laplacian, every Dirichlet eigenvalue is simple, and $A^2=1/(2L)$ for every eigenfunction. This is the result most suitable for a short separate paper (final referee, item 7).
+   - Closest prior work: rStation rh_67 v1 §3.3 and §7 (existence via (2.2), (3.15), (3.19), an $L^\infty$ bound (3.8), a limit formula (3.19), a uniform trace bound (7.3), continuity in $a$; no rate) and its first public form, comment XNTCbIH-RNPZ9afU (bramble_trace, 2026-10-18 23:44:00 UTC); [Kw11] (half-line, generalised eigenfunctions, no perturbation); [GK18] (nonnegative harmonic functions, limit relative to $\mathbb E^x\tau$); mathia PL-319–337 (the same law for this form, with one step unwritten).
+2. **(H) for an order-zero operator.** (H) was proved in rStation rh_67 v1, Theorems 2.1–2.2 ((2.4), (2.6); published 2026-10-27; the manuscript was first attached to comment hDqAfsXyecUVBoz0, 2026-10-27 17:43:11 UTC), for isolated clusters and including prime activations, with remainder $o(\delta)$; its Theorem 2.4 adds the activation law at a prime power. A conditional version is in mathia (CLUE note and PL-306; §14.2). We give an independent proof via an exact cross identity, with remainder $O(\delta\log\log(1/\delta)/\sqrt{\log(1/\delta)})$, valid for eigenvalues simple in their parity sector.
+3. **Theorem 3**: the translation identity, with rate, for eigenfunctions with different eigenvalues; $|A_+|=|A_-|$ and rank $\le1$ (not new: rh_67 (2.5)); $A_eA_o=0$ at even/odd crossings (not new: rh_67 (6.3), and comment nWrDJmydgFHjXF0u, span_of_dilates, 2026-10-27 18:55:11 UTC); the mixed identity for $\lambda_e\ne\lambda_o$; the edge-free identity. In the normalisation of this note (the Weil form, and $\log|D|$) the mixed identity is $(\lambda_e-\lambda_o)\Phi'(0)=2A_eA_o$; for the logarithmic Laplacian $L_\Delta=2\log|D|$, with eigenvalues $\mu=2\lambda$, it is $(\mu_e-\mu_o)\Phi'(0)=4A_eA_o$.
+4. **Theorem 4**: for the 1-D log-Laplacian, every Dirichlet eigenvalue is simple, and $A^2=1/(2L)$ for every eigenfunction. Same statement as rh_67 Cor 2.3 (2026-10-27); ours is a different proof (one-endpoint dilation identity, §10) and adds the rate. The parity order $(-1)^{k-1}$ of the eigenfunctions is in comment ARELX3rLocSdLMoL (bramble_trace, 2026-10-27 19:28:58 UTC). The commutator $[x\frac d{dx}+\frac12,\log|D|]=-I$ was posted for functions with zero traces, where no boundary term arises (comments Oh96OclK_-s0vtY8 and S1mqO-tsM-U45_Ng; rh_68 v1 §3); the boundary term of our one-endpoint identity is the trace. This is the result most suitable for a short separate paper (final referee, item 7).
 5. Theorem 5(c) and (d): consequences specific to this project.
 
 **Not new:**
 - the tools (§14.1);
 - the $\ell^{-1/2}$ scale, and the half-line law [Kw11];
 - the locations of the weak singular points [Eb];
-- the activation mechanism (PL-338).
+- the activation mechanism (PL-338), and the activation law at the eigenvalue level (rh_67 Thm 2.4);
+- existence of $A_\pm$, an $L^\infty$ bound, a limit formula for $A_\pm$, a uniform trace bound and continuity in $L$ (rh_67 (2.2), (3.8), (3.19), (7.3), §7; first in comment XNTCbIH-RNPZ9afU);
+- (H) on simple branches, including activations, and its cluster form (rh_67 Thms 2.1–2.2; manuscript first attached to comment hDqAfsXyecUVBoz0);
+- $|A_+|=|A_-|$, rank $\le1$ (rh_67 (2.5)); $A_eA_o=0$ at even/odd crossings (rh_67 (6.3); comment nWrDJmydgFHjXF0u);
+- Theorem 4's statement (rh_67 Cor 2.3); the parity order for $\log|D|$ (comment ARELX3rLocSdLMoL); the dilation commutator for zero-trace functions (comments Oh96OclK_-s0vtY8, S1mqO-tsM-U45_Ng; rh_68 v1 §3);
+- a heuristic fit containing the offset $D$ of the companion note (comment EAw5pFmSdKxMBRHA), and a second-order expansion of the Wiener–Hopf factor (comment 3-jlbw7xu_tS6Rou).
 
-**Assessment.** Apparently new results, proved with known tools. Absence in our searches is not evidence of novelty.
+**Assessment.** The items that remain (rate, explicit remainder in (H), translation identity for different eigenvalues, mixed and edge-free identities, the dilation proof) appear new and are proved with known tools. Absence in our searches is not evidence of novelty.
 
 **Before any public claim:**
 - **An external specialist read.** Ask someone from Kwaśnicki's CBF/Wiener–Hopf circle and someone from the Weth/Saldaña log-Laplacian circle. Focus on:
   - Prop 5.1, Step 4;
   - Lemma 6.1, Steps 2–4;
   - Lemmas 8.3–8.4 (uniformity in $L$).
-- **Targeted searches:** Kwaśnicki and coauthors on CBF operators on intervals; the Weth group on log-Laplacian spectra; Chen–Véron, arXiv 2011.05692. Two light web searches on 2026-10-31 ("Hadamard formula … logarithmic Laplacian"; "simplicity of Dirichlet eigenvalues logarithmic Laplacian interval") found nothing that covers (H) or Theorem 4.
+- **Targeted searches:** Kwaśnicki and coauthors on CBF operators on intervals; the Weth group on log-Laplacian spectra; Chen–Véron, arXiv 2011.05692. Two light web searches on 2026-10-31 ("Hadamard formula … logarithmic Laplacian"; "simplicity of Dirichlet eigenvalues logarithmic Laplacian interval") found nothing that covers (H) or Theorem 4. Web search engines do not index rStation, where both were proved first (rh_67 Thms 2.1–2.2 and Cor 2.3).
 
 ### 14.4 Citation check (2026-10-31)
 
@@ -819,6 +833,9 @@ This is narrower than v1 claimed. *Note added 2026-10-31:* items 1 (existence, b
 | [Eb] Eberwein, Zenodo 23177438 | §13 | Zenodo record (title, author, 6 Oct 2026, v1); text of §13 read in a local copy | As cited. |
 | [Kw23] arXiv 2311.00713; [FGMP23] Calc. Var. 62 (2023) 233 | simplicity on an interval (fractional) | web search | As cited. |
 | [GR12], [KM14], [BGR15], [DFW21] | two-sided bounds; fractional Hadamard formula | local copies | Present. Statements as summarised by the internal prior-art review; not re-read here. |
+| [rh67] rStation riemann_hypothesis paper 67, v1 (bramble_trace) | (2.2), (2.4)–(2.6), (3.8), (3.15), (3.19), (6.3), (7.3), §7; Thms 2.1, 2.2, 2.4; Cor 2.3 | manuscript text from the rStation public API, read 2026-10-31; the versions list showed v1 only | As cited. |
+| [rh68] rStation riemann_hypothesis paper 68, v1 (span_of_dilates) | §3, dilation commutator | manuscript text from the rStation public API | As cited. |
+| rStation comments XNTCbIH-RNPZ9afU, hDqAfsXyecUVBoz0, ARELX3rLocSdLMoL, nWrDJmydgFHjXF0u, 3-jlbw7xu_tS6Rou, EAw5pFmSdKxMBRHA, Oh96OclK_-s0vtY8, S1mqO-tsM-U45_Ng (forum post 21) | as in §14.3 | full comment text and timestamps from the rStation public API, 2026-10-31 | As cited. |
 
 ## 15. What this gives for the kink and tail laws, and what blocks next
 
@@ -900,6 +917,11 @@ Three approaches from other fields, with kill criteria:
 - [SSV] Schilling, Song, Vondraček, *Bernstein Functions*, 2nd ed., Thm 6.2 (CBF representation) and Thm 5.2 (convolution semigroup of a Bernstein function). The number 5.2 was not re-checked against the book; the statement is the standard correspondence between Bernstein functions and subordinators.
 - [Suz] M. Suzuki, arXiv 2606.09096.
 - [Eb] L. Eberwein, *The truncated Weil quadratic form: inertia, visibility, structural measurements, and no-go theorems for the Riemann Hypothesis*, Zenodo 23177438 (v1, 6 Oct 2026), §13 (locations of the weak singular points at $\log n$ and $L-\log n$ of his window, i.e. our $\pm(L-\log n)$); code `sem.py`.
+
+**rStation** (papers accepted by AI reviewer agents; not refereed. Comments are on riemann_hypothesis forum post 21, https://rstation.ai/r/riemann_hypothesis/posts/21; times are UTC.)
+- [rh67] bramble_trace, "Boundary traces and support variation for localized Weil operators", rStation riemann_hypothesis paper 67, v1, published 2026-10-27 19:07:56 UTC, https://rstation.ai/problems/riemann_hypothesis/papers/67/v1.
+- [rh68] span_of_dilates, "The near radical of a finite-window Weil form carries planted-zero visibility above the Nyquist height", rStation riemann_hypothesis paper 68, v1, published 2026-10-28 01:51:06 UTC, https://rstation.ai/problems/riemann_hypothesis/papers/68/v1, §3.
+- Comments: XNTCbIH-RNPZ9afU (bramble_trace, 2026-10-18 23:44:00); 3-jlbw7xu_tS6Rou (halasz_resonator, 2026-10-19 00:10:21); hDqAfsXyecUVBoz0 (bramble_trace, 2026-10-27 17:43:11); nWrDJmydgFHjXF0u (span_of_dilates, 2026-10-27 18:55:11); ARELX3rLocSdLMoL (bramble_trace, 2026-10-27 19:28:58); Oh96OclK_-s0vtY8 (span_of_dilates, 2026-10-27 21:55:20); S1mqO-tsM-U45_Ng (bramble_trace, 2026-10-27 22:21:51); EAw5pFmSdKxMBRHA (span_of_dilates, 2026-10-28 03:55:32).
 
 **Author's and internal**
 - [GS] J. A. Botha, *A certified simple, even ground state of the localized Weil quadratic form for all windows $L\in(0,1.19]$*, computer-assisted note, release 2026-10-26 (github.com/AlexGenusCore/weil-ground-state-simple-even, NOTE.md §3; the paper source, §2, fixes the normalisation and defines $A_L$ as the closure on $C_c^\infty$). Unrefereed. Input to Theorem 5(d), which uses only the range $(0,1.19]$.
