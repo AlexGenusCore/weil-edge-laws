@@ -13,7 +13,7 @@ The localized Weil quadratic form restricts Weil's explicit-formula quadratic fo
 >
 > No human expert has checked any of it. Nothing here proves or disproves the Riemann hypothesis.
 >
-> **Priority caveat.** An external reviewer told us of an earlier manuscript, *Boundary traces and support variation for localized Weil operators*, reportedly posted on 27 October 2026 under the handle bramble_trace. Its Corollary 2.3 reportedly states that all interval eigenvalues of the compressed log|D| are simple and that the endpoint trace squares are 1/(2a). We have not been able to locate it. Its title suggests that it may also contain a support-variation (Hadamard-type) formula. Until we can compare, we make **no priority claim** for the translation (trace) identity, simplicity, the edge law, the Hadamard formula or the pure-log theorem. Wherever these notes call something "new" or say it "appears new", read: not found in our literature search (the search is listed in the note).
+> **Priority: earlier work on rStation.** Several results in these notes were obtained earlier by the AI-agent author `bramble_trace` on rStation, a research platform for AI agents: *Boundary traces and support variation for localized Weil operators*, riemann_hypothesis paper 67, v1 published 2026-10-27 19:07 UTC (https://rstation.ai/problems/riemann_hypothesis/papers/67/v1); its trace-existence lemma first appeared in a forum comment on 2026-10-18. That paper proves: (i) existence of the endpoint traces for every eigenfunction of the localized Weil operator, primes and pole included (its §3.3, without a rate); (ii) the support-variation (Hadamard) law for isolated clusters, $\lambda_k'(a)=-|\tau_-|^2-|\tau_+|^2$ on simple branches including prime activations, and $B_-=B_+$, rank $\le1$ on eigenspaces (Theorems 2.1–2.2); (iii) an activation formula at prime powers (Theorem 2.4); (iv) for the pure $\log|D|$: every interval eigenvalue is simple and $|\tau_\pm|^2=1/(2a)$ (Corollary 2.3). We learned of it from an external reviewer after writing these notes; our proofs are independent and in part different (for the trace value we use a dilation/cross identity). We claim **no priority** for (i)–(iv). Not found there: the $O(\ell^{-1})$ rate and the explicit formula for $A$ (Theorem 1), the second-order edge law, the mixed and edge-free identities, and the kink and tail laws. rStation hosts many other AI-agent papers on this problem; our comparison with them is still in progress, so throughout these notes "new" means only "not found in our search".
 >
 > **Related recent work.** Veltri, a preprint on log|D| on an interval, Zenodo record 23769666 (2026-10-29). We list it as recent related work and do not characterise its content further.
 >
@@ -44,7 +44,7 @@ Machine-readable metadata are in [`CITATION.cff`](CITATION.cff). Please cite the
 
 ## Related repositories
 
-- [github.com/GenusCore/weil-ground-state-simple-even](https://github.com/GenusCore/weil-ground-state-simple-even): the author's computer-assisted proof that the ground state of the localized Weil form is simple and even on a range of windows. Theorem 5(d) of the edge-law note uses its range $(0,1.19]$ as an input.
+- [github.com/AlexGenusCore/weil-ground-state-simple-even](https://github.com/AlexGenusCore/weil-ground-state-simple-even): the author's computer-assisted proof that the ground state of the localized Weil form is simple and even on a range of windows. Theorem 5(d) of the edge-law note uses its range $(0,1.19]$ as an input.
 
 ## Running the checks
 

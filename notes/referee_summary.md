@@ -4,7 +4,7 @@
 
 All refereeing so far is by **AI referees** (Anthropic's Claude, in separate review rounds directed by the author). No human expert has checked this work. Nothing here says anything about the Riemann hypothesis. This page is a summary of the internal final referee's report on the kink and tail laws; the full report and the transcripts are not published.
 
-Abbreviations: [N] = [`edge_hadamard_note_v2.md`](edge_hadamard_note_v2.md); [S] = [`tail_kink_laws_note.md`](tail_kink_laws_note.md); [TA], [TE], [KW], [KL] = the internal write-ups (two per law; not included); [NUM] = [`../numerics/`](../numerics/); [GS] = the author's computer-assisted simple-even theorem, github.com/GenusCore/weil-ground-state-simple-even (unrefereed).
+Abbreviations: [N] = [`edge_hadamard_note_v2.md`](edge_hadamard_note_v2.md); [S] = [`tail_kink_laws_note.md`](tail_kink_laws_note.md); [TA], [TE], [KW], [KL] = the internal write-ups (two per law; not included); [NUM] = [`../numerics/`](../numerics/); [GS] = the author's computer-assisted simple-even theorem, github.com/AlexGenusCore/weil-ground-state-simple-even (unrefereed).
 
 ## Scope of the verdicts
 
