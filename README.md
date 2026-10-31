@@ -1,6 +1,8 @@
 # Edge law, Hadamard formula, and echo and tail laws for the localized Weil form
 
-Research notes by Johann Alexander Botha (GenusCore, info@genuscore.com), version 0.1.0, 2026-10-31.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23832559.svg)](https://doi.org/10.5281/zenodo.23832559)
+
+Research notes by Johann Alexander Botha (GenusCore, info@genuscore.com), version 0.1.2, 2026-10-31.
 
 The localized Weil quadratic form restricts Weil's explicit-formula quadratic form for the Riemann zeta function to functions supported in a window $[-L,L]$. Its eigenfunctions vanish at the window edges like $A\,(\log\frac1{\text{distance}})^{-1/2}$. These notes study the edge trace $A$ and what it controls:
 - **(E) edge law** and **(H) Hadamard formula** $d\lambda/dL=-2A^2$, with a translation identity, a pure-log theorem and nonvanishing results;
@@ -47,7 +49,9 @@ A companion paper on the pure-log case is in preparation; it is not part of this
 
 ## How to cite
 
-> J. A. Botha, *Edge law, Hadamard formula, and echo and tail laws for eigenfunctions of the localized Weil quadratic form: research notes*, version 0.1.0, 2026-10-31. Not peer-reviewed; AI-assisted.
+Archived on Zenodo. DOI for all versions (resolves to the newest): [10.5281/zenodo.23832559](https://doi.org/10.5281/zenodo.23832559); this version, v0.1.2: [10.5281/zenodo.23832560](https://doi.org/10.5281/zenodo.23832560).
+
+> J. A. Botha, *Edge law, Hadamard formula, and echo and tail laws for eigenfunctions of the localized Weil quadratic form: research notes*, version 0.1.2, 2026-10-31, Zenodo, doi:10.5281/zenodo.23832560. Not peer-reviewed; AI-assisted.
 
 Machine-readable metadata are in [`CITATION.cff`](CITATION.cff). Please cite the credited prior work as well (bramble_trace's rStation paper 67, Eberwein, mathia, Kwaśnicki and others; see §14 of the edge-law note and §7 of the laws note).
 
